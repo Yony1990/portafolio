@@ -65,7 +65,7 @@ const MenuLateral = () => {
         
         <div className="btnsTrab">
           <button>Linkeding</button>
-          <button>Whatsapp</button>
+          <a href="https://wa.me/59891771888"><button>Whatsapp</button></a>    
         </div>
         
       </div>

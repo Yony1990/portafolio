@@ -383,6 +383,9 @@ p, .btns, .container-projects, .content-cell {
   justify-content: center;
   gap: 10px;
 }
+.menux .trabajemos .btnsTrab a {
+  text-decoration: none;
+}
 .menux .trabajemos .btnsTrab button{
   display: flex;
   background-color: rgba(183, 183, 183, 0.455);
@@ -659,7 +662,7 @@ p, .btns, .container-projects, .content-cell {
   align-items: center;
   justify-content: space-between;
 }
-.fondo-cell .container-contact i {
+.fondo-cell .container-contact i, .fondo-cell .container-contact .indeed  {
   cursor: pointer;
   width: 35px;
   height: 35px;
@@ -675,22 +678,26 @@ p, .btns, .container-projects, .content-cell {
 .fondo-cell .container-contact i:active {
   transform: translate(2px ,2px);
 }
-.fondo-cell .container-contact i:nth-child(1) {
+.fondo-cell .container-contact i.bi-linkedin {
   background-color: #475fff;
+  padding-top: 2px;
 }
-.fondo-cell .container-contact i:nth-child(2) {
+.fondo-cell .container-contact i.bi-github {
   background-color: #1e1e1e;
   font-size: 1.45rem;
   padding-top: 1px;
 }
-.fondo-cell .container-contact i:nth-child(3) {
-  background-color: #5922c8;
-  font-size: 1.3rem;
+.fondo-cell .container-contact .indeed {
+
+  background-image: url(../img/indeed-2.png);
+  background-size: cover;
 }
-.fondo-cell .container-contact i:nth-child(4) {
+.fondo-cell .container-contact i.bi-whatsapp {
   background-color: #00924b;
   font-size: 1.45rem;
-  
+}
+.fondo-cell .container-contact a {
+  text-decoration: none;
 }
 
 .fondo-cell .container-contact:hover > :not(:hover) {
@@ -875,8 +882,6 @@ p, .btns, .container-projects, .content-cell {
 
 .container-about::-webkit-scrollbar {
   width: 4px;
-  
-
 }
 .container-about::-webkit-scrollbar-track {
   cursor: pointer;

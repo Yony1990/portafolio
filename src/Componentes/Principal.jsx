@@ -84,12 +84,15 @@ const Principal = () => {
                       <p>Me encanta explorar diferentes lenguajes de programación. Cada día, busco nuevas herramientas y tecnologías que me ayuden a aprender y mejorar. Este campo es tan dinámico y creativo que siempre hay algo nuevo por descubrir. Siento que cada oportunidad me acerca más a mis metas. ¡La aventura nunca termina!</p>
                     </div>
                     <div className="btns">
-                        <button className="Btn btn-Li">
-                  
-                            <div className="sign"><i className="bi bi-person-raised-hand"></i></div>
-                            
-                            <div className="textBtn text-linke">Hablemos</div>
-                        </button>
+                        <a href="https://wa.me/59891771888">
+                            <button className="Btn btn-Li">
+                    
+                                <div className="sign"><i className="bi bi-person-raised-hand"></i></div>
+                                
+                                <div className="textBtn text-linke">Hablemos</div>
+                                
+                            </button>
+                        </a>
                         
                     </div>
 
@@ -181,10 +184,12 @@ const Principal = () => {
                             </div>
 
                             <div className="container-contact">
-                                <i className="bi bi-linkedin"></i>
-                                <i className="bi bi-github"></i>
-                                <i className="bi bi-discord"></i>
-                                <i className="bi bi-whatsapp"></i>
+
+                                <a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><i className="bi bi-linkedin"></i></a>
+                                <a href="https://github.com/Yony1990"><i className="bi bi-github"></i></a>       
+                                <figure className="indeed"></figure>
+                                <a href="https://wa.me/59891771888"><i className="bi bi-whatsapp"></i></a>
+                                
                             </div>
                         </div>
 
