@@ -187,7 +187,8 @@ const Principal = () => {
 
                                 <a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><i className="bi bi-linkedin"></i></a>
                                 <a href="https://github.com/Yony1990"><i className="bi bi-github"></i></a>       
-                                <figure className="indeed"></figure>
+                                <a href="#"><figure className="indeed"></figure></a>
+                                
                                 <a href="https://wa.me/59891771888"><i className="bi bi-whatsapp"></i></a>
                                 
                             </div>
