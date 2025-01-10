@@ -11,6 +11,7 @@ const MenuLateral = () => {
     menuOpen();
     console.log("huu")
     
+    
   }
  
   return (
