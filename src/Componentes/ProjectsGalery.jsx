@@ -13,12 +13,24 @@ const ProjectsGalery = () => {
 
           <motion.div className="content-projects" drag='x' dragConstraints={{right: 0, left: -1936 }}>
 
-              <motion.div className="item">
-                <div className="project-1"></div>
+              <motion.div>
+                
+                <div className="anima-icons-motion">
+                  <i className="bi bi-arrow-left"></i>
+
+                </div>
+                
+              </motion.div>
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  <figure className='img-Project'></figure>
+                </div>
+                
                 <div className="proyect-info">
                     <span>BIWEDEX</span>
                     <article>Este proyecto está diseñado para presentar las ofertas de servicios, incluyendo la creación de páginas web. </article>
-                    <a className='aaaaa' href="https://yony1990.github.io/BIWEDEX/">
+                    <a className='apg' href="https://yony1990.github.io/BIWEDEX/">
                       <button>Open</button>
                     </a>
                     

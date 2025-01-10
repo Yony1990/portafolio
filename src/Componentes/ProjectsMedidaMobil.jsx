@@ -7,16 +7,114 @@ const ProjectsMedidaMobil = () => {
         <section className='project-container-mdMobil'>
             <div className="project-content-mdMobil">
                 <ul>
-                    <li><figure></figure><span>BIWEDEX</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
-                    <li><figure></figure><span>Project</span></li>
+                    <a href="https://yony1990.github.io/BIWEDEX/">
+                      <li>
+                        <figure className='Biwedex-mobile'></figure>
+                        <div className="content-descr">
+                          
+                          <span>BIWEDEX</span>
+
+                          <div className="content-language">
+                            <span className="language-html">html</span>
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      </li>
+                    </a>
+                    <a href="https://yony1990.github.io/BIWEDEX/">
+                      <li>
+                        <figure className=''></figure>
+                        <div className="content-descr">
+                          
+                          <span>BIWEDEX</span>
+
+                          <div className="content-language">
+                            <span className="language-html">html</span>
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      </li>
+                    </a>
+                    <a href="https://yony1990.github.io/BIWEDEX/">
+                      <li>
+                        <figure className=''></figure>
+                        <div className="content-descr">
+                          
+                          <span>BIWEDEX</span>
+
+                          <div className="content-language">
+                            <span className="language-html">html</span>
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      </li>
+                    </a>
+                    <a href="https://yony1990.github.io/BIWEDEX/">
+                      <li>
+                        <figure className=''></figure>
+                        <div className="content-descr">
+                          
+                          <span>BIWEDEX</span>
+
+                          <div className="content-language">
+                            <span className="language-html">html</span>
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      </li>
+                    </a>
+                    <a href="https://yony1990.github.io/BIWEDEX/">
+                      <li>
+                        <figure className=''></figure>
+                        <div className="content-descr">
+                          
+                          <span>BIWEDEX</span>
+
+                          <div className="content-language">
+                            <span className="language-html">html</span>
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      </li>
+                    </a>
+                    <a href="https://yony1990.github.io/BIWEDEX/">
+                      <li>
+                        <figure className=''></figure>
+                        <div className="content-descr">
+                          
+                          <span>BIWEDEX</span>
+
+                          <div className="content-language">
+                            <span className="language-html">html</span>
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      </li>
+                    </a>
                 </ul>
             </div>
         </section>

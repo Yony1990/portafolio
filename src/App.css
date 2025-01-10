@@ -219,7 +219,6 @@ p, .btns, .container-projects, .content-cell {
   
 }
 .menu .arrow {
-  /* color: #7fb98fab; */
   color: #888888;
   position: relative;
   top: 4.5px;
@@ -227,9 +226,7 @@ p, .btns, .container-projects, .content-cell {
   font-size: 1.2rem;
   cursor: pointer;
   rotate: 180deg;
-  
   animation: arrow 1s infinite linear;
-  transition: all .5s linear;
 }
 .menu:hover .arrow   {
   color: #76e395f6;
@@ -248,11 +245,8 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .menu .arrow.active {
-  /* color: rgba(194, 127, 127, 0.676); */
   color: #888888;
   rotate: 0deg;
-  /* rotate: 180deg; */
-  /* top: 1.5px; */
   top: 6.3px;
   left: 2px;
   z-index: 100;
@@ -272,7 +266,6 @@ p, .btns, .container-projects, .content-cell {
     transform: translateX(-9px);
   }
 }
-
 
 /* ------------------- */
 /*    Menu-Lateral     */
@@ -1307,7 +1300,7 @@ p, .btns, .container-projects, .content-cell {
   list-style: none;
   height: 70px;
   width: 100%;
-  background-color: rgba(85, 85, 85, 0.418);
+  background-color: rgba(85, 85, 85, 0.252);
   border-radius: 15px;
   margin-top: 40px;
   display: flex;
@@ -1315,24 +1308,61 @@ p, .btns, .container-projects, .content-cell {
   justify-content: center;
   padding-left: 5px;
   gap: 30%;
+  
   position: relative;
 }
 
 .project-content-mdMobil figure {
-
   position: absolute;
   left: 20px;
   bottom: 10px;
-  width: 90px;
-  height: 90px;
-  border-radius: 50%;
+  background-position: center;
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.454);
   background-image: url(../img/Yo.jpg);
   background-size: cover;
 }
 
-.project-content-mdMobil span {
+.project-content-mdMobil figure.Biwedex-mobile {
+  background-image: url(../img/projectsImg/BIWEDEX-img.png);
+  background-color: #fbf6ffe0;
+  background-position: center;
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.project-content-mdMobil a {
+  text-decoration: none;
+}
+
+.project-content-mdMobil .content-descr {
   position: relative;
-  left: 20%;
+  width: 130px;
+  left: 24.5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-content-mdMobil .content-descr .content-language {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.project-content-mdMobil .content-descr .content-language span {
+  margin: 2px 5px 0px 5px;
+  background-color: #252525;
+  padding: 2px 6px 2px 6px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 10px;
+  text-align: center;
+
 }
 
 
@@ -1390,49 +1420,107 @@ p, .btns, .container-projects, .content-cell {
   z-index: 1;
 
 }
+.content-projects .anima-icons-motion {
+
+  position: relative;
+  top: 120px;
+  z-index: -10;
+  width: 50px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.content-projects .anima-icons-motion .bi-arrow-left {
+  color: #fdf27a;
+  font-size: 1.5rem;
+  animation: arrowProject 1.5s linear infinite;
+}
+
+@keyframes arrowProject {
+  0% {
+    transform: translateX(-8px);
+  }
+  20% {
+    transform: translateX(8px);
+  }
+  100% {
+    transform: translateX(-8px);
+  }
+}
+
+
 .item {
+  background-color: #1c1c214c;
   display: flex;
   gap: 30px;
   box-shadow: 0 0 45px rgb(0, 0, 0);
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px 20px;
   transition: all .5s linear;
+  padding: 5px 5px 5px 5px;
+
 }
 .item:hover {
   scale: 1.1;
 }
-.item:hover .proyect-info {
-  background-color: #000000f7;
-}
-/* .junt:nth-child(1) {
-  background-image: url(../img/mac-perfil/Proyectos/Screenshot\ 2024-12-12\ 195142.png);
-  background-size: cover;
-  width: 250px;
-  height: 250px;
-} */
+
 .junt {
-  background-image: url(../img/mac-perfil/Proyectos/Screenshot\ 2024-12-12\ 195142.png);
-  background-size: cover;
-  width: 250px;
+  width: 450px;
   height: 250px;
   transition: all .5s linear;
-  border-radius: 50px 50px 50px 50px;
+  border-radius: 20px;
   opacity: .2;
   filter: blur(1px) grayscale(1);
 }
 
+.content-img-Proyect {
+  position: absolute;
+  width: 450px;
+  height: 250px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.content-img-Proyect .img-Project {
+  background-image: url(../img/projectsImg/Biwedex-img.webp);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  transition: all 1s ease;
+}
+.item:hover .content-img-Proyect .img-Project {
+  scale: 2;
+  left: 190px;
+  opacity: 1;
+  filter: blur(1px) brightness(.6);
+}
+
 .proyect-info {
   position: absolute;
-  border-radius: 50px 50px 0 0;
-  background-color: #000000d6;
+  border-radius: 16px 16px;
+  /* background-color: #00001065; */
+  background-image: linear-gradient(250deg,rgba(60, 60, 80, 0) 10%, rgba(23, 25, 32, 0.798));
   transition: all .2s linear;
   gap: 5px;
   width: 250px;
-  height: 137px;
+  height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px 20px;
+  padding: 15px 10px;
 }
+/* .item:hover .proyect-info {
+  background-image: linear-gradient(240deg,rgba(60, 60, 80, 0.125) 10%, rgba(0, 0, 0, 0.742));
+} */
 .proyect-info  span {
   color: #fdf27a;
   font-size: 1rem;
@@ -1442,19 +1530,22 @@ p, .btns, .container-projects, .content-cell {
   font-size: .8rem;
   text-align: center;
 }
-.proyect-info .aaaaa {
+.proyect-info .apg {
+  
   cursor: pointer;
   z-index: 2;
 }
 
 .proyect-info button {
+  position: relative;
+  top: 10px;
   z-index: 2;
   /* padding-bottom: 2px; */
   padding: 0px 5px 2px 5px;
   cursor: pointer;
   width: 50px;
   border-radius: 20px;
-  border: solid 5px rgba(0, 0, 0, 0.246);
+  border: solid 5px rgba(0, 0, 0, 0.202);
   background-color: rgba(183, 183, 183, 0.455);
   transition: all .3s linear;
 }
@@ -1491,10 +1582,10 @@ p, .btns, .container-projects, .content-cell {
    opacity: .8;
    width: 35px;
    height: 35px;
-   display: none;
+   display: block;
    animation: proSkill .2s linear;
 }
-.item:hover figure {
+/* .item:hover figure {
   display: block;
   
 }
@@ -1507,41 +1598,35 @@ p, .btns, .container-projects, .content-cell {
     opacity: 1;
     transform: translateY(0px);
   }
-}
+} */
 
 /* BIWEDEX */
 
-.project-1 {
+ .project-1 .content-img-Proyect .img-Project{
   background-image: url(../img/projectsImg/Screens.png);
   background-size: cover;
-  width: 250px;
-  height: 250px;
-  transition: all .5s linear;
-  border-radius: 50px 50px 50px 50px;
-  /* border: solid 3px rgba(0, 0, 0, 0.081); */
-  opacity: .7;
-  filter: blur(.5px) grayscale(1);
+  
 }
 
 .lenguajes-usadas.pro-1 figure:nth-child(1) {
   background-image: url(../img/skills/html-1.webp);
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 .lenguajes-usadas.pro-1 figure:nth-child(2) {
   background-image: url(../img/skills/css-1.png);
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 .lenguajes-usadas.pro-1 figure:nth-child(3) {
   background-image: url(../img/skills/js.png);
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 .lenguajes-usadas.pro-1 figure.grop-2-1 {
   background-image: url(../img/skills/github.png);
-  width: 45px;
-  height: 45px;
+  width: 40px;
+  height: 40px;
 }
 
 /* mac */
@@ -2857,6 +2942,9 @@ p, .btns, .container-projects, .content-cell {
    .mac {
     display: none;
   }
+  .projects {
+    margin-top: -170px;
+  } 
   .project-container-mdMobil {
     display: flex;
   }
@@ -2907,7 +2995,7 @@ p, .btns, .container-projects, .content-cell {
   .projects-R {
     left: 0%;
     margin-left: 0;
-    top: 50px;
+    top: 30px;
     width: 81%;
     display: flex;
     height: max-content;
