@@ -2970,11 +2970,11 @@ p, .btns, .container-projects, .content-cell {
     width: 405px;
     scale: .9;
   }
-  .fondo-cell {
+  /* .fondo-cell {
 
     left: -2px;
     top: -2px;
-  }
+  } */
   .container-about, .container-studen  {
     position: relative;
     left: -2px;
