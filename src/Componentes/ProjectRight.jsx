@@ -774,8 +774,7 @@ const ProjectRight = () => {
 
                                     <i className="bi bi-check2-all"></i> Aprendido Leyendo Documentación.
                                     <br />
-                                    {/* <i className="bi bi-spellcheck"></i> Curso Material UI.
-                                    <br /> */}
+                                    
                                     
                                 </article>
 
