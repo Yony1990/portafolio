@@ -2851,8 +2851,9 @@ p, .btns, .container-projects, .content-cell {
 }
 
 
-
-/* table */
+/* ------------------- */
+    /* MEDIA QUERY */
+/* ------------------- */
 
 @media (max-width: 1400px) {
   .header {
@@ -2942,6 +2943,18 @@ p, .btns, .container-projects, .content-cell {
    .mac {
     display: none;
   }
+  .project-content-mdMobil .content-descr {
+    width: 250px;
+    left: 15.5%;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20%;
+  }
+  .project-content-mdMobil .content-descr article {
+    font-size: 1.3rem;
+  }
+
   .projects {
     margin-top: -170px;
   } 
@@ -2959,6 +2972,7 @@ p, .btns, .container-projects, .content-cell {
     position: relative;
     top: -50px;
   }
+
   .opacar.active {
     height: 200vh;
   }
@@ -2969,16 +2983,6 @@ p, .btns, .container-projects, .content-cell {
   .content-cell {
     width: 405px;
     scale: .9;
-  }
-  /* .fondo-cell {
-
-    left: -2px;
-    top: -2px;
-  } */
-  .container-about, .container-studen  {
-    position: relative;
-    left: -2px;
-    top: -2px;
   }
 
   .projectRight {
@@ -3031,6 +3035,16 @@ p, .btns, .container-projects, .content-cell {
 }
 
 @media (max-width: 550px) {
+  .project-content-mdMobil .content-descr {
+    width: 130px;
+    left: 24.5%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0%;
+  }
+  .project-content-mdMobil .content-descr article {
+    font-size: 1rem;
+  }
   .projectRight {
     left: -5%;
   }
@@ -3039,7 +3053,3 @@ p, .btns, .container-projects, .content-cell {
     height: 285px;
   }
 }
-
-
-
-/* corregir error de cuando el table se pone horisontal hay q subirle la app en el mt para q ensentre el contenido al igual hay q bajar el header*/
