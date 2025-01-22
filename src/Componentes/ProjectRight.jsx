@@ -444,11 +444,7 @@ const ProjectRight = () => {
                             <li onClick={overBost} className={hoverScaleBost ? 'bootstrap' : 'bootstrap active'}></li>
                             <li onClick={overTail} className={hoverScaleTail ? 'tailwind' : 'tailwind active'}></li>
                             <li onClick={overGitHub} className={hoverScaleGitHub ? 'github' : 'github active'}></li>
-                            <li onClick={overNextUI} className={hoverScaleNextUI ? 'nextUi' : 'nextUi active'}>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
-                                    <path  d="M6.353 0h11.294A6.353 6.353 0 0 1 24 6.353v11.294A6.353 6.353 0 0 1 17.647 24H6.353A6.353 6.353 0 0 1 0 17.647V6.353A6.353 6.353 0 0 1 6.353 0Zm7.755 6.913h-.933v6.702a2.88 2.88 0 0 1-.362 1.45c-.24.424-.596.77-1.025 1c-.443.244-.96.365-1.553.365c-.592 0-1.108-.121-1.55-.364a2.603 2.603 0 0 1-1.024-1a2.865 2.865 0 0 1-.365-1.45V6.912h-.933v6.767a3.558 3.558 0 0 0 .489 1.862c.327.547.798.994 1.362 1.292c.582.316 1.256.474 2.021.474c.769 0 1.444-.157 2.024-.471a3.473 3.473 0 0 0 1.36-1.293c.33-.565.5-1.21.49-1.864V6.913Zm3.648 10.22V6.914h-.933v10.22h.933Z"/>
-                                </svg>
-                            </li>
+                            <li onClick={overNextUI} className={hoverScaleNextUI ? 'nextUi' : 'nextUi active'}></li>
                             <li onClick={overMaterial} className={hoverScaleMaterial ? 'material' : 'material active'}></li>
                             <li onClick={overMotion} className={hoverScaleMotion ? 'motion' : 'motion active'}></li>
                 
@@ -727,16 +723,47 @@ const ProjectRight = () => {
                         </div>
 
                         <div className={infoNextUI? 'info-skills-NextUI' : 'info-skills-NextUI active'}>
-                            <span>NEXT UI</span>
+                            <span>MONGO DB</span>
+
                             <section className='img-and-content'>
 
-                                <a href="https://youtu.be/JQUytmO-iA0?si=7-GVO3jMJfVIPMRx"><figure className='midu'></figure></a>
+                                <a href="https://youtu.be/qnZtnQGLDvY?si=POLKv-AYDRdRtfO3"><figure className='Ingenioteka'></figure></a>
                                 
                                 <article>
 
-                                    <i className="bi bi-check2-all"></i> Curso dado por Midulive.
+                                    <i className="bi bi-check2-all"></i> Curso dado por Ingenioteka.
                                     <br />
-                                    <i className="bi bi-spellcheck"></i> Esta biblioteca de UI está en OTRO NIVEL (React JS).
+                                    <i className="bi bi-spellcheck"></i> Aprende MongoDB NOSQL desde cero.
+                                    <br />
+                                    
+                                </article>
+
+                            </section>
+
+                            <section className='img-and-content'>
+
+                                <a href="https://youtu.be/BylNTBm27ZU?si=ANDSZTI2a0pw5Iwu"><figure className='apasoft'></figure></a>
+                                
+                                <article>
+
+                                    <i className="bi bi-check2-all"></i> Curso dado por Apasoft Training.
+                                    <br />
+                                    <i className="bi bi-spellcheck"></i> Curso de MongoDB desde Cero.
+                                    <br />
+                                    
+                                </article>
+
+                            </section>
+
+                            <section className='img-and-content'>
+
+                                <a href="https://youtu.be/YyfdOX-Clf4?si=8G0YnCC72zEKzqA0"><figure className='tech'></figure></a>
+                                
+                                <article>
+
+                                    <i className="bi bi-check2-all"></i> Curso dado por Tech Viajero.
+                                    <br />
+                                    <i className="bi bi-spellcheck"></i> MongoDB EN 1 HORA 2024 - Aprende desde Ceros.
                                     <br />
                                     
                                 </article>
@@ -765,17 +792,16 @@ const ProjectRight = () => {
                         </div>
 
                         <div className={infoMotion? 'info-skills-Motion' : 'info-skills-Motion active'}>
-                            <span>MOTION.dev</span>
+                            <span>SWIPER</span>
                             <section className='img-and-content'>
 
-                                <a href="https://motion.dev"><figure className='motion'></figure></a>
+                                <a href="https://swiperjs.com/"><figure className='swiper'></figure></a>
                                 
                                 <article>
 
                                     <i className="bi bi-check2-all"></i> Aprendido Leyendo Documentación.
                                     <br />
-                                    
-                                    
+   
                                 </article>
 
                             </section>

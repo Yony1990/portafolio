@@ -2305,7 +2305,7 @@ p, .btns, .container-projects, .content-cell {
 
 
 .proyectos-web div {
-  margin-left: 10px;
+  
   width: 25px;
   height: 23px;
   background-image: url(../img/mac-perfil/dico-duro.png);
@@ -2329,7 +2329,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .proyectos-mobil div {
-  margin-left: 10px;
+  margin-left: 5px;
   width: 25px;
   height: 23px;
   background-image: url(../img/mac-perfil/dico-duro.png);
@@ -2348,6 +2348,33 @@ p, .btns, .container-projects, .content-cell {
   height: 100%;
   background-color: rgba(235, 238, 255, 0.565);
   border-radius: 0 0 5px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.explo-mac-lateral .explication {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 5px;
+  gap: 10px;
+}
+
+.explo-mac-lateral .explication  i {
+  font-size: 1.8rem;
+  color: #595959;
+}
+
+.explo-mac-lateral .explication p {
+  font-size: .6rem;
+  color: black;
+  text-align: center;
+
+  line-height: 10px;
 }
 
 /* PROYECTO-indi */
@@ -2387,6 +2414,11 @@ p, .btns, .container-projects, .content-cell {
   align-items: center;
   justify-content: center;
   gap: 5px;
+  cursor: no-drop;
+}
+
+.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor {
+  cursor: pointer;
 }
 
 .explo-mac-content .proyects-web-indi ul li i {
@@ -2529,15 +2561,21 @@ p, .btns, .container-projects, .content-cell {
   background-size: cover;
 }
 
-.projects-R .nextUi svg {
+.projects-R .nextUi {
+
+  background-image: url(../img/skills//mongobd.png);
+  background-size: cover;
   filter: contrast(0);
+  scale: 1.5;
   transition: all .4s linear;
 }
-.projects-R .nextUi svg:hover {
-  filter: contrast(1);
+.projects-R .skils-usadas ul li.nextUi:hover {
+  filter: grayscale(0);
+  scale: 1.8;
 }
-.projects-R .nextUi.active svg{
-  filter: contrast(1);
+.projects-R .skils-usadas ul li.nextUi.active {
+  filter: grayscale(0);
+  scale: 1.8;
 }
 
 .projects-R .material {
@@ -2547,7 +2585,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .projects-R .motion {
-  background-image: url(../img/skills/motionDev.png);
+  background-image: url(../img/skills/swiper-logo.svg);
   background-size: cover;
   
 }
@@ -2762,7 +2800,7 @@ p, .btns, .container-projects, .content-cell {
   border-radius: 50%;
 }
 
-.info-skills-reactN .midu, .info-skills-NextUI .midu {
+.info-skills-reactN .midu {
   background-image: url(../img/mac-perfil/certificaciones/Midu.jpg);
   background-size: cover;
   width: 50px;
@@ -2826,8 +2864,32 @@ p, .btns, .container-projects, .content-cell {
   border-radius: 50%;
 }
 
-.info-skills-Motion .motion {
-  background-image: url(../img/skills/motionDev.png);
+.info-skills-Motion .swiper {
+  background-image: url(../img/skills/swiper-logo.svg);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.info-skills-NextUI .tech  {
+  background-image: url(../img/mac-perfil/certificaciones/techViajero.jpg);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.info-skills-NextUI .Ingenioteka  {
+  background-image: url(../img/mac-perfil/certificaciones/Ingenioteka.jpg);
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.info-skills-NextUI .apasoft {
+  background-image: url(../img/mac-perfil/certificaciones/apasoft.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;

@@ -158,21 +158,21 @@ const Projects = () => {
                     </li>
                     <div className={arrowToggleWeb ? "li-items-web" : "li-items-web active"}>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Biwedex</li>
-                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
-                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
-                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
-                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
+                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
                     </div>
                       
                     
 
                     <li onClick={handleOpenMobil}><span className={arrowToggleMobil ? 'fill-15' : 'fill-15 active'}><i className='bi bi-caret-down-fill'></i></span> <i className="bi bi-phone"></i> Mobil App</li>
                     <div className={arrowToggleMobil ? "li-items-mobil" : "li-items-mobil active"}>
-                        <li className='li-ITEM'><i className="bi bi-phone"></i> Project 1</li>
-                        <li className='li-ITEM'><i className="bi bi-phone"></i> Project 1</li>
-                        <li className='li-ITEM'><i className="bi bi-phone"></i> Project 1</li>
-                        <li className='li-ITEM'><i className="bi bi-phone"></i> Project 1</li>
-                        <li className='li-ITEM'><i className="bi bi-phone"></i> Project 1</li>
+                        <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
                     </div>
                       
                     
@@ -226,37 +226,37 @@ const Projects = () => {
                   <div className={proyectsMac ? "proyects-web-indi active" : "proyects-web-indi"}>
                     <ul>
                       <a href="https://yony1990.github.io/BIWEDEX/">
-                        <li>
+                        <li className='Biwedex-cursor'>
                           <i className="bi bi-file-earmark-break-fill"></i>
                           <span>Biwedex</span>
                         </li>
                       </a>
 
-                      <a href="https://yony1990.github.io/BIWEDEX/">
+                      <a href="">
                         <li>
                           <i className="bi bi-file-earmark-break-fill"></i>
-                          <span>Biwedex</span>
+                          <span>Progress</span>
                         </li>
                       </a>
 
-                      <a href="https://yony1990.github.io/BIWEDEX/">
+                      <a href="">
                         <li>
                           <i className="bi bi-file-earmark-break-fill"></i>
-                          <span>Biwedex</span>
+                          <span>Progress</span>
                         </li>
                       </a>
 
-                      <a href="https://yony1990.github.io/BIWEDEX/">
+                      <a href="">
                         <li>
                           <i className="bi bi-file-earmark-break-fill"></i>
-                          <span>Biwedex</span>
+                          <span>Progress</span>
                         </li>
                       </a>
 
-                      <a href="https://yony1990.github.io/BIWEDEX/">
+                      <a href="">
                         <li>
                           <i className="bi bi-file-earmark-break-fill"></i>
-                          <span>Biwedex</span>
+                          <span>Progress</span>
                         </li>
                       </a>                 
                       
@@ -267,6 +267,13 @@ const Projects = () => {
                 </div>
 
                 <section className='explo-mac-lateral'>
+
+                  <div className="explication">
+
+                    <i className="bi bi-apple"></i>
+
+                    <p>Es fundamental mantener un portafolio actualizado y atractivo. Sin embargo, hay proyectos en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. Estoy comprometido a perfeccionarlos antes de añadirlos, asegurando reflejar mis habilidades y creatividad de manera óptima.</p>
+                  </div>
                 
                 </section>
 
