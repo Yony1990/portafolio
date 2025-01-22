@@ -25,12 +25,12 @@ const ProjectsMedidaMobil = () => {
                         
                       </li>
                     </a>
-                    <a href="https://yony1990.github.io/BIWEDEX/">
+                    <a href="">
                       <li>
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>BIWEDEX</article>
+                          <article>Progess</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -43,12 +43,12 @@ const ProjectsMedidaMobil = () => {
                         
                       </li>
                     </a>
-                    <a href="https://yony1990.github.io/BIWEDEX/">
+                    <a href="">
                       <li>
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>BIWEDEX</article>
+                          <article>Progess</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -61,12 +61,12 @@ const ProjectsMedidaMobil = () => {
                         
                       </li>
                     </a>
-                    <a href="https://yony1990.github.io/BIWEDEX/">
+                    <a href="">
                       <li>
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>BIWEDEX</article>
+                          <article>Progess</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -79,12 +79,12 @@ const ProjectsMedidaMobil = () => {
                         
                       </li>
                     </a>
-                    <a href="https://yony1990.github.io/BIWEDEX/">
+                    <a href="">
                       <li>
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>BIWEDEX</article>
+                          <article>Progess</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -97,12 +97,12 @@ const ProjectsMedidaMobil = () => {
                         
                       </li>
                     </a>
-                    <a href="https://yony1990.github.io/BIWEDEX/">
+                    <a href="">
                       <li>
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>BIWEDEX</article>
+                          <article>Progess</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
