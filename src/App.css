@@ -9,8 +9,6 @@
   font-family: 'Afacad Flux', sans-serif;
   color: white;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  /* white-space: pre-wrap; */
-  /* word-break: break-all; */
   word-wrap: break-word;
 }
 
@@ -2031,6 +2029,13 @@ p, .btns, .container-projects, .content-cell {
   
   opacity: 0;
 }
+
+/* .intection-mac li span.ekist {
+  position: relative;
+  top: 3px;
+  color: yellow;
+} */
+
 .intection-mac li:nth-child(3) {
   rotate: 50deg;
 }
@@ -2049,7 +2054,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .intection-mac li:nth-child(1) span  {
-  top: -1.3px;
+  top: -0.5px;
   font-size: 9px;
 }
 .intection-mac li:nth-child(2) span  {
@@ -2086,15 +2091,22 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .next-back-mac {
-  display: flex;
+  /* flex */
+  display: none;
   gap: 5px;
   padding: 0 5px;
 }
+.next-back-mac.active {
+  display: flex;
+} 
 .next-back-mac div {
   font-family: monospace;
   font-size: .7rem;
   color: rgb(115, 115, 115);
-  
+  height: max-content;
+}
+.next-back-mac div:hover {
+  color: black;
 }
 .project-mac  {
   padding: 0;
@@ -2217,10 +2229,27 @@ p, .btns, .container-projects, .content-cell {
   width: 100%;
   height: 30px;
   background-color: rgba(149, 163, 206, 0.352);
-  display: flex;
-  flex-direction: column;
+  
   padding: 5px 10px;
   border-radius:  5px 5px 0 0px;
+}
+
+.explo-mac-superior .inicio-expl {
+  display: flex;
+  flex-direction: column;
+}
+
+.explo-mac-superior .inicio-expl.active {
+  display: none;
+}
+
+.explo-mac-superior .proyect-number {
+  display: none;
+  flex-direction: column;
+}
+
+.explo-mac-superior .proyect-number.active {
+  display: flex;
 }
 
 .explo-mac-superior span {
@@ -2248,12 +2277,17 @@ p, .btns, .container-projects, .content-cell {
   background-color: rgba(199, 205, 222, 0.499);
   border-radius: 0 0 0 5px;
   overflow: hidden;
+  padding: 10px;
 }
 .explo-mac-content .explo-mac-proyects {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: start;
+}
+
+.explo-mac-content .explo-mac-proyects.active {
+  display: none;
 }
 
 .explo-mac-content .explo-mac-proyects div {
@@ -2315,6 +2349,68 @@ p, .btns, .container-projects, .content-cell {
   background-color: rgba(235, 238, 255, 0.565);
   border-radius: 0 0 5px 0;
 }
+
+/* PROYECTO-indi */
+
+.explo-mac-content .proyects-web-indi {
+  width: 100%;
+  height: 100%;
+  display: none;
+  /* flex */
+  align-items: start;
+}
+
+.explo-mac-content .proyects-web-indi.active {
+  display: block;
+}
+
+.explo-mac-content .proyects-web-indi ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  /* padding: 10px;
+  padding-left: 15px; */
+}
+
+.explo-mac-content .proyects-web-indi ul a {
+  text-decoration: none;
+}
+
+.explo-mac-content .proyects-web-indi ul li {
+  list-style: none;
+  width: 70px;
+  height: 40px;
+  /* background-color: rgb(198, 198, 198); */
+  border-radius: 10px;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.explo-mac-content .proyects-web-indi ul li i {
+  color: #1e1e1e;
+  font-size: 1.2rem;
+  position: relative;
+  top: 2px;
+  transition: all .1s ease;
+}
+
+.explo-mac-content .proyects-web-indi ul li:hover i {
+  color: rgb(116, 116, 116);
+}
+
+.explo-mac-content .proyects-web-indi ul li span {
+  font-size: .7rem;
+  color: black;
+  transition: all .1s ease;
+}
+
+.explo-mac-content .proyects-web-indi ul li:hover span {
+  color: rgb(116, 116, 116);
+}
+
 
 /* PROYECTO-R */
 

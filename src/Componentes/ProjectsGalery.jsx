@@ -16,7 +16,6 @@ const ProjectsGalery = () => {
               <motion.div>
                 
                 <div className="anima-icons-motion">
-                  <i className="bi bi-arrow-left"></i>
 
                 </div>
                 
@@ -29,7 +28,7 @@ const ProjectsGalery = () => {
                 
                 <div className="proyect-info">
                     <span>BIWEDEX</span>
-                    <article>Este proyecto está diseñado para presentar las ofertas de servicios, incluyendo la creación de páginas web. </article>
+                    <article>Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web. </article>
                     <a className='apg' href="https://yony1990.github.io/BIWEDEX/">
                       <button>Open</button>
                     </a>

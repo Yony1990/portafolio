@@ -10,6 +10,7 @@ import ProjectsMedidaMobil from './ProjectsMedidaMobil';
 
 
 
+
 const Projects = () => {
 
   const currentDate = new Date().toDateString();
@@ -17,8 +18,11 @@ const Projects = () => {
   const [arrowToggleWeb, setArrowToggleWeb] = useState(true);
   const [arrowToggleMobil, setArrowToggleMobil] = useState(true);
   const [open, setOpen] = useState(true);
-  const [desktopI, setDesktopI] = useState(true)
-  const [ulActiv, setUlActiv] = useState(true)
+  const [desktopI, setDesktopI] = useState(true);
+  const [ulActiv, setUlActiv] = useState(true);
+
+
+  const [proyectsMac, setProyectsMac] = useState(false);
 
   // motion
 
@@ -28,14 +32,11 @@ const Projects = () => {
 
   const handleOpenWeb = () => {
     setArrowToggleWeb(!arrowToggleWeb)
+    setProyectsMac(true)
   }
 
   const handleOpenMobil = () => {
     setArrowToggleMobil(!arrowToggleMobil)
-  }
-
-  const openProWeb = (e) => {
-    console.log('hi')
   }
 
   const openProMobil = (e) => {
@@ -45,6 +46,7 @@ const Projects = () => {
   const handleDesktop = (e) => {
     setDesktopI(!desktopI)
     setUlActiv(!ulActiv)
+    setProyectsMac(false)
   }
 
   const handleOpenExplore = (e) => {
@@ -56,6 +58,16 @@ const Projects = () => {
   const motionOpen = (e) => {
     setMotioDisplay(!motioDisplay)
   }
+
+  //proyectos mac explore
+
+  const showProyectMac = (e) => {
+    setProyectsMac(!proyectsMac)
+    setDesktopI(!desktopI)
+    setUlActiv(!ulActiv)
+    // setArrowToggleWeb(!arrowToggleWeb)
+  }
+  
 
   
 
@@ -118,14 +130,14 @@ const Projects = () => {
               <div className="mostrador-mac-superior">
 
                 <ul className="intection-mac">
-                  <li onClick={handleOpenExplore}><span>x</span></li>
+                  <li onClick={handleOpenExplore}><span className='ekist'>x</span></li>
                   <li onClick={handleOpenExplore}><span>-</span></li>
                   <li><span><i className="bi bi-caret-left-fill"></i><i className="bi bi-caret-right-fill"></i></span></li>
                 </ul>
 
-                <div className="next-back-mac">
+                <div className={proyectsMac ? "next-back-mac active" : "next-back-mac"}>
                   
-                  <div className="back-mac">&#60;</div>
+                  <div onClick={showProyectMac} className="back-mac">&#60;</div>
                   <div className="next-mac">&#62;</div>
 
                 </div>
@@ -145,7 +157,7 @@ const Projects = () => {
                       Web App 
                     </li>
                     <div className={arrowToggleWeb ? "li-items-web" : "li-items-web active"}>
-                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
+                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Biwedex</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Project 1</li>
@@ -174,17 +186,25 @@ const Projects = () => {
             <div className="content-explo-mac">
               
               <section className='explo-mac-superior'>
+                <div className={proyectsMac ? "inicio-expl active" : "inicio-expl"}>
                   <span>Disk Drill</span>
-                  <span className="">2 articulo(s)</span>
+                  <span>2 articulo(s)</span>
+                </div>
+
+                <div className={proyectsMac ? "proyect-number active" : "proyect-number"}>
+                  <span>Proyectos</span>
+                  <span>5 articulo(s)</span>
+                </div>
+                  
               </section>
 
               <div className="sect-content-mac">
 
                 
-                <div className='explo-mac-content'>
+                <div className="explo-mac-content">
 
-                  <div className="explo-mac-proyects">
-                       <div onDoubleClick={openProWeb} className='proyectos-web'>
+                  <div className={proyectsMac ? "explo-mac-proyects active" : "explo-mac-proyects"}>
+                       <div onDoubleClick={showProyectMac} className='proyectos-web'>
 
                           <div></div>
                           <span>Proyectos Web</span>
@@ -201,6 +221,46 @@ const Projects = () => {
                         </div>
 
                         
+                  </div>
+
+                  <div className={proyectsMac ? "proyects-web-indi active" : "proyects-web-indi"}>
+                    <ul>
+                      <a href="https://yony1990.github.io/BIWEDEX/">
+                        <li>
+                          <i className="bi bi-file-earmark-break-fill"></i>
+                          <span>Biwedex</span>
+                        </li>
+                      </a>
+
+                      <a href="https://yony1990.github.io/BIWEDEX/">
+                        <li>
+                          <i className="bi bi-file-earmark-break-fill"></i>
+                          <span>Biwedex</span>
+                        </li>
+                      </a>
+
+                      <a href="https://yony1990.github.io/BIWEDEX/">
+                        <li>
+                          <i className="bi bi-file-earmark-break-fill"></i>
+                          <span>Biwedex</span>
+                        </li>
+                      </a>
+
+                      <a href="https://yony1990.github.io/BIWEDEX/">
+                        <li>
+                          <i className="bi bi-file-earmark-break-fill"></i>
+                          <span>Biwedex</span>
+                        </li>
+                      </a>
+
+                      <a href="https://yony1990.github.io/BIWEDEX/">
+                        <li>
+                          <i className="bi bi-file-earmark-break-fill"></i>
+                          <span>Biwedex</span>
+                        </li>
+                      </a>                 
+                      
+                    </ul>
                   </div>
                   
           
