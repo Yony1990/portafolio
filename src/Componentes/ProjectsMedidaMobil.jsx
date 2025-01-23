@@ -30,7 +30,7 @@ const ProjectsMedidaMobil = () => {
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>Progess</article>
+                          <article>Progress</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -48,7 +48,7 @@ const ProjectsMedidaMobil = () => {
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>Progess</article>
+                          <article>Progress</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -66,7 +66,7 @@ const ProjectsMedidaMobil = () => {
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>Progess</article>
+                          <article>Progress</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -84,7 +84,7 @@ const ProjectsMedidaMobil = () => {
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>Progess</article>
+                          <article>Progress</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -102,7 +102,7 @@ const ProjectsMedidaMobil = () => {
                         <figure className=''></figure>
                         <div className="content-descr">
                           
-                          <article>Progess</article>
+                          <article>Progress</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
