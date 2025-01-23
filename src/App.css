@@ -1403,6 +1403,14 @@ p, .btns, .container-projects, .content-cell {
   height: 80px;
   border-radius: 5px;
 }
+.project-content-mdMobil figure.mini-game {
+  background-image: url(../img/projectsImg/miniGame.png);
+  background-color: #fbf6ffe0;
+  background-position: center;
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+}
 
 .project-content-mdMobil a {
   text-decoration: none;
@@ -1567,7 +1575,22 @@ p, .btns, .container-projects, .content-cell {
   opacity: .2;
   transition: all 1s ease;
 }
-.item:hover .content-img-Proyect .img-Project {
+.content-img-Proyect .img-game {
+  background-image: url(../img/projectsImg/miniGame.png);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  transition: all 1s ease;
+}
+.item:hover .content-img-Proyect figure {
   scale: 2;
   left: 190px;
   opacity: 1;
@@ -1655,20 +1678,7 @@ p, .btns, .container-projects, .content-cell {
    display: block;
    animation: proSkill .2s linear;
 }
-/* .item:hover figure {
-  display: block;
-  
-}
-@keyframes proSkill {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-} */
+
 
 /* BIWEDEX */
 
@@ -1697,7 +1707,12 @@ p, .btns, .container-projects, .content-cell {
   background-image: url(../img/skills/github.png);
   width: 40px;
   height: 40px;
+  filter: drop-shadow(0 0 .5px white);
 }
+
+/* MINI-GAME */
+
+/* igual a Biwedex */
 
 /* mac */
 
@@ -2532,7 +2547,7 @@ p, .btns, .container-projects, .content-cell {
   cursor: no-drop;
 }
 
-.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor {
+.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor, .explo-mac-content .proyects-web-indi ul li.Game-cursor {
   cursor: pointer;
 }
 

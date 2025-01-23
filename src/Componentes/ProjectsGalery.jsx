@@ -11,7 +11,7 @@ const ProjectsGalery = () => {
             
           {/* MOTION */}
 
-          <motion.div className="content-projects" drag='x' dragConstraints={{right: 0, left: -1936 }}>
+          <motion.div className="content-projects" drag='x' dragConstraints={{right: 0, left: -2238.15 }}>
 
               <motion.div>
                 
@@ -41,144 +41,123 @@ const ProjectsGalery = () => {
                       </div>
                       <div className="proyect-imgskills-grop-2">
                         <figure className='grop-2-1'></figure>
-                        {/* <figure></figure> */}
+                        
                       </div>
                     </div>
                 </div>
                 
               </motion.div>
-              <motion.div className="item">
-                <div className="project-2 junt"></div>
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  {/* <figure className='img-Project'></figure> */}
+                </div>
+                
                 <div className="proyect-info">
-                    <span>Nombre del Proyecto</span>
-                    <article>Aserca del proyecto mas bien un contenido mas largo y mas directo al tema.</article>
-                    <button>Open</button>
-                    <div className="lenguajes-usadas">
+                    <span>Progress</span>
+                    <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
+                    <a className='apg' href="">
+                      <button>Open</button>
+                    </a>
+                    
+                    <div className="lenguajes-usadas pro-1">
                       <div className="proyect-imgskills-grop-1">
                         <figure></figure>
                         <figure></figure>
                         <figure></figure>
                       </div>
                       <div className="proyect-imgskills-grop-2">
-                        <figure></figure>
-                        <figure></figure>
+                        <figure className='grop-2-1'></figure>
+                        
                       </div>
                     </div>
                 </div>
+                
               </motion.div>
-              <motion.div className="item">
-                <div className="project-3 junt"></div>
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  {/* <figure className='img-Project'></figure> */}
+                </div>
+                
                 <div className="proyect-info">
-                    <span>Nombre del Proyecto</span>
-                    <article>Aserca del proyecto mas bien un contenido mas largo y mas directo al tema.</article>
-                    <button>Open</button>
-                    <div className="lenguajes-usadas">
+                    <span>Progress</span>
+                    <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
+                    <a className='apg' href="">
+                      <button>Open</button>
+                    </a>
+                    
+                    <div className="lenguajes-usadas pro-1">
                       <div className="proyect-imgskills-grop-1">
                         <figure></figure>
                         <figure></figure>
                         <figure></figure>
                       </div>
                       <div className="proyect-imgskills-grop-2">
-                        <figure></figure>
-                        <figure></figure>
+                        <figure className='grop-2-1'></figure>
+                        
                       </div>
                     </div>
                 </div>
+                
               </motion.div>
-              <motion.div className="item">
-                <div className="project-4 junt"></div>
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  {/* <figure className='img-Project'></figure> */}
+                </div>
+                
                 <div className="proyect-info">
-                    <span>Nombre del Proyecto</span>
-                    <article>Aserca del proyecto mas bien un contenido mas largo y mas directo al tema.</article>
-                    <button>Open</button>
-                    <div className="lenguajes-usadas">
+                    <span>Progress</span>
+                    <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
+                    <a className='apg' href="">
+                      <button>Open</button>
+                    </a>
+                    
+                    <div className="lenguajes-usadas pro-1">
                       <div className="proyect-imgskills-grop-1">
                         <figure></figure>
                         <figure></figure>
                         <figure></figure>
                       </div>
                       <div className="proyect-imgskills-grop-2">
-                        <figure></figure>
-                        <figure></figure>
+                        <figure className='grop-2-1'></figure>
+                        
                       </div>
                     </div>
                 </div>
+                
               </motion.div>
-              <motion.div className="item">
-                <div className="project-5 junt"></div>
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  <figure className='img-game'></figure>
+                </div>
+                
                 <div className="proyect-info">
-                    <span>Nombre del Proyecto</span>
-                    <article>Aserca del proyecto mas bien un contenido mas largo y mas directo al tema.</article>
-                    <button>Open</button>
-                    <div className="lenguajes-usadas">
+                    <span>Game</span>
+                    <article>Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES. </article>
+                    <a className='apg' href="">
+                      <button>Open</button>
+                    </a>
+                    
+                    <div className="lenguajes-usadas pro-1">
                       <div className="proyect-imgskills-grop-1">
                         <figure></figure>
                         <figure></figure>
                         <figure></figure>
                       </div>
                       <div className="proyect-imgskills-grop-2">
-                        <figure></figure>
-                        <figure></figure>
+                        <figure className='grop-2-1'></figure>
+                        
                       </div>
                     </div>
                 </div>
-              </motion.div>
-              <motion.div className="item">
-                <div className="project-6 junt"></div>
-                <div className="proyect-info">
-                    <span>Nombre del Proyecto</span>
-                    <article>Aserca del proyecto mas bien un contenido mas largo y mas directo al tema.</article>
-                    <button>Open</button>
-                    <div className="lenguajes-usadas">
-                      <div className="proyect-imgskills-grop-1">
-                        <figure></figure>
-                        <figure></figure>
-                        <figure></figure>
-                      </div>
-                      <div className="proyect-imgskills-grop-2">
-                        <figure></figure>
-                        <figure></figure>
-                      </div>
-                    </div>
-                </div>
-              </motion.div>
-              <motion.div className="item">
-                <div className="project-7 junt"></div>
-                <div className="proyect-info">
-                    <span>Nombre del Proyecto</span>
-                    <article>Aserca del proyecto mas bien un contenido mas largo y mas directo al tema.</article>
-                    <button>Open</button>
-                    <div className="lenguajes-usadas">
-                      <div className="proyect-imgskills-grop-1">
-                        <figure></figure>
-                        <figure></figure>
-                        <figure></figure>
-                      </div>
-                      <div className="proyect-imgskills-grop-2">
-                        <figure></figure>
-                        <figure></figure>
-                      </div>
-                    </div>
-                </div>
-              </motion.div>
-              <motion.div className="item">
-                <div className="project-8 junt"></div>
-                <div className="proyect-info">
-                    <span>Nombre del Proyecto</span>
-                    <article>Aserca del proyecto mas bien un contenido mas largo y mas directo al tema.</article>
-                    <button>Open</button>
-                    <div className="lenguajes-usadas">
-                      <div className="proyect-imgskills-grop-1">
-                        <figure></figure>
-                        <figure></figure>
-                        <figure></figure>
-                      </div>
-                      <div className="proyect-imgskills-grop-2">
-                        <figure></figure>
-                        <figure></figure>
-                      </div>
-                    </div>
-                </div>
+                
               </motion.div>
 
           </motion.div>

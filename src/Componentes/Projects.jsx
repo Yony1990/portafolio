@@ -253,10 +253,10 @@ const Projects = () => {
                         </li>
                       </a>
 
-                      <a href="">
-                        <li>
+                      <a href="https://yony1990.github.io/Game/">
+                        <li className='Game-cursor'>
                           <i className="bi bi-file-earmark-break-fill"></i>
-                          <span>Progress</span>
+                          <span>Game</span>
                         </li>
                       </a>                 
                       

@@ -79,12 +79,12 @@ const ProjectsMedidaMobil = () => {
                         
                       </li>
                     </a>
-                    <a href="">
+                    <a href="https://yony1990.github.io/Game/">
                       <li>
-                        <figure className=''></figure>
+                        <figure className='mini-game'></figure>
                         <div className="content-descr">
                           
-                          <article>Progress</article>
+                          <article>Game</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>
@@ -97,24 +97,7 @@ const ProjectsMedidaMobil = () => {
                         
                       </li>
                     </a>
-                    <a href="">
-                      <li>
-                        <figure className=''></figure>
-                        <div className="content-descr">
-                          
-                          <article>Progress</article>
-
-                          <div className="content-language">
-                            <span className="language-html">html</span>
-                            <span className="language-css">css</span>
-                            <span className="language-js">js</span>
-                            
-                          </div>
-                          
-                        </div>
-                        
-                      </li>
-                    </a>
+                    
                 </ul>
             </div>
         </section>
