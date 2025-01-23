@@ -268,12 +268,25 @@ const Projects = () => {
 
                 <section className='explo-mac-lateral'>
 
-                  <div className="explication">
+                  <div className={proyectsMac ? "explication active" : "explication"}>
 
                     <i className="bi bi-apple"></i>
 
                     <p>Es fundamental mantener un portafolio actualizado y atractivo. Sin embargo, hay proyectos en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. Estoy comprometido a perfeccionarlos antes de añadirlos, asegurando reflejar mis habilidades y creatividad de manera óptima.</p>
+
                   </div>
+
+                  <div className={proyectsMac ? "proyecto-description active" : "proyecto-description"}>
+                    
+                    <i className="bi bi-code-slash"></i>
+
+                    <span>BIWEDEX: Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web.</span>
+
+                    
+
+                  </div>
+                  
+                  
                 
                 </section>
 

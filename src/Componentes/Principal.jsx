@@ -22,6 +22,7 @@ const Principal = () => {
     const [search, setSearch] = useState('Montevideo');
     const [value, setValue] = useState('');
     const [icon, setIcon] = useState('');
+    const [cvAmpli, setCvAmpli] = useState(false);
 
     
     const URL = `https://api.openweathermap.org/data/2.5/weather?q=${ search }&units=metric&lang=es&appid=74351d4cb5e227f666e0acdcb8677d69`;
@@ -56,12 +57,15 @@ const Principal = () => {
         getData()
     }, [search])
 
-
+    const handleCV = () => {
+        setCvAmpli(!cvAmpli)
+    }
     
     
   return (
     <section id='principal'>
-          
+
+            <div onClick={handleCV} className={cvAmpli ? "amplia-img-cv active" : "amplia-img-cv"}><figure></figure></div>
 
             <div className="home-container">
               
@@ -133,6 +137,12 @@ const Principal = () => {
                                     <div className="icon-studios"><i className="bi bi-mortarboard-fill"></i></div>
                                     <span>Studies</span>
                                 </div>
+
+                                <div onClick={handleCV} className="container-icon-cv">
+                                    
+                                    <div className="icon-cv">CV</div>
+                                    <span>Curriculum</span>
+                                </div>
                                 
                             </div>
 
@@ -187,7 +197,7 @@ const Principal = () => {
 
                                 <a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><i className="bi bi-linkedin"></i></a>
                                 <a href="https://github.com/Yony1990"><i className="bi bi-github"></i></a>       
-                                <a href="#"><figure className="indeed"></figure></a>
+                                <a href="https://profile.indeed.com/p/yonimilerc-lpkrmk2"><figure className="indeed"></figure></a>
                                 
                                 <a href="https://wa.me/59891771888"><i className="bi bi-whatsapp"></i></a>
                                 
@@ -216,23 +226,24 @@ const Principal = () => {
 
                         <div className="container-studen">
 
-                        <div className="back-container">
+                            <div className="back-container">
 
                                 <div onClick={handleStuden} className="back">
                                     <i className="bi bi-arrow-left-short"></i>
                                     Back
                                 </div>
+
                             </div>
 
                             <div className="container-carrera">
+                            
                                 <span><span className='anio'>2009</span> <br /> &nbsp; &nbsp; &nbsp;Graduado de Músico Profecional en los Instumentos Violín y Viola. Conservatorio de Música Jose White - Cuba.</span><br /><br />
 
                                 <span><span className='anio'>2023</span> <br /> &nbsp; &nbsp; &nbsp;En 2023, inicié mis estudios en programación, especializándome en desarrollo frontend. &nbsp;A lo largo de mi carrera, he adquirido habilidades fundamentales a través de una búsqueda exigente entre bootcamps y cursos en línea de alta calidad. Esta experiencia me ha permitido desarrollar técnicas y estrategias que son esenciales en el entorno profesional actual.</span>
+                            
                             </div>
                         </div>
-
-                        
-                        
+         
                     </div>
 
                 </div>
