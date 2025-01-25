@@ -13,7 +13,6 @@
 }
 
 body {
-  
   width: 100vw;
   overflow-x: hidden; 
   user-select: none;
@@ -24,7 +23,6 @@ body {
 body::-webkit-scrollbar {
   width: 0px;
 }
-
 .app {
   width: 100%;
   display: flex;
@@ -2536,8 +2534,6 @@ p, .btns, .container-projects, .content-cell {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  /* padding: 10px;
-  padding-left: 15px; */
 }
 
 .explo-mac-content .proyects-web-indi ul a {
@@ -2548,12 +2544,11 @@ p, .btns, .container-projects, .content-cell {
   list-style: none;
   width: 70px;
   height: 40px;
-  /* background-color: rgb(198, 198, 198); */
   border-radius: 10px;
-  padding: 5px 0;
+  padding: 5px 0px 5px 5px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   gap: 5px;
   cursor: no-drop;
 }
