@@ -16,7 +16,7 @@ const ProjectsGalery = () => {
               <motion.div>
                 
                 <div className="anima-icons-motion">
-
+                  <i className="bi bi-arrow-left"></i>
                 </div>
                 
               </motion.div>

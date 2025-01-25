@@ -192,7 +192,7 @@ const Projects = () => {
                 </div>
 
                 <div className={proyectsMac ? "proyect-number active" : "proyect-number"}>
-                  <span>Proyectos</span>
+                  <span>Proyectos Web</span>
                   <span>5 articulo(s)</span>
                 </div>
                   
