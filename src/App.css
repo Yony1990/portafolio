@@ -3274,8 +3274,8 @@ p, .btns, .container-projects, .content-cell {
   }
   .spinner-container {
 
-    top: 0vh;
-    margin-top: -200px;
+    /* top: 0vh; */
+    /* margin-top: -200px; */
 
   }
   .project-content-mdMobil .content-descr {
