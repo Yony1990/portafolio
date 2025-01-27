@@ -295,7 +295,7 @@ p, .btns, .container-projects, .content-cell {
   
   align-items: center;
 }
-.menux .user {
+.menux .content-user .user {
   margin-top: 20px;
   width: 70px;
   height: 70px;
@@ -718,12 +718,19 @@ p, .btns, .container-projects, .content-cell {
     opacity: 1;
   }
 }
-.amplia-img-cv figure {
+/* .amplia-img-cv figure {
   width: 500px;
   height: 685px;
   
   background-image: url(../img/cv/CV2.png);
   background-size: cover;
+} */
+
+.amplia-img-cv img {
+  width: 500px;
+  height: 685px;
+  
+  object-fit: contain;
 }
 
 

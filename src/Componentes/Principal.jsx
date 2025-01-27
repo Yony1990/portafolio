@@ -4,6 +4,7 @@ import { studen } from '../helps/studen'
 import { valueWidget } from '../helps/valueWidget';
 import DigitalClock from './DigitalClock';
 import Icons from './Icons';
+import cv from './img/cv/CV2.webp'
 
 const handleAbout = () => {
     about()
@@ -65,7 +66,8 @@ const Principal = () => {
   return (
     <section id='principal'>
 
-            <div onClick={handleCV} className={cvAmpli ? "amplia-img-cv active" : "amplia-img-cv"}><figure></figure></div>
+            {/* <div onClick={handleCV} className={cvAmpli ? "amplia-img-cv active" : "amplia-img-cv"}><figure></figure></div> */}
+            <div onClick={handleCV} className={cvAmpli ? "amplia-img-cv active" : "amplia-img-cv"}><img src={cv} alt="cv-img" /></div>
 
             <div className="home-container">
               

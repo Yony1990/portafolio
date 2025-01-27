@@ -3,15 +3,11 @@ import { menuOpen } from '../helps/menuOpen'
 import { Link } from 'react-scroll'
 
 
+
 const MenuLateral = () => {
 
-
   const handleMenu = () => {
-
     menuOpen();
-    console.log("huu")
-    
-    
   }
  
   return (

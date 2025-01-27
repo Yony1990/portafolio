@@ -204,7 +204,7 @@ const Projects = () => {
                 <div className="explo-mac-content">
 
                   <div className={proyectsMac ? "explo-mac-proyects active" : "explo-mac-proyects"}>
-                       <div onDoubleClick={showProyectMac} className='proyectos-web'>
+                       <div onClick={showProyectMac} className='proyectos-web'>
 
                           <div></div>
                           <span>Proyectos Web</span>
