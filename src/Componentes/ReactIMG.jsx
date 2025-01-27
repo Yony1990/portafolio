@@ -14,8 +14,8 @@ function ReactIMG() {
                 <div className="red-orbit leo">
                 </div>
                 
-                {/* <div className="imgReactAnima"></div> */}
-                <img className="imgReactAnima" src={snpinnerReact} alt="img-react" />
+                <div className="imgReactAnima"></div>
+                {/* <img className="imgReactAnima" src={snpinnerReact} alt="img-react" /> */}
             </div>
         </section>
     );
