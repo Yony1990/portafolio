@@ -529,12 +529,13 @@ p, .btns, .container-projects, .content-cell {
 .cell {
   width: 400px;
   height: 500px;
-  background-image: url(../img/Cell-perfil/Picsart_24-11-19_15-44-43-201.png);
+  background-image: url(./Componentes/img/cell/cell_marco.webp);
   background-size: cover;
   filter: drop-shadow(10px 10px 15px black);
   z-index: 10;
   animation: cell 2s ease;
 }
+
 
 @keyframes cell {
   0% {
@@ -575,10 +576,19 @@ p, .btns, .container-projects, .content-cell {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  background-image: url(../img/Cell-perfil/fondo-cell-1.jpg);
-  background-size: cover;
+  /* background-image: url(./Componentes/img/cell/fondo-cell-1.webp);
+  background-size: cover; */
   z-index: -1;
   padding: 30px 15px 15px 15px ;
+}
+.fondo-cell .fondo_imgs {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: -30px;
 }
 .opacar-fondo-cell {
   z-index: -1;
@@ -610,13 +620,23 @@ p, .btns, .container-projects, .content-cell {
 .container-icon-about:hover .icon-about {
   opacity: 1;
 }
-.container-icon-about .icon-about {
+/* .container-icon-about .icon-about {
   width: 35px;
   height: 35px;
   border-radius: 13px;
   
-  background-image: url(../img/Yo.jpg);
+  background-image: url(./Componentes/img/cell/Yo.webp);
   background-size: cover;
+  opacity: .8;
+  transition: .2s linear;
+  cursor: pointer;
+} */
+
+.container-icon-about .icon-about {
+  width: 35px;
+  height: 35px;
+  border-radius: 13px;
+  object-fit: cover;
   opacity: .8;
   transition: .2s linear;
   cursor: pointer;
@@ -756,6 +776,7 @@ p, .btns, .container-projects, .content-cell {
   font-size: 1.25rem;
   border-radius: 13px;
   transition: .3s linear;
+  object-fit: contain;
 }
 .fondo-cell .container-contact i:active {
   transform: translate(2px ,2px);
@@ -769,11 +790,11 @@ p, .btns, .container-projects, .content-cell {
   font-size: 1.45rem;
   padding-top: 1px;
 }
-.fondo-cell .container-contact .indeed {
+/* .fondo-cell .container-contact .indeed {
 
-  background-image: url(../img/indeed-2.png);
+  background-image: url(./Componentes/img/cell/indeed-2.webp);
   background-size: cover;
-}
+} */
 .fondo-cell .container-contact i.bi-whatsapp {
   background-color: #00924b;
   font-size: 1.45rem;
@@ -902,15 +923,16 @@ p, .btns, .container-projects, .content-cell {
   overflow-y: scroll;
   z-index: 2;
   display: none;
-
+  flex-direction: column;
+  align-items: center;
   animation: about .15s linear;
 }
 .container-about.active {
-  display: block;
+  display: flex;
 }
 .back-container {
    position: sticky;
-   padding-left: 10px;
+   padding-left: 20px;
    padding-top: 20px;
    padding-bottom: 5px;
    top: -15px;
@@ -953,7 +975,7 @@ p, .btns, .container-projects, .content-cell {
     filter: blur(0px);
   }
   100% {
-    /* background-color: rgb(34, 34, 34); */
+  
     width: 100%;
     height: 100%;
     border-radius: 0px;
@@ -978,11 +1000,10 @@ p, .btns, .container-projects, .content-cell {
 .main-cell .photo-abaut {
   width: 100px;
   height: 100px;
-  background-image: url(../img/Yo.jpg);
-  background-size: cover;
+  object-fit: contain;
   border-radius: 50%;
   border: solid 5px rgb(50, 50, 50);
-  margin: 20px auto;
+  margin: 20px 0;
   opacity: .8;
   transform: scaleX(-1);
   box-shadow: 0px 7px 10px black;
@@ -993,7 +1014,6 @@ p, .btns, .container-projects, .content-cell {
   margin: 10px auto;
   font-weight: 300;
   font-size: 1.2rem;
-  /* animation-play-state: paused; */
 }
 .main-cell article {
   font-size: .75rem;
@@ -1083,6 +1103,9 @@ p, .btns, .container-projects, .content-cell {
     opacity: 1;
     transform: translateY(0px) translateX(0px);
   }
+}
+.container-studen .back-container {
+  padding-left: 12px;
 }
 .container-studen.active {
   display: block;
@@ -1255,13 +1278,11 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .spinner-box {
-  /* background-color: red; */
   z-index: -2;
   scale: 3.5;
   width: 300px;
   height: 300px;
   position: sticky;
-  /* margin-top: -600px; */
   top: 0px;
   display: flex;
   justify-content: center;
@@ -1297,12 +1318,13 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .spinner-box .imgReactAnima {
-  background-image: url(../img/rrrr.png);
-  background-size: cover;
+  /* background-image: url(./Componentes/img/spinner/rrrr.webp);
+  background-size: cover; */
+  object-fit: contain;
   opacity: .4;
    width: 65px;
    height: 65px;
-   padding: 5px;
+   padding: 2px;
    border: solid 1.5px #13167a;
    border-radius: 50%;
 }

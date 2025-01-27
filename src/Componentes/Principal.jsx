@@ -5,6 +5,10 @@ import { valueWidget } from '../helps/valueWidget';
 import DigitalClock from './DigitalClock';
 import Icons from './Icons';
 import cv from './img/cv/CV2.webp'
+import fondo_cell from './img/cell/fondo-cell-1.webp'
+import abaut from './img/cell/yo.webp'
+import indeed from './img/cell/indeed-2.webp'
+
 
 const handleAbout = () => {
     about()
@@ -109,6 +113,7 @@ const Principal = () => {
 
             <div className="content-cell">
                 <div className="cell">
+                
 
                     <div className="header-cell">
                         <div className="barra-superior">
@@ -126,12 +131,14 @@ const Principal = () => {
                     <div  className="main-cell">
 
                         <div className="fondo-cell">
+                            <img className='fondo_imgs' src={fondo_cell} alt="fondo" />
                             <div className="opacar-fondo-cell"></div>
                             
                             <div className="container-icons-main">
 
                                 <div onClick={handleAbout} className="container-icon-about">
-                                    <div className="icon-about"></div>
+                                    {/* <div className="icon-about"></div> */}
+                                    <img className="icon-about" src={abaut} alt="mi-foto" />
                                     <span>About Me</span>
                                 </div>
 
@@ -199,7 +206,10 @@ const Principal = () => {
 
                                 <a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><i className="bi bi-linkedin"></i></a>
                                 <a href="https://github.com/Yony1990"><i className="bi bi-github"></i></a>       
-                                <a href="https://profile.indeed.com/p/yonimilerc-lpkrmk2"><figure className="indeed"></figure></a>
+                                <a href="https://profile.indeed.com/p/yonimilerc-lpkrmk2">
+                                <img  className="indeed" src={indeed} alt="logo" />
+                                {/* <figure className="indeed"></figure> */}
+                                </a>
                                 
                                 <a href="https://wa.me/59891771888"><i className="bi bi-whatsapp"></i></a>
                                 
@@ -216,7 +226,8 @@ const Principal = () => {
                             </div>
                             
 
-                            <figure className="photo-abaut"></figure>
+                            {/* <figure className="photo-abaut"></figure> */}
+                            <img className="photo-abaut" src={abaut} alt="foto" />
 
                             <h2>About me</h2>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import snpinnerReact from './img/spinner/rrrr.webp';
 
 function ReactIMG() {
     return (
@@ -13,7 +14,8 @@ function ReactIMG() {
                 <div className="red-orbit leo">
                 </div>
                 
-                <div className="imgReactAnima"></div>
+                {/* <div className="imgReactAnima"></div> */}
+                <img className="imgReactAnima" src={snpinnerReact} alt="img-react" />
             </div>
         </section>
     );
