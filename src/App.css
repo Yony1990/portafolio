@@ -3349,10 +3349,16 @@ p, .btns, .container-projects, .content-cell {
     scale: .7;
   }
 
-  .amplia-img-cv figure {
+  /* .amplia-img-cv figure {
+    width: 350px;
+    height: 500px;
+  } */
+
+  .amplia-img-cv img {
     width: 350px;
     height: 500px;
   }
+  
 
 }
 
