@@ -1318,9 +1318,9 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .spinner-box .imgReactAnima {
-  background-image: url(./Componentes/img/spinner/rrrr.webp);
-  background-size: cover;
-  /* object-fit: contain; */
+  /* background-image: url(./Componentes/img/spinner/rrrr.webp);
+  background-size: cover; */
+  object-fit: contain;
   opacity: .4;
    width: 65px;
    height: 65px;
