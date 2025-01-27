@@ -3201,10 +3201,15 @@ p, .btns, .container-projects, .content-cell {
     margin: 1rem 0rem -2rem 0;
   }
 
+  /* .raro {
+    position: fixed;
+    top: 0;
+  } */
+
   .spinner-container {
     position: fixed;
     top: 0;
-    margin-top: 0px;
+    margin-top: 0;
   }
   
   .projects {
@@ -3272,12 +3277,7 @@ p, .btns, .container-projects, .content-cell {
    .mac {
     display: none;
   }
-  .spinner-container {
-
-    /* top: 0vh; */
-    /* margin-top: -200px; */
-
-  }
+  
   .project-content-mdMobil .content-descr {
     width: 250px;
     left: 15.5%;
