@@ -1,7 +1,7 @@
 
 import { menuOpen } from '../helps/menuOpen'
 import { Link } from 'react-scroll'
-
+import user1 from './img/menux_img.webp'
 
 
 const MenuLateral = () => {
@@ -14,7 +14,7 @@ const MenuLateral = () => {
     <div className='menux' onClick={handleMenu}>
 
       <div className="content-user">
-        <figure className="user"></figure>
+        <img className="user" src={user1} alt="user" />
         <span>Yonimiler Cárdenas</span>
         <span>Frontend Developer React JS</span>
       </div>

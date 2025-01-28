@@ -297,16 +297,13 @@ p, .btns, .container-projects, .content-cell {
 }
 .menux .content-user .user {
   margin-top: 20px;
-  width: 70px;
-  height: 70px;
-  background-image: url(./Componentes/img/menux_img.webp);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
   border-radius: 50%;
   border: solid 3px rgb(81, 81, 81);
   transform: scaleX(-1);
-  filter: grayscale(.3);
+  filter: grayscale(.2);
 }
 
 .menux .linea {
@@ -2864,15 +2861,6 @@ p, .btns, .container-projects, .content-cell {
   width: 80px;
   height: 62px;
 }
-/* espacio-final-mobil */
-
-/* .espacio-final-mobil {
-  position: relative;
-  width: 100px;
-  height: 30px;
-  background-color: red;
-
-} */
 
 /* ampliar certificados */
 
@@ -3379,6 +3367,12 @@ p, .btns, .container-projects, .content-cell {
 }
 
 @media (max-width: 550px) {
+  .spinner-box  {
+    animation-play-state: paused;
+  }
+  .spinner-container {
+    top: 38vh;
+  }
   .project-content-mdMobil .content-descr {
     width: 130px;
     left: 24.5%;
