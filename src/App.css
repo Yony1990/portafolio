@@ -956,19 +956,19 @@ p, .btns, .container-projects, .content-cell {
 }
 @keyframes about {
   0% {
-    background-image: url(../img/Yo.jpg);
+
     background-size: cover;
     width: 0%;
     height: 0%;
-    border-radius: 20px;
+    border-radius: 50%;
     opacity: 0;
     filter: blur(30px);
     transform: translateY(80px) translateX(40px);
   }
   90% {
-    background-image: url(../img/Yo.jpg);
+
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 30px;
     width: 20%;
     height: 10%;
     opacity: .2;
@@ -978,7 +978,7 @@ p, .btns, .container-projects, .content-cell {
   
     width: 100%;
     height: 100%;
-    border-radius: 0px;
+    border-radius: 20px;
     opacity: 1;
     transform: translateY(0px) translateX(0px);
   }
@@ -3201,11 +3201,6 @@ p, .btns, .container-projects, .content-cell {
     margin: 1rem 0rem -2rem 0;
   }
 
-  /* .raro {
-    position: fixed;
-    top: 0;
-  } */
-
   .spinner-container {
     position: fixed;
     top: 0;
@@ -3214,10 +3209,11 @@ p, .btns, .container-projects, .content-cell {
   
   .projects {
     margin-top: -100px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
+    /* padding-bottom: 50px; */
   } 
   
   .mac {
@@ -3229,6 +3225,7 @@ p, .btns, .container-projects, .content-cell {
     margin-top: 100px;
     left: -2%;
   }
+
 }
 
 @media (max-width: 1040px) {
@@ -3371,11 +3368,6 @@ p, .btns, .container-projects, .content-cell {
   .amplia-img .figure-html, .amplia-img .figure-css, .amplia-img .figure-js {
     scale: .7;
   }
-
-  /* .amplia-img-cv figure {
-    width: 350px;
-    height: 500px;
-  } */
 
   .amplia-img-cv img {
     width: 350px;
