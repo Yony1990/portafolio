@@ -3371,7 +3371,7 @@ p, .btns, .container-projects, .content-cell {
     animation-play-state: paused;
   }
   .spinner-container {
-    top: 38vh;
+    top: 35vh;
   }
   .project-content-mdMobil .content-descr {
     width: 130px;
