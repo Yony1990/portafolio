@@ -618,17 +618,6 @@ p, .btns, .container-projects, .content-cell {
 .container-icon-about:hover .icon-about {
   opacity: 1;
 }
-/* .container-icon-about .icon-about {
-  width: 35px;
-  height: 35px;
-  border-radius: 13px;
-  
-  background-image: url(./Componentes/img/cell/Yo.webp);
-  background-size: cover;
-  opacity: .8;
-  transition: .2s linear;
-  cursor: pointer;
-} */
 
 .container-icon-about .icon-about {
   width: 35px;
@@ -736,13 +725,6 @@ p, .btns, .container-projects, .content-cell {
     opacity: 1;
   }
 }
-/* .amplia-img-cv figure {
-  width: 500px;
-  height: 685px;
-  
-  background-image: url(../img/cv/CV2.png);
-  background-size: cover;
-} */
 
 .amplia-img-cv img {
   width: 500px;
@@ -750,10 +732,6 @@ p, .btns, .container-projects, .content-cell {
   
   object-fit: contain;
 }
-
-
-
-
 
 .fondo-cell .container-contact {
   width: 100%;
@@ -788,17 +766,18 @@ p, .btns, .container-projects, .content-cell {
   font-size: 1.45rem;
   padding-top: 1px;
 }
-/* .fondo-cell .container-contact .indeed {
 
-  background-image: url(./Componentes/img/cell/indeed-2.webp);
-  background-size: cover;
-} */
 .fondo-cell .container-contact i.bi-whatsapp {
   background-color: #00924b;
   font-size: 1.45rem;
 }
 .fondo-cell .container-contact a {
   text-decoration: none;
+}
+
+.fondo-cell .container-contact a span {
+  position: absolute;
+  opacity: 0;
 }
 
 .fondo-cell .container-contact:hover > :not(:hover) {
@@ -1756,21 +1735,35 @@ p, .btns, .container-projects, .content-cell {
 .mac {
   width: 850px;
   height: 450px;
-  background-image: url(../img/Cell-perfil/d4jz8qq-92b276f7-fa81-45ed-9cab-c24477eebaa6.png);
+  /* background-image: url(../img/Cell-perfil/d4jz8qq-92b276f7-fa81-45ed-9cab-c24477eebaa6.png); */
   position: relative;
   left: 6%;
-  background-size: cover;
+  /* background-size: cover;
+  filter: drop-shadow(10px 10px 15px black); */
+}
+.mac .mac-img-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   filter: drop-shadow(10px 10px 15px black);
 }
 .fondo-mac {
   position: relative;
-  top: 30px;
+  top: 28px;
   left: 133px;
   width: 583px;
   height: 366px;
-  background-image: url(../img/mac-perfil/fondo-natural-gradiente-paisaje-montanas_636537-358422.avif);
-  background-size: cover;
+  /* background-image: url(../img/mac-perfil/fondo-natural-gradiente-paisaje-montanas_636537-358422.avif);
+  background-size: cover; */
   overflow: hidden;
+}
+
+.fondo-mac .fondo-mac-img-content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .container-mac-navBar {
@@ -1865,8 +1858,10 @@ p, .btns, .container-projects, .content-cell {
   transition: .15s all linear;
   overflow: hidden;
 }
+.projects nav ul li a {
+  text-decoration: none;
+}
 .projects nav ul li span {
-  background-image: url(../img/mac-perfil/Finder_Icon_macOS_Big_Sur.png);
   background-size: cover;
   border-radius: 11px;
   width: 45px;
@@ -1883,13 +1878,13 @@ p, .btns, .container-projects, .content-cell {
   top: -45px;
   z-index: 30;
 
-  & + li:nth-child(9) {
+  & + li:nth-child(8) {
     top: 0;
     scale: 1;
 
   }
   
-  & + li:nth-child(9) {
+  & + li:nth-child(8) {
     top: 0;
     scale: 1;
   }
@@ -1921,7 +1916,7 @@ p, .btns, .container-projects, .content-cell {
   }
 }
 
-.projects nav ul li:nth-child(9):has(+ li:hover) {
+.projects nav ul li:nth-child(8):has(+ li:hover) {
   top: 0px;
   scale: 1;
 }
@@ -1953,7 +1948,7 @@ p, .btns, .container-projects, .content-cell {
   background-color: rgb(152, 152, 152);
   
 }
-.projects nav ul li:nth-child(9):hover {
+.projects nav ul li:nth-child(8):hover {
   top: 0px;
   scale: 1;
 }
@@ -1961,30 +1956,61 @@ p, .btns, .container-projects, .content-cell {
 .container-mac-navBar li:nth-child(1) span {
   background-image: url(../img/mac-perfil/Finder_Icon_macOS_Big_Sur.png);
   background-size: cover;
+  width: 47px;
+  height: 47px;
+  position: relative;
+  left: 3px;
 }
 .container-mac-navBar li:nth-child(2) span {
-  background-image: url(../img/mac-perfil/apple-store.png);
-  background-size: cover;
-  width: 43px;
-  height: 43px;
+  width: 41px;
+  height: 41px;
+  background-color: #475fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.7rem;
+  padding-top: 3px;
 }
 .container-mac-navBar li:nth-child(3) span {
-  background-image: url(../img/mac-perfil/mensaje.png);
-  background-size: cover;
+
+  width: 41px;
+  height: 41px;
+  background-color: #00924b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.9rem;
+  padding-top: 3px;
+  
 }
 .container-mac-navBar li:nth-child(4) span {
-  background-image: url(../img/mac-perfil/ajustes-apple.png);
-  background-size: cover;
+
+  width: 41px;
+  height: 41px;
+  background-color: #1e1e1e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.9rem;
+  padding-top: 3px;
 }
 .container-mac-navBar li:nth-child(5) span {
   background-image: url(../img/mac-perfil/music-apple.png);
   background-size: cover;
 }
 .container-mac-navBar li:nth-child(6) span {
-  background-image: url(../img/mac-perfil/VSCODE.png);
+  background-image: url(../img/mac-perfil/carpeta-mac.png);
   background-size: cover;
-  width: 38px;
-  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+}
+.container-mac-navBar li:nth-child(6) span  i {
+  font-size: 1.8rem;
+  position: relative;
+  top: 4px;
 }
 .container-mac-navBar li:nth-child(7) span {
   background-image: url(../img/mac-perfil/carpeta-mac.png);
@@ -1996,20 +2022,6 @@ p, .btns, .container-projects, .content-cell {
   height: 42px;
 }
 .container-mac-navBar li:nth-child(7) span  i {
-  font-size: 1.8rem;
-  position: relative;
-  top: 4px;
-}
-.container-mac-navBar li:nth-child(8) span {
-  background-image: url(../img/mac-perfil/carpeta-mac.png);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 42px;
-  height: 42px;
-}
-.container-mac-navBar li:nth-child(8) span  i {
   font-size: 1.5rem;
   position: relative;
   top: 4px;

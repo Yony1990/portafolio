@@ -6,6 +6,8 @@ import DigitalClock from './DigitalClock';
 import ProjectRight from './ProjectRight';
 import ProjectsGalery from './ProjectsGalery';
 import ProjectsMedidaMobil from './ProjectsMedidaMobil';
+import macImg from './img/mac/mac.png'
+import fondoMac from './img/mac/fondo-natural.avif'
 
 
 
@@ -78,7 +80,9 @@ const Projects = () => {
       {/* MACBOOCK */}
 
       <div className="mac">
+        <img className='mac-img-content' src={macImg} alt="" />
         <div className="fondo-mac">
+          <img className='fondo-mac-img-content' src={fondoMac} alt="" />
 
           <section className='container-mac-navBar'>
             <div className='barra-superior-mac'>
@@ -101,11 +105,11 @@ const Projects = () => {
                 <ul>
                     
                     <li onClick={handleOpenExplore}><span></span></li>
+                    <li><a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><span><i className="bi bi-linkedin"></i></span></a></li>
+                    <li><a href="https://wa.me/59891771888"><span><i className="bi bi-whatsapp"></i></span></a></li>
+                    <li><a href="https://github.com/Yony1990"><span><i className="bi bi-github"></i></span></a></li>
                     <li><span></span></li>
-                    <li><span></span></li>
-                    <li><span></span></li>
-                    <li><span></span></li>
-                    <li><span></span></li>
+                    {/* <li><span></span></li> */}
                     <li><span><i className="bi bi-laptop"></i></span></li>
                     <li><span><i className="bi bi-phone"></i></span></li>
                     <li><div className='linea'></div></li>
@@ -280,7 +284,7 @@ const Projects = () => {
 
                     <span>BIWEDEX: Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web.</span>
 
-                    
+                    <span>GAME: Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES.</span>
 
                   </div>
                   

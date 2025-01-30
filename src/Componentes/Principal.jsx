@@ -204,15 +204,15 @@ const Principal = () => {
 
                             <div className="container-contact">
 
-                                <a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><i className="bi bi-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><span>linkeding</span><i className="bi bi-linkedin"></i></a>
                                 
-                                <a href="https://github.com/Yony1990"><i className="bi bi-github"></i></a>
+                                <a href="https://github.com/Yony1990"><span>github</span><i className="bi bi-github"></i></a>
 
                                 <a href="https://profile.indeed.com/p/yonimilerc-lpkrmk2">
                                 <img  className="indeed" src={indeed} alt="logo" />
                                 </a>
                                 
-                                <a href="https://wa.me/59891771888"><i className="bi bi-whatsapp"></i></a>
+                                <a href="https://wa.me/59891771888"><span>whatsapp</span><i className="bi bi-whatsapp"></i></a>
                                 
                             </div>
                         </div>
