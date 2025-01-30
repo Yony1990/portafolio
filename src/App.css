@@ -1731,12 +1731,12 @@ p, .btns, .container-projects, .content-cell {
   height: 25px;
 }
 .lenguajes-usadas.pro-1 figure:nth-child(2) {
-  background-image: url(../img/skills/css-1.png);
+  background-image: url(../img/skills/css-1.webp);
   width: 25px;
   height: 25px;
 }
 .lenguajes-usadas.pro-1 figure:nth-child(3) {
-  background-image: url(../img/skills/js.png);
+  background-image: url(../img/skills/js.webp);
   width: 25px;
   height: 25px;
 }
@@ -2692,21 +2692,24 @@ p, .btns, .container-projects, .content-cell {
   background-size: cover;
 }
 .projects-R .css {
-  background-image: url(../img/skills/css-1.png);
+  background-image: url(../img/skills/css-1.webp);
   background-size: cover;
 }
 .projects-R .js {
-  background-image: url(../img/skills/js.png);
+  background-image: url(../img/skills/js.webp);
   background-size: cover;
+  scale: 1.1;
 }
 .projects-R .react {
   background-image: url(../img/skills/react.png);
   background-size: cover;
+  scale: 1.1;
 }
 
 .projects-R .reactN {
   background-image: url(../img/skills/react.png);
   background-size: cover;
+  scale: 1.1;
 }
 
 .projects-R .bootstrap {
@@ -2731,7 +2734,7 @@ p, .btns, .container-projects, .content-cell {
 
 .projects-R .nextUi {
 
-  background-image: url(../img/skills//mongobd.png);
+  background-image: url(../img/skills/mongobd.png);
   background-size: cover;
   filter: contrast(0);
   scale: 1.5;
@@ -2804,11 +2807,10 @@ p, .btns, .container-projects, .content-cell {
   padding: 0 10px;
 }
 
-.info-skills-html figure {
-  background-image: url(../img/mac-perfil/certificaciones/Certificado-Desarrollo-Web-con-HTML-EducaciónIT.png);
-  background-size: cover;
+.info-skills-html img {
   width: 80px;
   height: 62px;
+  object-fit: contain;
 }
 
 .info-skills-html {
@@ -2845,7 +2847,7 @@ p, .btns, .container-projects, .content-cell {
   color: rgb(6, 213, 6);
 }
 
-.info-skills .img-and-content figure:hover {
+.info-skills .img-and-content figure:hover, .info-skills .img-and-content img:hover {
   cursor: zoom-in;
 }
 
@@ -2855,9 +2857,24 @@ p, .btns, .container-projects, .content-cell {
   font-size: 1.1rem;
 }
 
-.info-skills-css figure {
-  background-image: url(../img/mac-perfil/certificaciones/Certificado-Maquetador-Web-Avanzado-EducaciónIT.png);
-  background-size: cover;
+.info-skills-css img {
+  object-fit: contain;
+  width: 80px;
+  height: 62px;
+}
+
+
+.info-skills-js {
+  display:none;
+  /* block */
+  animation: skills .6s linear;
+}
+.info-skills-js.active {
+  display: block;
+}
+
+.info-skills-js img {
+  object-fit: contain;
   width: 80px;
   height: 62px;
 }
@@ -2890,26 +2907,10 @@ p, .btns, .container-projects, .content-cell {
     opacity: 1;
   }
 }
-.amplia-img .figure-html {
+.amplia-img img {
   width: 550px;
   height: 425px;
-  
-  background-image: url(../img/mac-perfil/certificaciones/Certificado-Desarrollo-Web-con-HTML-EducaciónIT.png);
-  background-size: cover;
-}
-.amplia-img .figure-css {
-  width: 550px;
-  height: 425px;
-  
-  background-image: url(../img/mac-perfil/certificaciones/Certificado-Maquetador-Web-Avanzado-EducaciónIT.png);
-  background-size: cover;
-}
-.amplia-img .figure-js {
-  width: 550px;
-  height: 425px;
-  
-  background-image: url(../img/mac-perfil/certificaciones/Certificado-Javascript-desde-cero-EducaciónIT.png);
-  background-size: cover;
+  object-fit: contain;
 }
 
 .info-skills-css {
@@ -2922,21 +2923,21 @@ p, .btns, .container-projects, .content-cell {
 
 }
 .info-skills-css .dalto, .info-skills-js .dalto {
-  background-image: url(../img/mac-perfil/certificaciones/Dalto.jpg);
+  background-image: url(./Componentes/img/certificaciones/Dalto.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 .info-skills-js .fernando, .info-skills-react .fernando  {
-  background-image: url(../img/mac-perfil/certificaciones/Fernando.jpg);
+  background-image: url(./Componentes/img/certificaciones/Fernando.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
   border-radius: 50%;
 }
 .info-skills-js .carpi, .info-skills-react .carpi {
-  background-image: url(../img/mac-perfil/certificaciones/Carpi.jpg);
+  background-image: url(./Componentes/img/certificaciones/Carpi.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -2944,7 +2945,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-js .aprogramar {
-  background-image: url(../img/mac-perfil/certificaciones/aprogramar.jpg);
+  background-image: url(./Componentes/img/certificaciones/aprogramar.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -2952,7 +2953,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-react .angel, .info-skills-Vite .angel {
-  background-image: url(../img/mac-perfil/certificaciones/angel.jpg);
+  background-image: url(./Componentes/img/certificaciones/angel.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -2960,7 +2961,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-reactN .midu {
-  background-image: url(../img/mac-perfil/certificaciones/Midu.jpg);
+  background-image: url(./Componentes/img/certificaciones/Midu.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -2968,7 +2969,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-reactN .codeWi {
-  background-image: url(../img/mac-perfil/certificaciones/codeWi.jpg);
+  background-image: url(./Componentes/img/certificaciones/codeWi.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -2976,7 +2977,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-reactN .fazt {
-  background-image: url(../img/mac-perfil/certificaciones/fazt.jpg);
+  background-image: url(./Componentes/img/certificaciones/fazt.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -2984,7 +2985,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-reactN .dani {
-  background-image: url(../img/mac-perfil/certificaciones/Dani.jpg);
+  background-image: url(./Componentes/img/certificaciones/Dani.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -2992,7 +2993,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-Bost .bost {
-  background-image: url(../img/mac-perfil/certificaciones/freeCode.jpg);
+  background-image: url(./Componentes/img/certificaciones/freeCode.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3000,7 +3001,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-Tail .tail {
-  background-image: url(../img/mac-perfil/certificaciones/tube.jpg);
+  background-image: url(./Componentes/img/certificaciones/tube.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3008,7 +3009,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-GitHub .Moure {
-  background-image: url(../img/mac-perfil/certificaciones/Moure.jpg);
+  background-image: url(./Componentes/img/certificaciones/Moure.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3016,7 +3017,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-Material .bluuweb {
-  background-image: url(../img/mac-perfil/certificaciones//bluuweb.jpg);
+  background-image: url(./Componentes/img/certificaciones/bluuweb.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3024,7 +3025,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-Motion .swiper {
-  background-image: url(../img/skills/swiper-logo.svg);
+  background-image: url(./Componentes/img/certificaciones/swiper-logo.svg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3032,7 +3033,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-NextUI .tech  {
-  background-image: url(../img/mac-perfil/certificaciones/techViajero.jpg);
+  background-image: url(./Componentes/img/certificaciones/techViajero.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3040,7 +3041,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-NextUI .Ingenioteka  {
-  background-image: url(../img/mac-perfil/certificaciones/Ingenioteka.jpg);
+  background-image: url(./Componentes/img/certificaciones/Ingenioteka.jpg);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3048,28 +3049,11 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-NextUI .apasoft {
-  background-image: url(../img/mac-perfil/certificaciones/apasoft.jpg);
+  background-image: url(./Componentes/img/certificaciones/apasoft.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-}
-
-
-.info-skills-js {
-  display:none;
-  /* block */
-  animation: skills .6s linear;
-}
-.info-skills-js.active {
-  display: block;
-}
-
-.info-skills-js figure {
-  background-image: url(../img/mac-perfil/certificaciones/Certificado-Javascript-desde-cero-EducaciónIT.png);
-  background-size: cover;
-  width: 80px;
-  height: 62px;
 }
 
 .info-skills-react {
@@ -3354,7 +3338,7 @@ p, .btns, .container-projects, .content-cell {
     scale: 1.4;
   }
 
-  .amplia-img .figure-html, .amplia-img .figure-css, .amplia-img .figure-js {
+  .amplia-img img{
     scale: .7;
   }
 
@@ -3379,6 +3363,7 @@ p, .btns, .container-projects, .content-cell {
     flex-direction: column;
     justify-content: center;
     gap: 0%;
+   
   }
   .project-content-mdMobil .content-descr article {
     font-size: 1rem;
@@ -3386,7 +3371,7 @@ p, .btns, .container-projects, .content-cell {
   .projectRight {
     left: -5%;
   }
-  .amplia-img .figure-html, .amplia-img .figure-css, .amplia-img .figure-js {
+  .amplia-img img {
     width: 370px;
     height: 285px;
   }

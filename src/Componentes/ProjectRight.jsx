@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import htmlCert from './img/certificaciones/Certificado-HTML.webp';
+import jsCert from './img/certificaciones/Certificado-javascript.webp';
+import maquet from './img/certificaciones/Certificado-Maquetador.webp';
 
  
 const ProjectRight = () => {
@@ -409,15 +412,15 @@ const ProjectRight = () => {
             {/* PROYECTO DERECHA */}
 
             <div onClick={handleImgHtml} className={openHtml ? "amplia-img" : "amplia-img active"}>
-                <figure className='figure-html'></figure>
+                <img className='figure-html' src={htmlCert} alt="img" />
             </div>
 
             <div onClick={handleImgCss} className={openCss ? "amplia-img" : "amplia-img active"}>
-                <figure className='figure-css'></figure>
+                <img className='figure-css' src={maquet} alt="img" />
             </div>
 
             <div onClick={handleImgJs} className={openJs ? "amplia-img" : "amplia-img active"}>
-                <figure className='figure-js'></figure>
+                <img className='figure-js' src={jsCert} alt="img" />
             </div>
 
 
@@ -459,7 +462,8 @@ const ProjectRight = () => {
                         <div className={infoHtml ? 'info-skills-html' : 'info-skills-html active'}>
                             <span>HTML</span>
                             <section className='img-and-content'>
-                                <figure onClick={handleImgHtml}></figure>
+                                {/* <figure onClick={handleImgHtml}></figure> */}
+                                <img onClick={handleImgHtml} src={htmlCert} alt="img" />
                                 <article><i className="bi bi-check2-all"></i> Certificación en Desarrollo Web HTML. </article>
                             </section>
                         </div>
@@ -467,7 +471,8 @@ const ProjectRight = () => {
                         <div className={infoCss ? 'info-skills-css' : 'info-skills-css active'}>
                             <span>CSS</span>
                             <section className='img-and-content'>
-                                <figure onClick={handleImgCss}></figure>
+                                {/* <figure onClick={handleImgCss}></figure> */}
+                                <img onClick={handleImgCss} src={maquet} alt="img" />
                                 <article><i className="bi bi-check2-all"></i> Certificación en Maquetador Web Avanzado. </article>
                             </section>
                             
@@ -485,7 +490,8 @@ const ProjectRight = () => {
                         <div className={infoJs ? 'info-skills-js' : 'info-skills-js active'}>
                             <span>JavaScript</span>
                             <section className='img-and-content'>
-                                <figure onClick={handleImgJs}></figure>
+                                {/* <figure onClick={handleImgJs}></figure> */}
+                                <img onClick={handleImgJs} src={jsCert} alt="img" />
                                 <article><i className="bi bi-check2-all"></i> Certificación en JavaScript desde cero. </article>
                             </section>
 

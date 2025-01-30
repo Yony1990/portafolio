@@ -65,7 +65,6 @@ const Projects = () => {
     setProyectsMac(!proyectsMac)
     setDesktopI(!desktopI)
     setUlActiv(!ulActiv)
-    // setArrowToggleWeb(!arrowToggleWeb)
   }
   
 
@@ -86,7 +85,6 @@ const Projects = () => {
               <ul className='barra-L'>
               
                 <li className='bi-apple-i'><i className="bi bi-apple"></i></li>
-                {/* <i className="bi bi-apple"></i> */}
                 <li onClick={handleOpenExplore}>File</li>
                 <li onClick={motionOpen}>View</li>
               
@@ -161,7 +159,7 @@ const Projects = () => {
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
-                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
+                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Game</li>
                     </div>
                       
                     
