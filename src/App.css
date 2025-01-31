@@ -3294,4 +3294,8 @@ p {
     width: 370px;
     height: 285px;
   }
+  .projects-R-col-1 article {
+    font-size: 1rem;
+    padding: 0 30px;
+  }
 }
