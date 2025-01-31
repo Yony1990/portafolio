@@ -1,7 +1,7 @@
 
 import { menuOpen } from '../helps/menuOpen'
 import { Link } from 'react-scroll'
-import user1 from './img/menux_img.webp'
+import user1 from './img/menux_img100.jpg'
 
 
 const MenuLateral = () => {

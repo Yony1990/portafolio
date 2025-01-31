@@ -25,7 +25,6 @@ body::-webkit-scrollbar {
 }
 .app {
   width: 100%;
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -83,71 +82,6 @@ p {
 .logo3 {
   left: -3px;
 }
-/* 
-p, .btns, .container-projects, .content-cell {
-  
-
-  view-timeline-name: --reveal;
-  animation-name: allll;
-  animation-fill-mode: both;
-  animation-timeline: --reveal;
-  animation-range: entry 0% cover 85%;
-}
-@keyframes allll {
-  0% {
-      opacity: 1;
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-      opacity: 0;
-  }
-}
-.grup, .imgAd {
-  
-
-  view-timeline-name: --reveal;
-  animation-name: h3p;
-  animation-fill-mode: both;
-  animation-timeline: --reveal;
-  animation-range: entry 0% cover 90%;
-}
-@keyframes h3p {
-  0% {
-      opacity: 1;
-
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-      opacity: 0;
-
-  }
-}
-.home-content h1, .text h2, .imgAd, .adornos h2, .animaIni span {
-  
-
-  view-timeline-name: --reveal;
-  animation-name: h3p;
-  animation-fill-mode: both;
-  animation-timeline: --reveal;
-  animation-range: entry 0% cover 99%;
-}
-@keyframes h3p {
-  0% {
-      opacity: 1;
-
-  }
-  70% {
-    opacity: 1;
-  }
-  100% {
-      opacity: 0;
-
-  }
-} */
 
 .container-fondo {
   width: 100%;
@@ -165,12 +99,9 @@ p, .btns, .container-projects, .content-cell {
   background-blend-mode: normal, normal, normal;
 }
 
-
-
 /* ------------------- */
 /*       Header        */
 /* ------------------- */
-
 
 .header {
   z-index: 101;
@@ -337,7 +268,7 @@ p, .btns, .container-projects, .content-cell {
   margin: 0px auto;
   text-align: start;
   cursor: pointer;
-  /* z-index: 21; */
+
 }
 .menux .link {
   text-decoration: none;
@@ -395,7 +326,6 @@ p, .btns, .container-projects, .content-cell {
   transition: all .3s linear;
 }
 .menux .trabajemos .btnsTrab button:hover {
-  /* background-color: rgba(183, 183, 183, 0.629); */
   background-color: rgba(156, 201, 233, 0.146);
   color: #abc2fc;
 }
@@ -574,8 +504,6 @@ p, .btns, .container-projects, .content-cell {
   justify-content: space-between;
   width: 100%;
   height: 100%;
-  /* background-image: url(./Componentes/img/cell/fondo-cell-1.webp);
-  background-size: cover; */
   z-index: -1;
   padding: 30px 15px 15px 15px ;
 }
@@ -748,11 +676,10 @@ p, .btns, .container-projects, .content-cell {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(0, 0, 0);
   font-size: 1.25rem;
   border-radius: 13px;
   transition: .3s linear;
-  object-fit: contain;
+  object-fit: cover;
 }
 .fondo-cell .container-contact i:active {
   transform: translate(2px ,2px);
@@ -1295,8 +1222,6 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .spinner-box .imgReactAnima {
-  /* background-image: url(./Componentes/img/spinner/rrrr.webp);
-  background-size: cover; */
   object-fit: contain;
   opacity: .4;
    width: 65px;
@@ -1326,8 +1251,6 @@ p, .btns, .container-projects, .content-cell {
   border: 1px solid #2dd5ff;
   animation: spin3D 1s linear 0s infinite;
 }
-
-
 
 /* -------------------       */
     /* Projects medida mobil */
@@ -1407,12 +1330,12 @@ p, .btns, .container-projects, .content-cell {
   height: 80px;
   border-radius: 5px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.454);
-  background-image: url(../img/Yo.jpg);
+  background-image: url(./Componentes/img/cell/Yo.webp);
   background-size: cover;
 }
 
 .project-content-mdMobil figure.Biwedex-mobile {
-  background-image: url(../img/projectsImg/BIWEDEX-img.png);
+  background-image: url(./Componentes/img/projectsImg/BIWEDEX-img.webp);
   background-color: #fbf6ffe0;
   background-position: center;
   width: 120px;
@@ -1420,7 +1343,7 @@ p, .btns, .container-projects, .content-cell {
   border-radius: 5px;
 }
 .project-content-mdMobil figure.mini-game {
-  background-image: url(../img/projectsImg/miniGame.png);
+  background-image: url(./Componentes/img/projectsImg/miniGame.webp);
   background-color: #fbf6ffe0;
   background-position: center;
   width: 120px;
@@ -1430,6 +1353,11 @@ p, .btns, .container-projects, .content-cell {
 
 .project-content-mdMobil a {
   text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-content-mdMobil .content-descr {
@@ -1458,7 +1386,6 @@ p, .btns, .container-projects, .content-cell {
   text-align: center;
 
 }
-
 
 /* ------------------- */
     /* Projects */
@@ -1544,7 +1471,6 @@ p, .btns, .container-projects, .content-cell {
   }
 }
 
-
 .item {
   background-color: #1c1c214c;
   display: flex;
@@ -1577,7 +1503,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .content-img-Proyect .img-Project {
-  background-image: url(../img/projectsImg/Biwedex-img.webp);
+  background-image: url(./Componentes/img/projectsImg/BIWEDEX-img.webp);
   background-size: cover;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
   position: relative;
@@ -1592,7 +1518,7 @@ p, .btns, .container-projects, .content-cell {
   transition: all 1s ease;
 }
 .content-img-Proyect .img-game {
-  background-image: url(../img/projectsImg/miniGame.png);
+  background-image: url(./Componentes/img/projectsImg/miniGame.webp);
   background-size: cover;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
   position: relative;
@@ -1616,7 +1542,6 @@ p, .btns, .container-projects, .content-cell {
 .proyect-info {
   position: absolute;
   border-radius: 16px 16px;
-  /* background-color: #00001065; */
   background-image: linear-gradient(250deg,rgba(60, 60, 80, 0) 10%, rgba(23, 25, 32, 0.798));
   transition: all .2s linear;
   gap: 5px;
@@ -1627,9 +1552,7 @@ p, .btns, .container-projects, .content-cell {
   align-items: center;
   padding: 15px 10px;
 }
-/* .item:hover .proyect-info {
-  background-image: linear-gradient(240deg,rgba(60, 60, 80, 0.125) 10%, rgba(0, 0, 0, 0.742));
-} */
+
 .proyect-info  span {
   color: #fdf27a;
   font-size: 1rem;
@@ -1649,7 +1572,6 @@ p, .btns, .container-projects, .content-cell {
   position: relative;
   top: 10px;
   z-index: 2;
-  /* padding-bottom: 2px; */
   padding: 0px 5px 2px 5px;
   cursor: pointer;
   width: 50px;
@@ -1681,8 +1603,6 @@ p, .btns, .container-projects, .content-cell {
 .proyect-imgskills-grop-1, .proyect-imgskills-grop-2 {
    display: flex;
    gap: 20px;
-   
-   
 }
 .lenguajes-usadas figure{
    background-image: url(../img/skills/react.png);
@@ -1694,7 +1614,6 @@ p, .btns, .container-projects, .content-cell {
    display: block;
    animation: proSkill .2s linear;
 }
-
 
 /* BIWEDEX */
 
@@ -1735,11 +1654,8 @@ p, .btns, .container-projects, .content-cell {
 .mac {
   width: 850px;
   height: 450px;
-  /* background-image: url(../img/Cell-perfil/d4jz8qq-92b276f7-fa81-45ed-9cab-c24477eebaa6.png); */
   position: relative;
   left: 6%;
-  /* background-size: cover;
-  filter: drop-shadow(10px 10px 15px black); */
 }
 .mac .mac-img-content {
   position: absolute;
@@ -1754,8 +1670,6 @@ p, .btns, .container-projects, .content-cell {
   left: 133px;
   width: 583px;
   height: 366px;
-  /* background-image: url(../img/mac-perfil/fondo-natural-gradiente-paisaje-montanas_636537-358422.avif);
-  background-size: cover; */
   overflow: hidden;
 }
 
@@ -1861,6 +1775,10 @@ p, .btns, .container-projects, .content-cell {
 .projects nav ul li a {
   text-decoration: none;
 }
+.projects nav ul li a p {
+  position: absolute;
+  opacity: 0;
+}
 .projects nav ul li span {
   background-size: cover;
   border-radius: 11px;
@@ -1954,7 +1872,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .container-mac-navBar li:nth-child(1) span {
-  background-image: url(../img/mac-perfil/Finder_Icon_macOS_Big_Sur.png);
+  background-image: url(../img/mac-perfil/Finder_Icon_macOS_Big_Sur.webp);
   background-size: cover;
   width: 47px;
   height: 47px;
@@ -1995,11 +1913,11 @@ p, .btns, .container-projects, .content-cell {
   padding-top: 3px;
 }
 .container-mac-navBar li:nth-child(5) span {
-  background-image: url(../img/mac-perfil/music-apple.png);
+  background-image: url(../img/mac-perfil/music-apple.webp);
   background-size: cover;
 }
 .container-mac-navBar li:nth-child(6) span {
-  background-image: url(../img/mac-perfil/carpeta-mac.png);
+  background-image: url(../img/mac-perfil/carpeta-mac.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -2013,7 +1931,7 @@ p, .btns, .container-projects, .content-cell {
   top: 4px;
 }
 .container-mac-navBar li:nth-child(7) span {
-  background-image: url(../img/mac-perfil/carpeta-mac.png);
+  background-image: url(../img/mac-perfil/carpeta-mac.webp);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -2029,7 +1947,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .container-mac-navBar li:last-child span {
-  background-image: url(../img/mac-perfil/papelera.png);
+  background-image: url(../img/mac-perfil/papelera.webp);
   background-size: cover;
 }
 
@@ -2165,12 +2083,6 @@ p, .btns, .container-projects, .content-cell {
   
   opacity: 0;
 }
-
-/* .intection-mac li span.ekist {
-  position: relative;
-  top: 3px;
-  color: yellow;
-} */
 
 .intection-mac li:nth-child(3) {
   rotate: 50deg;
@@ -2444,7 +2356,7 @@ p, .btns, .container-projects, .content-cell {
   
   width: 25px;
   height: 23px;
-  background-image: url(../img/mac-perfil/dico-duro.png);
+  background-image: url(../img/mac-perfil/dico-duro.webp);
   background-size: cover;
   
 }
@@ -2472,7 +2384,7 @@ p, .btns, .container-projects, .content-cell {
   margin-left: 5px;
   width: 25px;
   height: 23px;
-  background-image: url(../img/mac-perfil/dico-duro.png);
+  background-image: url(../img/mac-perfil/dico-duro.webp);
   background-size: cover;
 }
 
@@ -2863,7 +2775,6 @@ p, .btns, .container-projects, .content-cell {
   cursor: zoom-in;
 }
 
-
 .info-skills  span {
   color: #fdf27acc;
   font-size: 1.1rem;
@@ -2874,7 +2785,6 @@ p, .btns, .container-projects, .content-cell {
   width: 80px;
   height: 62px;
 }
-
 
 .info-skills-js {
   display:none;
@@ -2973,7 +2883,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-reactN .midu {
-  background-image: url(./Componentes/img/certificaciones/Midu.jpg);
+  background-image: url(./Componentes/img/certificaciones/Midu.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3005,7 +2915,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-Bost .bost {
-  background-image: url(./Componentes/img/certificaciones/freeCode.jpg);
+  background-image: url(./Componentes/img/certificaciones/freeCode.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3013,7 +2923,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-Tail .tail {
-  background-image: url(./Componentes/img/certificaciones/tube.jpg);
+  background-image: url(./Componentes/img/certificaciones/tube.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3021,7 +2931,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-GitHub .Moure {
-  background-image: url(./Componentes/img/certificaciones/Moure.jpg);
+  background-image: url(./Componentes/img/certificaciones/Moure.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3045,7 +2955,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-NextUI .tech  {
-  background-image: url(./Componentes/img/certificaciones/techViajero.jpg);
+  background-image: url(./Componentes/img/certificaciones/techViajero.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3053,7 +2963,7 @@ p, .btns, .container-projects, .content-cell {
 }
 
 .info-skills-NextUI .Ingenioteka  {
-  background-image: url(./Componentes/img/certificaciones/Ingenioteka.jpg);
+  background-image: url(./Componentes/img/certificaciones/Ingenioteka.webp);
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -3163,7 +3073,6 @@ p, .btns, .container-projects, .content-cell {
   }
 }
 
-
 /* ------------------- */
     /* MEDIA QUERY */
 /* ------------------- */
@@ -3194,11 +3103,9 @@ p, .btns, .container-projects, .content-cell {
   
   .projects {
     margin-top: -100px;
-    /* margin-bottom: 50px; */
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
-    /* padding-bottom: 50px; */
   } 
   
   .mac {

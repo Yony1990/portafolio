@@ -8,6 +8,7 @@ import cv from './img/cv/CV2.webp'
 import fondo_cell from './img/cell/fondo-cell-1.webp'
 import abaut from './img/cell/yo.webp'
 import indeed from './img/cell/indeed-2.webp'
+import BlurText from './BlurText';
 
 
 const handleAbout = () => {
@@ -65,6 +66,10 @@ const Principal = () => {
     const handleCV = () => {
         setCvAmpli(!cvAmpli)
     }
+
+    const handleAnimationComplete = () => {
+        // console.log('Animation completed!');
+    };
     
     
   return (
@@ -79,8 +84,18 @@ const Principal = () => {
 
                     <div className="animaIni">
 
-                      <span>Hola, mi nombre es <br /></span>
-                      <h1> Yonimiler Cárdenas</h1>
+                      
+                            <BlurText
+                            text="Hola, mi nombre es"
+                            delay={200}
+                            animateBy="words"
+                            direction="top"
+                            onAnimationComplete={handleAnimationComplete}
+                            className="text-2xl mb-8"
+                            /><br />
+                      
+                      
+                      <h1> Yonimiler Cárdenas </h1>
                       
 
                       <div className="text">
@@ -91,7 +106,16 @@ const Principal = () => {
                     </div>
             
                     <div className="parrafoPri">
-                      <p>Me encanta explorar diferentes lenguajes de programación. Cada día, busco nuevas herramientas y tecnologías que me ayuden a aprender y mejorar. Este campo es tan dinámico y creativo que siempre hay algo nuevo por descubrir. Siento que cada oportunidad me acerca más a mis metas. ¡La aventura nunca termina!</p>
+                        
+                            <BlurText
+                            text="Me encanta explorar diferentes lenguajes de programación. Cada día, busco nuevas herramientas y tecnologías que me ayuden a aprender y mejorar. Este campo es tan dinámico y creativo que siempre hay algo nuevo por descubrir. Siento que cada oportunidad me acerca más a mis metas. ¡La aventura nunca termina!"
+                            delay={100}
+                            animateBy="words"
+                            direction="top"
+                            onAnimationComplete={handleAnimationComplete}
+                            className="text-2xl mb-8"
+                            />
+                        
                     </div>
                     <div className="btns">
                         <a href="https://wa.me/59891771888">

@@ -105,9 +105,9 @@ const Projects = () => {
                 <ul>
                     
                     <li onClick={handleOpenExplore}><span></span></li>
-                    <li><a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><span><i className="bi bi-linkedin"></i></span></a></li>
-                    <li><a href="https://wa.me/59891771888"><span><i className="bi bi-whatsapp"></i></span></a></li>
-                    <li><a href="https://github.com/Yony1990"><span><i className="bi bi-github"></i></span></a></li>
+                    <li><a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><p>linkedin</p><span><i className="bi bi-linkedin"></i></span></a></li>
+                    <li><a href="https://wa.me/59891771888"><p>whatsapp</p><span><i className="bi bi-whatsapp"></i></span></a></li>
+                    <li><a href="https://github.com/Yony1990"><p>github</p><span><i className="bi bi-github"></i></span></a></li>
                     <li><span></span></li>
                     {/* <li><span></span></li> */}
                     <li><span><i className="bi bi-laptop"></i></span></li>

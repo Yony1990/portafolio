@@ -7,8 +7,8 @@ const ProjectsMedidaMobil = () => {
         <section className='project-container-mdMobil'>
             <div className="project-content-mdMobil">
                 <ul>
-                    <a href="https://yony1990.github.io/BIWEDEX/">
-                      <li>
+                    <li><a href="https://yony1990.github.io/BIWEDEX/">
+                      
                         <figure className='Biwedex-mobile'></figure>
                         <div className="content-descr">
                           
@@ -23,10 +23,10 @@ const ProjectsMedidaMobil = () => {
                           
                         </div>
                         
-                      </li>
-                    </a>
-                    <a href="">
-                      <li>
+                      
+                    </a></li>
+                    <li><a href="">
+                      
                         <figure className=''></figure>
                         <div className="content-descr">
                           
@@ -41,10 +41,10 @@ const ProjectsMedidaMobil = () => {
                           
                         </div>
                         
-                      </li>
-                    </a>
-                    <a href="">
-                      <li>
+                      
+                    </a></li>
+                    <li><a href="">
+                      
                         <figure className=''></figure>
                         <div className="content-descr">
                           
@@ -59,10 +59,10 @@ const ProjectsMedidaMobil = () => {
                           
                         </div>
                         
-                      </li>
-                    </a>
-                    <a href="">
-                      <li>
+                      
+                    </a></li>
+                    <li><a href="">
+                      
                         <figure className=''></figure>
                         <div className="content-descr">
                           
@@ -77,10 +77,10 @@ const ProjectsMedidaMobil = () => {
                           
                         </div>
                         
-                      </li>
-                    </a>
-                    <a href="https://yony1990.github.io/Game/">
-                      <li>
+                      
+                    </a></li>
+                    <li><a href="https://yony1990.github.io/Game/">
+                      
                         <figure className='mini-game'></figure>
                         <div className="content-descr">
                           
@@ -95,8 +95,8 @@ const ProjectsMedidaMobil = () => {
                           
                         </div>
                         
-                      </li>
-                    </a>
+                      
+                    </a></li>
                     
                 </ul>
             </div>
