@@ -1094,6 +1094,11 @@ p {
 .container-studen .container-carrera {
   font-size: .75rem;
   text-align: start;
+  margin-top: 20px;
+}
+
+.container-studen .anio {
+  color: #fdf27acc;
 }
 
 /* animation principal */

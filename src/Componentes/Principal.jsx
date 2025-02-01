@@ -257,7 +257,7 @@ const Principal = () => {
 
                             <h2>About me</h2>
 
-                            <article>&nbsp; &nbsp;Soy un desarrollador junior especializado en el frontend, con una sólida orientación hacia ReactjJS. Durante los últimos dos años, he adquirido experiencia significativa en este potente marco, lo que me ha permitido construir aplicaciones interactivas y eficientes. Además, tengo más de dos años de experiencia en lenguajes fundamentales como HTML, CSS y JavaScript, lo que me proporciona una base robusta para el desarrollo web.
+                            <article>&nbsp; &nbsp;Soy un desarrollador junior especializado en el frontend, con una sólida orientación hacia ReactJS. Durante los últimos dos años, he adquirido experiencia significativa en este potente marco, lo que me ha permitido construir aplicaciones interactivas y eficientes. Además, tengo más de dos años de experiencia en lenguajes fundamentales como HTML, CSS y JavaScript, lo que me proporciona una base robusta para el desarrollo web.
                             <br /><br />
                             &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Mi conocimiento en frameworks de diseño como Tailwind y Bootstrap me permite optimizar el rendimiento y la estética de las aplicaciones que desarrollo, asegurando una experiencia de usuario coherente y atractiva. Estoy comprometido con las mejores prácticas de desarrollo y constantemente busco actualizarme en nuevas tecnologías y tendencias del sector. Mi objetivo es contribuir al éxito de proyectos innovadores y colaborar eficazmente dentro de un equipo dinámico, donde pueda seguir aprendiendo y creciendo profesionalmente.</article>
 
