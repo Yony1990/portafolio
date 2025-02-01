@@ -17,18 +17,22 @@ body {
   overflow-x: hidden; 
   user-select: none;
 }
+
 .app::-webkit-scrollbar {
   width: 0px;
 }
+
 body::-webkit-scrollbar {
   width: 0px;
 }
+
 .app {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .app-content {
   z-index: 2;
   display: flex;
@@ -51,20 +55,29 @@ p {
 }
 
 .home-content .animaIni span {
-
-  color: #d0d0d0;
-  text-transform: uppercase;  
-  font-size: 2rem;
+  box-shadow: inset 0 0 2px #fdf27a40;
+  border-radius: 20px  20px 20px 20px;
+  padding: 0 10px 1px 10px;
+  color: #d0d0d09c;
+  font-size: 1.4rem;
   font-weight: 100;
   line-height: 1.3;
   font-family: 'Afacad Flux', sans-serif;
+  animation: blurrr 2s linear;
+}
+
+@keyframes blurrr {
+  0% {
+    filter: blur(12px);
+  }
+  100% {
+    filter: blur(0px);
+  }
 }
 
 .home-content h1 {
-
   font-weight: 300;
   font-size: 5.2rem;
-
   color: #fdf27a;
 }
 
@@ -76,9 +89,11 @@ p {
   font-size: 1.1rem;
   z-index: 10;
 }
+
 .logo1 {
   left: 3px;
 }
+
 .logo3 {
   left: -3px;
 }
@@ -93,7 +108,6 @@ p {
   z-index: -100;
   background-color: #e5e5f7;
   opacity: 0.9;
-
   background-color: hsla(209.7913674747243, 85%, 11%, 1);
   background-image: radial-gradient(circle at 87% 90%, hsla(20.526661592371173, 11%, 11%, 1) 0%, transparent 68.4918641207511%), radial-gradient(circle at 39% 88%, hsla(354.05607335707725, 33%, 19%, 1) 5.847953216374269%, transparent 78.61653873376679%), radial-gradient(circle at 92% 65%, hsla(0, 0%, 3%, 1) 5.847953216374269%, transparent 78.61653873376679%);
   background-blend-mode: normal, normal, normal;
@@ -147,7 +161,6 @@ p {
 }
 .menu:hover  {
   background-color: rgba(183, 183, 183, 0.451);
-  
 }
 .menu .arrow {
   color: #888888;
@@ -183,9 +196,11 @@ p {
   z-index: 100;
   animation: arrowA 1s infinite linear;
 }
+
 .menu:hover .arrow.active   {
   color: rgb(220, 142, 142);
 }
+
 @keyframes arrowA {
   0% {
     transform: translateX(-9px);
@@ -218,14 +233,14 @@ p {
   right: -280px;
   transition: all 1s;
   z-index: 90;
- 
 }
+
 .menux .content-user {
   display: flex;
   flex-direction: column;
-  
   align-items: center;
 }
+
 .menux .content-user .user {
   margin-top: 20px;
   width: 60px;
@@ -243,13 +258,16 @@ p {
   background-color: #6a6a6a;
   margin: 20px auto;
 }
+
 .menux.active {
   right: 15px;
   margin-left: -20px;
 }
+
 .menux i {
   margin-right: 10px;
 }
+
 .menux ul {
   z-index: 100;
   width: 90%;
@@ -257,9 +275,9 @@ p {
   border-radius: 20px;
   background-color: #5151513b;
 }
+
 .menux li {
   text-decoration: none;
-  
   width: 95%;
   gap: 10px;
   display: grid;
@@ -268,24 +286,28 @@ p {
   margin: 0px auto;
   text-align: start;
   cursor: pointer;
-
 }
+
 .menux .link {
   text-decoration: none;
   border-radius: 18px;
   padding: 15px 15px;
   transition: .2s all ease;
 }
+
 .menux .link.active {
   background-color: rgba(156, 201, 233, 0.089);
   color: #abc2fc;
 }
+
 .menux .link.active .bi {
   color: #abc2fc;
 }
+
 .menux .link.active:hover {
   background-color: rgba(156, 201, 233, 0.146);
 }
+
 .menux .link:hover {
   background-color: rgba(255, 255, 255, 0.048);
 }
@@ -296,23 +318,27 @@ p {
   border-radius: 20px;
   background-color: #5151513b;
 }
+
 .menux .trabajemos .spans{
   margin-bottom: 30px;
   text-align: center;
 }
+
 .menux .trabajemos span:nth-child(1) {
   font-size: 1rem;
-  
 }
+
 .menux .trabajemos .btnsTrab {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
 }
+
 .menux .trabajemos .btnsTrab a {
   text-decoration: none;
 }
+
 .menux .trabajemos .btnsTrab button{
   display: flex;
   background-color: rgba(183, 183, 183, 0.455);
@@ -325,10 +351,12 @@ p {
   align-items: center;
   transition: all .3s linear;
 }
+
 .menux .trabajemos .btnsTrab button:hover {
   background-color: rgba(156, 201, 233, 0.146);
   color: #abc2fc;
 }
+
 .menux .trabajemos .btnsTrab button:active {
   transform: translate(2px, 2px);
 }
@@ -352,7 +380,6 @@ p {
   margin: 0px 250px 0px 180px ;
   width: 780px;
   z-index: 10;
-
 }
 
 .home-content .text h2 {
@@ -360,14 +387,12 @@ p {
   margin-top: -55px;
   font-size: 3rem;
   font-weight: 100;
-
 }
 
 .home-content p {
   width: 90%;
   font-size: 1.3rem;
   margin: 2rem 0rem 0 0;
-
 }
 
 /* redes */
@@ -377,6 +402,7 @@ p {
   display: flex;
   gap: 20px;
 }
+
 .Btn {
   display: flex;
   align-items: center;
@@ -407,6 +433,7 @@ p {
   justify-content: center;
   margin-left: -7px;
 }
+
 .sign .bi{
   position: relative;
   top: 1px;
@@ -440,7 +467,6 @@ p {
 }
 
 /* individual */
-
 
 .btns .btn-Li {
   background-color: #ff7171e2;
@@ -487,6 +513,7 @@ p {
   z-index: 2;
   cursor: default;
 }
+
 .main-cell {
   width: 209px;
   height: 451px;
@@ -495,8 +522,8 @@ p {
   top: 9px;
   left: 173px;
   z-index: 1;
-  
 }
+
 .fondo-cell {
   position: absolute;
   display: flex;
@@ -507,6 +534,7 @@ p {
   z-index: -1;
   padding: 30px 15px 15px 15px ;
 }
+
 .fondo-cell .fondo_imgs {
   width: 100%;
   height: 100%;
@@ -516,6 +544,7 @@ p {
   margin-left: -15px;
   margin-top: -30px;
 }
+
 .opacar-fondo-cell {
   z-index: -1;
   position: absolute;
@@ -525,10 +554,12 @@ p {
   height: 100%;
   background-color: #2121211a;
 }
+
 .container-icons-main {
   display: flex;
   gap: 13px;
 }
+
 .container-icon-about {
   display: flex;
   flex-direction: column;
@@ -539,10 +570,12 @@ p {
   cursor: pointer;
   transition: .3s linear;
 }
+
 .container-icon-about:active {
   transform: translate(2px ,2px);
 
 }
+
 .container-icon-about:hover .icon-about {
   opacity: 1;
 }
@@ -566,11 +599,12 @@ p {
   cursor: pointer;
   transition: .3s linear;
   text-align: center;
-  
 }
+
 .container-icon-studios:active {
   transform: translate(2px ,2px);
 }
+
 .container-icon-studios .icon-studios {
   width: 35px;
   height: 35px;
@@ -598,11 +632,12 @@ p {
   cursor: pointer;
   transition: .3s linear;
   text-align: center;
-  
 }
+
 .container-icon-cv:active {
   transform: translate(2px ,2px);
 }
+
 .container-icon-cv .icon-cv {
   width: 35px;
   height: 35px;
@@ -621,6 +656,7 @@ p {
 .container-icon-cv:hover .icon-cv {
   background-color: rgb(42, 42, 163);
 }
+
 .container-icon-cv span {
   width: 38px;
   font-size: .6rem;
@@ -628,7 +664,6 @@ p {
 }
 
 .amplia-img-cv {
-  
   display: none; /* flex */
   justify-content: center;
   align-items: center;
@@ -642,9 +677,11 @@ p {
   backdrop-filter: blur(10px);
   animation: amplia 1s ease;
 }
+
 .amplia-img-cv.active  {
   display: flex;
 }
+
 @keyframes amplia {
   0% {
     opacity: 0;
@@ -657,7 +694,6 @@ p {
 .amplia-img-cv img {
   width: 500px;
   height: 685px;
-  
   object-fit: contain;
 }
 
@@ -668,6 +704,7 @@ p {
   align-items: center;
   justify-content: space-between;
 }
+
 .fondo-cell .container-contact i, .fondo-cell .container-contact .indeed  {
   cursor: pointer;
   width: 35px;
@@ -681,13 +718,16 @@ p {
   transition: .3s linear;
   object-fit: cover;
 }
+
 .fondo-cell .container-contact i:active {
   transform: translate(2px ,2px);
 }
+
 .fondo-cell .container-contact i.bi-linkedin {
   background-color: #475fff;
   padding-top: 2px;
 }
+
 .fondo-cell .container-contact i.bi-github {
   background-color: #1e1e1e;
   font-size: 1.45rem;
@@ -698,6 +738,7 @@ p {
   background-color: #00924b;
   font-size: 1.45rem;
 }
+
 .fondo-cell .container-contact a {
   text-decoration: none;
 }
@@ -711,6 +752,7 @@ p {
   opacity: .8;
   filter: grayscale(.7);
 }
+
 .widgget {
   cursor: pointer;
   position: absolute;
@@ -732,21 +774,19 @@ p {
 }
 
 .container-valu.active {
-
   margin-top: 27px;
-  
   display: grid;
   justify-content: center;
   z-index: 100;
-
 }
+
 .linea-Input {
   width: 70px;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.641);
   transition: .5s ease;
-  
 }
+
 .container-valu input {
   outline: none;
   width: 70px;
@@ -759,6 +799,7 @@ p {
   transition: .5s ease;
   animation: inputCity .5s linear;
 }
+
 .container-valu input::placeholder {
   color: rgb(255, 255, 255);
 }
@@ -775,13 +816,16 @@ p {
 .container-valu input {
   color: rgb(255, 255, 255);
 }
+
 .container-img-temp {
   display: flex;
   align-items: center;
 }
+
 .container-img-temp img {
   width: 50px;
 }
+
 .container-img-temp p {
   margin-top: 5px;
   font-size: 2rem;
@@ -800,6 +844,7 @@ p {
   position: relative;
   top: 2px;
 }
+
 .localidad span {
   font-size: .8rem;
   display: flex;
@@ -811,6 +856,7 @@ p {
   display: flex;
   justify-content: center;
 }
+
 .card-widgget-footer p {
   font-size: .7rem;
   text-align: center;
@@ -831,9 +877,11 @@ p {
   align-items: center;
   animation: about .15s linear;
 }
+
 .container-about.active {
   display: flex;
 }
+
 .back-container {
    position: sticky;
    padding-left: 20px;
@@ -842,22 +890,24 @@ p {
    top: -15px;
    margin-left: -18px;
    background-color: rgb(34, 34, 34);
-   width: 120%;
-   
-   z-index: 10;
-   
+   width: 120%; 
+   z-index: 10; 
 }
+
 .back {
   transition: .15s ease;
   cursor: pointer;
   width: 50px;
 }
+
 .back:hover {
   color: #fdf27acc;
 }
+
 .back:hover i {
   color: #fdf27acc;
 }
+
 @keyframes about {
   0% {
 
@@ -891,16 +941,18 @@ p {
 .container-about::-webkit-scrollbar {
   width: 4px;
 }
+
 .container-about::-webkit-scrollbar-track {
   cursor: pointer;
   margin-top: 60px;
 }
+
 .container-about::-webkit-scrollbar-thumb {
   cursor: pointer;
   background: #5b5b5b;
   border-radius: 100px;
-
 }
+
 .main-cell .photo-abaut {
   width: 100px;
   height: 100px;
@@ -912,6 +964,7 @@ p {
   transform: scaleX(-1);
   box-shadow: 0px 7px 10px black;
 }
+
 .main-cell h2 {
   text-align: center;
   color: #fdf27acc;
@@ -919,10 +972,12 @@ p {
   font-weight: 300;
   font-size: 1.2rem;
 }
+
 .main-cell article {
   font-size: .75rem;
   text-align: justify;
 }
+
 .circulo {
   position: relative;
   left: 5px;
@@ -934,24 +989,26 @@ p {
 }
 
 .barra-superior {
-
   display: flex;
   justify-content: space-between;
   font-size: .6rem;
   padding: 3px 3px;
 }
+
 .porciento  {
   display: flex;
   gap: 2px;
-  
 }
+
 .porciento .bi-battery-full {
   rotate: -90deg;
   font-size: .5rem;
 }
+
 .porciento div, .porciento i {
   color: #c2c2c2;
 }
+
 .hora  {
   position: relative;
   left: 2px;
@@ -959,12 +1016,13 @@ p {
   gap: 5px;
   color: #c2c2c2;
   font-size: .4rem;
-
 }
+
 .hora :nth-child(1) {
   font-size: .58rem;
   margin-top: -1px;
 }
+
 .hora i{
   margin-top: 1px;
 }
@@ -981,6 +1039,7 @@ p {
   display: none;
   animation: studen .15s linear;
 }
+
 @keyframes studen {
   0% {
     background-color: rgb(46, 46, 117);
@@ -1008,20 +1067,24 @@ p {
     transform: translateY(0px) translateX(0px);
   }
 }
+
 .container-studen .back-container {
   padding-left: 12px;
 }
+
 .container-studen.active {
   display: block;
 }
+
 .container-studen::-webkit-scrollbar {
   width: 4px;
-
 }
+
 .container-studen::-webkit-scrollbar-track {
   cursor: pointer;
   margin-top: 60px;
 }
+
 .container-studen::-webkit-scrollbar-thumb {
   cursor: pointer;
   background: #5b5b5b;
@@ -1032,7 +1095,6 @@ p {
   font-size: .75rem;
   text-align: start;
 }
-
 
 /* animation principal */
 
@@ -1065,18 +1127,15 @@ p {
       opacity: 0;
       transform: translateX(-40px);
   }
-
   50% {
       opacity: 0.01;
       transform: translateX(-20px);
   }
-
   100% {
       opacity: 1;
       transform: translateX(0px)
   }
 }
-
 
 .home-content .parrafoPri {
   animation: homeP 2s ease-out;
@@ -1087,12 +1146,10 @@ p {
       opacity: 0;
       transform: translateX(40px);
   }
-
   50% {
       opacity: 0.01;
       
   }
-
   100% {
       opacity: 1;
       transform: translateX(0px)
@@ -1102,28 +1159,28 @@ p {
 .home-content .btn-Li {
   animation: homeBTN 2s ease-out;
 }
+
 .home-content .btn-gh {
   animation: homeBTN 2.5s ease-out;
 }
+
 .home-content .btn-Di {
   animation: homeBTN 3s ease-out;
 }
+
 .home-content .btn-wha {
   animation: homeBTN 3.5s ease-out;
 }
-
 
 @keyframes homeBTN {
   0% {
       opacity: 0;
       
   }
-
   50% {
       opacity: 0.01;
       
   }
-
   100% {
       opacity: .8;
       
@@ -1156,7 +1213,6 @@ p {
 }
 
 .spinner-container {
-  
   width: 100vw;
   height: 100%;
   position: absolute;
@@ -1167,6 +1223,7 @@ p {
   animation: spiIn 3s ease;
   z-index: -1;
 }
+
 @keyframes spiIn {
   0% {
     opacity: .5;
@@ -1201,12 +1258,10 @@ p {
     transform: translateY(-10px);
    
   }
-  
   50% {
     transform: translateY(10px);
    
   }
-  
   100% {
     transform: translateY(-10px);
     
@@ -1291,10 +1346,12 @@ p {
 .project-content-mdMobil::-webkit-scrollbar {
   width: 4px;
 }
+
 .project-content-mdMobil::-webkit-scrollbar-track {
   cursor: pointer;
   margin: 40px;
 }
+
 .project-content-mdMobil::-webkit-scrollbar-thumb {
   cursor: pointer;
   background: #5b5b5b;
@@ -1317,7 +1374,6 @@ p {
   justify-content: center;
   padding-left: 5px;
   gap: 30%;
-  
   position: relative;
 }
 
@@ -1342,6 +1398,7 @@ p {
   height: 80px;
   border-radius: 5px;
 }
+
 .project-content-mdMobil figure.mini-game {
   background-image: url(./Componentes/img/projectsImg/miniGame.webp);
   background-color: #fbf6ffe0;
@@ -1384,7 +1441,6 @@ p {
   border-radius: 8px;
   font-size: 10px;
   text-align: center;
-
 }
 
 /* ------------------- */
@@ -1414,9 +1470,11 @@ p {
   z-index: 100;
   animation: mot .5s linear;
 }
+
 .container-projects.active {
   display: flex;
 }
+
 @keyframes mot {
   0% {
     opacity: 0;
@@ -1425,24 +1483,24 @@ p {
     opacity: 1;
   }
 }
+
 .backMotion {
   width: 100%;
   height: 100%;
   left: 0;
   position: absolute;
 }
+
 .content-projects {
   display: flex;
-  
   gap: 30px;
   width: 80%;
   margin: 0 auto;
   cursor: grab;
   z-index: 1;
-
 }
-.content-projects .anima-icons-motion {
 
+.content-projects .anima-icons-motion {
   position: relative;
   top: 120px;
   z-index: -10;
@@ -1453,6 +1511,7 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 .content-projects .anima-icons-motion .bi-arrow-left {
   color: #fdf27a;
   font-size: 1.5rem;
@@ -1479,8 +1538,8 @@ p {
   border-radius: 20px 20px;
   transition: all .5s linear;
   padding: 5px 5px 5px 5px;
-
 }
+
 .item:hover {
   scale: 1.1;
 }
@@ -1517,6 +1576,7 @@ p {
   opacity: .2;
   transition: all 1s ease;
 }
+
 .content-img-Proyect .img-game {
   background-image: url(./Componentes/img/projectsImg/miniGame.webp);
   background-size: cover;
@@ -1532,6 +1592,7 @@ p {
   opacity: .2;
   transition: all 1s ease;
 }
+
 .item:hover .content-img-Proyect figure {
   scale: 2;
   left: 190px;
@@ -1558,12 +1619,13 @@ p {
   font-size: 1rem;
   text-align: center;
 }
+
 .proyect-info article {
   font-size: .8rem;
   text-align: center;
 }
+
 .proyect-info .apg {
-  
   cursor: pointer;
   z-index: 2;
 }
@@ -1580,13 +1642,16 @@ p {
   background-color: rgba(183, 183, 183, 0.455);
   transition: all .3s linear;
 }
+
 .proyect-info button:hover {
   background-color: rgba(156, 201, 233, 0.298);
   color: #abc2fc;
 }
+
 .proyect-info button:active {
   transform: translate(2px, 2px);
 }
+
 .lenguajes-usadas {
   display: flex;
   flex-direction: column;
@@ -1594,16 +1659,17 @@ p {
   justify-content: center;
   gap: 10px;
   position: fixed;
-  
   width: 250px;
   height: 250px;
   padding-top: 108px;
   transition: all .2s linear;
 }
+
 .proyect-imgskills-grop-1, .proyect-imgskills-grop-2 {
    display: flex;
    gap: 20px;
 }
+
 .lenguajes-usadas figure{
    background-image: url(../img/skills/react.png);
    background-size: contain;
@@ -1617,7 +1683,7 @@ p {
 
 /* BIWEDEX */
 
- .project-1 .content-img-Proyect .img-Project{
+.project-1 .content-img-Proyect .img-Project{
   background-image: url(../img/projectsImg/Screens.png);
   background-size: cover;
   
@@ -1628,16 +1694,19 @@ p {
   width: 25px;
   height: 25px;
 }
+
 .lenguajes-usadas.pro-1 figure:nth-child(2) {
   background-image: url(../img/skills/css-1.webp);
   width: 25px;
   height: 25px;
 }
+
 .lenguajes-usadas.pro-1 figure:nth-child(3) {
   background-image: url(../img/skills/js.webp);
   width: 25px;
   height: 25px;
 }
+
 .lenguajes-usadas.pro-1 figure.grop-2-1 {
   background-image: url(../img/skills/github.png);
   width: 40px;
@@ -1657,6 +1726,7 @@ p {
   position: relative;
   left: 6%;
 }
+
 .mac .mac-img-content {
   position: absolute;
   width: 100%;
@@ -1664,6 +1734,7 @@ p {
   object-fit: contain;
   filter: drop-shadow(10px 10px 15px black);
 }
+
 .fondo-mac {
   position: relative;
   top: 28px;
@@ -1699,10 +1770,12 @@ p {
   cursor: pointer;
   justify-content: space-between;
 }
+
 .barra-L {
   display: flex;
   align-items: center;
 }
+
 .barra-L i {
   margin-right: 5px;
   font-size: .42rem;
@@ -1726,6 +1799,7 @@ p {
   height: 13px;
   transition: .2s all linear;
 }
+
 .barra-L li:hover {
   background-color: #ececec52;
   background-color: #cdcdcd1a;
@@ -1772,13 +1846,16 @@ p {
   transition: .15s all linear;
   overflow: hidden;
 }
+
 .projects nav ul li a {
   text-decoration: none;
 }
+
 .projects nav ul li a p {
   position: absolute;
   opacity: 0;
 }
+
 .projects nav ul li span {
   background-size: cover;
   border-radius: 11px;
@@ -1786,6 +1863,7 @@ p {
   height: 45px;
   transition: .2s all linear;
 }
+
 .projects nav ul li span:active {
   transform: translate(2px ,2px);
 }
@@ -1846,7 +1924,6 @@ p {
   transition: .2s all linear;
 }
 
-
 .projects nav ul li:has(+ li + li:hover) {
   padding: 0 15px 0 10px;
   scale: 1.4;
@@ -1864,8 +1941,8 @@ p {
   width: 1px;
   height: 45px;
   background-color: rgb(152, 152, 152);
-  
 }
+
 .projects nav ul li:nth-child(8):hover {
   top: 0px;
   scale: 1;
@@ -1879,6 +1956,7 @@ p {
   position: relative;
   left: 3px;
 }
+
 .container-mac-navBar li:nth-child(2) span {
   width: 41px;
   height: 41px;
@@ -1889,8 +1967,8 @@ p {
   font-size: 1.7rem;
   padding-top: 3px;
 }
-.container-mac-navBar li:nth-child(3) span {
 
+.container-mac-navBar li:nth-child(3) span {
   width: 41px;
   height: 41px;
   background-color: #00924b;
@@ -1899,10 +1977,9 @@ p {
   justify-content: center;
   font-size: 1.9rem;
   padding-top: 3px;
-  
 }
-.container-mac-navBar li:nth-child(4) span {
 
+.container-mac-navBar li:nth-child(4) span {
   width: 41px;
   height: 41px;
   background-color: #1e1e1e;
@@ -1912,10 +1989,12 @@ p {
   font-size: 1.9rem;
   padding-top: 3px;
 }
+
 .container-mac-navBar li:nth-child(5) span {
   background-image: url(../img/mac-perfil/music-apple.webp);
   background-size: cover;
 }
+
 .container-mac-navBar li:nth-child(6) span {
   background-image: url(../img/mac-perfil/carpeta-mac.webp);
   background-size: cover;
@@ -1925,11 +2004,13 @@ p {
   width: 42px;
   height: 42px;
 }
+
 .container-mac-navBar li:nth-child(6) span  i {
   font-size: 1.8rem;
   position: relative;
   top: 4px;
 }
+
 .container-mac-navBar li:nth-child(7) span {
   background-image: url(../img/mac-perfil/carpeta-mac.webp);
   background-size: cover;
@@ -1939,11 +2020,11 @@ p {
   width: 42px;
   height: 42px;
 }
+
 .container-mac-navBar li:nth-child(7) span  i {
   font-size: 1.5rem;
   position: relative;
   top: 4px;
-  
 }
 
 .container-mac-navBar li:last-child span {
@@ -1974,26 +2055,30 @@ p {
   overflow-y: hidden;
   overflow-x: hidden;
   scale: .73;
-  
 }
+
 .MuiPickersCalendarHeader-label  {
   color: rgb(28, 28, 28);
   font-size: 1.3rem;
 }
+
 .MuiDayCalendar-header span {
   color: rgb(123, 123, 123);
 }
+
 .MuiPickersCalendarHeader-labelContainer .MuiButtonBase-root svg {
   display: none;
 }
+
 .MuiPickersArrowSwitcher-root .MuiButtonBase-root svg path {
-  
   color: rgb(123, 123, 123);
   transition: all .2s linear;
 }
+
 .MuiPickersArrowSwitcher-root .MuiButtonBase-root svg:hover path {
   color: rgb(0, 0, 0);
 }
+
 .tapaDate {
   position: absolute;
   top: 30px;
@@ -2002,6 +2087,7 @@ p {
   height: 20px;
   z-index: 2;
 }
+
 /* EXPLORADOR 2 */
 
 .explorador-helps {
@@ -2018,11 +2104,13 @@ p {
   justify-content: space-between;
   cursor: pointer;
 }
+
 .explorador-helps.active {
   display: flex;
 }  
 
 /* EXPLORADOR */
+
 .explorador {
   width: 400px;
   height: 280px;
@@ -2037,6 +2125,7 @@ p {
   justify-content: space-between;
   cursor: pointer;
 }
+
 .explorador.active {
   display: flex;
 }
@@ -2049,7 +2138,6 @@ p {
 }
 
 .mostrador-mac-superior {
-
   width: 100%;
   height: 25px;
   display: flex;
@@ -2063,9 +2151,11 @@ p {
   width: min-content;
   height: min-content;
 }
+
 .intection-mac:hover span {
   opacity: 1;
 }
+
 .intection-mac li {
   cursor: pointer;
   list-style: none;
@@ -2076,11 +2166,10 @@ p {
   align-items: center;
   justify-content: center;
 }
+
 .intection-mac li span {
   color: black;
-
-  position: relative;
-  
+  position: relative; 
   opacity: 0;
 }
 
@@ -2088,15 +2177,15 @@ p {
   rotate: 50deg;
 }
 
-
 .intection-mac li span i {
   font-size: .18rem;
   color: black;
   position: absolute;
   top: -.8px;
   left: -2.8px;
-  
+ 
 }
+
 .intection-mac li span i:nth-child(2) {
   margin-left: 2.5px;
 }
@@ -2105,22 +2194,25 @@ p {
   top: -0.5px;
   font-size: 9px;
 }
-.intection-mac li:nth-child(2) span  {
 
+.intection-mac li:nth-child(2) span  {
   font-size: 14px;
   top: -1.5px;
-
 }
+
 .intection-mac li:nth-child(3) span {
   display: flex;
   top: -1px;
 }
+
 .intection-mac  li:nth-child(1) {
   background-color: red;
 }
+
 .intection-mac  li:nth-child(2) {
   background-color: rgb(246, 147, 0);
 }
+
 .intection-mac  li:nth-child(3) {
   background-color: rgb(1, 179, 1);
 }
@@ -2128,12 +2220,15 @@ p {
 .li-items-web {
   display: none;
 }
+
 .li-items-web.active {
   display: block;
 }
+
 .li-items-mobil {
   display: none;
 }
+
 .li-items-mobil.active {
   display: block;
 }
@@ -2144,21 +2239,26 @@ p {
   gap: 5px;
   padding: 0 5px;
 }
+
 .next-back-mac.active {
   display: flex;
 } 
+
 .next-back-mac div {
   font-family: monospace;
   font-size: .7rem;
   color: rgb(115, 115, 115);
   height: max-content;
 }
+
 .next-back-mac div:hover {
   color: black;
 }
+
 .project-mac  {
   padding: 0;
 }
+
 .project-mac span {
   font-size: .5rem;
   color: rgb(99, 99, 99);
@@ -2167,6 +2267,7 @@ p {
   left: 8px;
   letter-spacing: .5px;
 }
+
 .desktop {
   padding: 1px;
   padding-left: 3px;
@@ -2178,15 +2279,18 @@ p {
   align-items: center;
   position: relative;
 }
+
 .desktop:hover {
   background-color: #c8c8c8b5;
 }
+
 .desktop  span {
   color: rgb(26, 26, 26);
   font-size: .65rem;
   position: relative;
   bottom: 0px;
 }
+
 .desktop i {
   margin-right: 3px;
   margin-left: 1px;
@@ -2195,11 +2299,13 @@ p {
   rotate: -90deg;
   position: absolute;
 }
+
 .desktop i.active {
   rotate: 0deg;
   bottom: 2px;
   margin-left: 0px;
 }
+
 .project-mac ul {
   display: none;
   padding: 0 5px;
@@ -2207,17 +2313,21 @@ p {
   bottom: 10px;
   margin-left: 10px;
 }
+
 .project-mac ul.active  {
   display: block;
 }
+
 .project-mac ul li:hover {
   background-color: #c8c8c8b5;
 }
+
 .project-mac ul li.li-items-web:hover, 
 .project-mac ul li.li-items-mobil:hover
 {
   background-color: #c2131300;
 }
+
 .project-mac ul li {
   padding: 1px;
   padding-left: 3px;
@@ -2228,14 +2338,17 @@ p {
   font-size: .65rem;
   position: relative;
 }
+
 .project-mac .bi-laptop, .project-mac .bi-phone {
    margin-right: 5px;
    margin-left: 9px;
 }
+
 .project-mac ul li i {
   font-size: .6rem;
   color: #475fff;
 }
+
 .project-mac ul li .bi-caret-down-fill {
   font-size: .4rem;
   color: #a4a4a4;
@@ -2249,8 +2362,8 @@ p {
   left: 1px;
   top: 11px;
   transform: rotate(-90deg);
-  
 }
+
 .project-mac ul li .fill-15.active {
   rotate: 90deg;
   top: 4px;
@@ -2343,22 +2456,18 @@ p {
   border-radius: 3px;
   display: flex;
   align-items: center;
-  padding: 5px;
-  
+  padding: 5px; 
 }
 
 .explo-mac-content  .explo-mac-proyects div:hover span{
   color: rgb(116, 116, 116);
 }
 
-
 .proyectos-web div {
-  
   width: 25px;
   height: 23px;
   background-image: url(../img/mac-perfil/dico-duro.webp);
   background-size: cover;
-  
 }
 
 .proyectos-web span {
@@ -2366,7 +2475,6 @@ p {
   font-weight: 500;
   margin-left: 5px;
   color: rgb(26, 26, 26);
-
 }
 
 .proyectos-mobil {
@@ -2374,7 +2482,6 @@ p {
 }
 
 .proyectos-mobil i {
-  
   position: absolute;
   font-size: .4rem;
   color: #a4a4a4;
@@ -2410,10 +2517,12 @@ p {
 .explo-mac-lateral::-webkit-scrollbar {
   width: 4px;
 }
+
 .explo-mac-lateral::-webkit-scrollbar-track {
   cursor: pointer;
   margin: 1px;
 }
+
 .explo-mac-lateral::-webkit-scrollbar-thumb {
   cursor: pointer;
   background: #5b5b5b;
@@ -3196,6 +3305,7 @@ p {
     position: relative;
     top: -50px;
   }
+
   .spinner-container {
 
     top: 30vh;
@@ -3270,6 +3380,16 @@ p {
 }
 
 @media (max-width: 550px) {
+
+  .home-content .animaIni span {
+    font-size: .9rem;
+  }
+
+  .home-content h1 {
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
   .spinner-box  {
     animation-play-state: paused;
   }

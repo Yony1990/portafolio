@@ -85,14 +85,15 @@ const Principal = () => {
                     <div className="animaIni">
 
                       
-                            <BlurText
+                            {/* <BlurText
                             text="Hola, mi nombre es"
                             delay={200}
                             animateBy="words"
                             direction="top"
                             onAnimationComplete={handleAnimationComplete}
-                            className="text-2xl mb-8"
-                            /><br />
+                            className="saludo-text"
+                            /> */}
+                            <span>Hola, soy</span>
                       
                       
                       <h1> Yonimiler Cárdenas </h1>
@@ -100,7 +101,7 @@ const Principal = () => {
 
                       <div className="text">
                           <h2><br />
-                            Soy Programador Frontend jr. en React JS
+                            Programador Frontend en React JS
                           </h2>
                       </div>
                     </div>
