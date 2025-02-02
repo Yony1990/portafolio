@@ -1,4 +1,7 @@
 import React from 'react'
+import biwedexImg from './img/projectsImg/BIWEDEX-img.webp';
+import game from './img/projectsImg/miniGame.webp';
+import yo from './img/cell/yo.webp';
 
 const ProjectsMedidaMobil = () => {
   return (
@@ -8,8 +11,8 @@ const ProjectsMedidaMobil = () => {
             <div className="project-content-mdMobil">
                 <ul>
                     <li><a href="https://yony1990.github.io/BIWEDEX/">
-                      
-                        <figure className='Biwedex-mobile'></figure>
+
+                        <img className='Biwedex-mobile' src={biwedexImg} alt="img-biwedex" />
                         <div className="content-descr">
                           
                           <article>BIWEDEX</article>
@@ -27,7 +30,7 @@ const ProjectsMedidaMobil = () => {
                     </a></li>
                     <li><a href="">
                       
-                        <figure className=''></figure>
+                        <img src={yo} alt="img-yo" />
                         <div className="content-descr">
                           
                           <article>Progress</article>
@@ -44,8 +47,8 @@ const ProjectsMedidaMobil = () => {
                       
                     </a></li>
                     <li><a href="">
-                      
-                        <figure className=''></figure>
+
+                        <img src={yo} alt="img-yo" />
                         <div className="content-descr">
                           
                           <article>Progress</article>
@@ -62,8 +65,8 @@ const ProjectsMedidaMobil = () => {
                       
                     </a></li>
                     <li><a href="">
-                      
-                        <figure className=''></figure>
+
+                        <img src={yo} alt="img-yo" />
                         <div className="content-descr">
                           
                           <article>Progress</article>
@@ -80,8 +83,8 @@ const ProjectsMedidaMobil = () => {
                       
                     </a></li>
                     <li><a href="https://yony1990.github.io/Game/">
-                      
-                        <figure className='mini-game'></figure>
+
+                        <img className='mini-game' src={game} alt="img-game" />
                         <div className="content-descr">
                           
                           <article>Game</article>

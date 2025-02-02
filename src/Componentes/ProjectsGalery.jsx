@@ -79,7 +79,7 @@ const ProjectsGalery = () => {
               <motion.div className="item ">
                 <div className="project-1 junt"></div>
                 <div className="content-img-Proyect">
-                  {/* <figure className='img-Project'></figure> */}
+                 
                 </div>
                 
                 <div className="proyect-info">
@@ -107,7 +107,7 @@ const ProjectsGalery = () => {
               <motion.div className="item ">
                 <div className="project-1 junt"></div>
                 <div className="content-img-Proyect">
-                  {/* <figure className='img-Project'></figure> */}
+                  
                 </div>
                 
                 <div className="proyect-info">

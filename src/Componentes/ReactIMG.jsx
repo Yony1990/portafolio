@@ -3,7 +3,7 @@ import snpinnerReact from './img/spinner/rrrr.webp';
 
 function ReactIMG() {
     return (
-        // <div className="raro">
+ 
         <section className='spinner-container'>
             <div className="spinner-box">
                 <div className="blue-orbit leo">
@@ -15,11 +15,11 @@ function ReactIMG() {
                 <div className="red-orbit leo">
                 </div>
                 
-                {/* <div className="imgReactAnima"></div> */}
+               
                 <img className="imgReactAnima" src={snpinnerReact} alt="img-react" />
             </div>
         </section>
-        // </div>
+   
     );
 }
 

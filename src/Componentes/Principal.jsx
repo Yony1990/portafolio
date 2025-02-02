@@ -4,10 +4,10 @@ import { studen } from '../helps/studen'
 import { valueWidget } from '../helps/valueWidget';
 import DigitalClock from './DigitalClock';
 import Icons from './Icons';
-import cv from './img/cv/CV2.webp'
-import fondo_cell from './img/cell/fondo-cell-1.webp'
+import cv from './img/cv/CV2_pequeno.webp'
+import fondo_cell from './img/cell/fondo-cell-1_11zon.webp'
 import abaut from './img/cell/yo.webp'
-import indeed from './img/cell/indeed-2.webp'
+import indeed from './img/cell/indeed-2-co.webp'
 import BlurText from './BlurText';
 
 
@@ -75,7 +75,7 @@ const Principal = () => {
   return (
     <section id='principal'>
 
-            {/* <div onClick={handleCV} className={cvAmpli ? "amplia-img-cv active" : "amplia-img-cv"}><figure></figure></div> */}
+            
             <div onClick={handleCV} className={cvAmpli ? "amplia-img-cv active" : "amplia-img-cv"}><img src={cv} alt="cv-img" /></div>
 
             <div className="home-container">
@@ -84,15 +84,6 @@ const Principal = () => {
 
                     <div className="animaIni">
 
-                      
-                            {/* <BlurText
-                            text="Hola, mi nombre es"
-                            delay={200}
-                            animateBy="words"
-                            direction="top"
-                            onAnimationComplete={handleAnimationComplete}
-                            className="saludo-text"
-                            /> */}
                             <span>Hola, soy</span>
                       
                       

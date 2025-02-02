@@ -1382,7 +1382,7 @@ p {
   position: relative;
 }
 
-.project-content-mdMobil figure {
+.project-content-mdMobil img {
   position: absolute;
   left: 20px;
   bottom: 10px;
@@ -1391,26 +1391,23 @@ p {
   height: 80px;
   border-radius: 5px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.454);
-  background-image: url(./Componentes/img/cell/Yo.webp);
-  background-size: cover;
+  object-fit: cover;
 }
 
-.project-content-mdMobil figure.Biwedex-mobile {
-  background-image: url(./Componentes/img/projectsImg/BIWEDEX-img.webp);
-  background-color: #fbf6ffe0;
+.project-content-mdMobil img.Biwedex-mobile {
   background-position: center;
   width: 120px;
   height: 80px;
   border-radius: 5px;
+  object-fit: cover;
 }
 
-.project-content-mdMobil figure.mini-game {
-  background-image: url(./Componentes/img/projectsImg/miniGame.webp);
-  background-color: #fbf6ffe0;
+.project-content-mdMobil img.mini-game {
   background-position: center;
   width: 120px;
   height: 80px;
   border-radius: 5px;
+  object-fit: cover;
 }
 
 .project-content-mdMobil a {
@@ -2739,13 +2736,13 @@ p {
   scale: 1.1;
 }
 .projects-R .react {
-  background-image: url(../img/skills/react.png);
+  background-image: url(../img/skills/react.webp);
   background-size: cover;
   scale: 1.1;
 }
 
 .projects-R .reactN {
-  background-image: url(../img/skills/react.png);
+  background-image: url(../img/skills/react.webp);
   background-size: cover;
   scale: 1.1;
 }
@@ -2766,7 +2763,7 @@ p {
 }
 
 .projects-R .github {
-  background-image: url(../img/skills/github-1.png);
+  background-image: url(../img/skills/github-1.webp);
   background-size: cover;
 }
 

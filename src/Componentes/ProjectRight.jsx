@@ -462,7 +462,7 @@ const ProjectRight = () => {
                         <div className={infoHtml ? 'info-skills-html' : 'info-skills-html active'}>
                             <span>HTML</span>
                             <section className='img-and-content'>
-                                {/* <figure onClick={handleImgHtml}></figure> */}
+                               
                                 <img onClick={handleImgHtml} src={htmlCert} alt="img" />
                                 <article><i className="bi bi-check2-all"></i> Certificación en Desarrollo Web HTML. </article>
                             </section>
@@ -471,7 +471,7 @@ const ProjectRight = () => {
                         <div className={infoCss ? 'info-skills-css' : 'info-skills-css active'}>
                             <span>CSS</span>
                             <section className='img-and-content'>
-                                {/* <figure onClick={handleImgCss}></figure> */}
+                               
                                 <img onClick={handleImgCss} src={maquet} alt="img" />
                                 <article><i className="bi bi-check2-all"></i> Certificación en Maquetador Web Avanzado. </article>
                             </section>
@@ -490,7 +490,7 @@ const ProjectRight = () => {
                         <div className={infoJs ? 'info-skills-js' : 'info-skills-js active'}>
                             <span>JavaScript</span>
                             <section className='img-and-content'>
-                                {/* <figure onClick={handleImgJs}></figure> */}
+                               
                                 <img onClick={handleImgJs} src={jsCert} alt="img" />
                                 <article><i className="bi bi-check2-all"></i> Certificación en JavaScript desde cero. </article>
                             </section>
