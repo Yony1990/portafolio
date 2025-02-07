@@ -1,0 +1,199 @@
+.card {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 15px 20px 15px;
+}
+
+.card .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card .nav i {
+    font-size: 1.1rem;
+}
+
+.card .nav .span-glass {
+    background: #ffffff12;
+    backdrop-filter: blur(2px);
+    padding: 0px 10px;
+    border-radius: 50px;
+    font-size: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* img */
+
+.card .img {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card .img img {
+    /* width: 200px;
+    height: 200px; */
+    width: 100%;
+    height: 85%;
+    object-fit: cover;
+    /* border-radius: 50%; */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.442) ;
+    /* animation: rotate 20s linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused; */
+    user-select: none;
+    z-index: 2;
+}
+
+.card .img img.blur-img {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 85%;
+    filter: blur(12px) brightness(.2);
+    opacity: .7;
+}
+
+.card .img img.playing {
+    animation-play-state: running;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* detail */
+
+.card .details {
+
+    width: 100%;
+    text-align: center;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+
+.card .details .title{
+    font-size: .7rem;
+}
+
+.card .details .artist{
+    color: #bbb;
+    font-size: .5rem;
+    margin-top: -15px;
+}
+
+/* progres */
+
+.card .progress {
+    margin-top: 0px;
+}
+
+.card .progress input {
+    width: 100%;
+    height: 4px;
+    cursor: grab;
+}
+
+
+/* timer */
+
+.card .timer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.5rem;
+    color: #bbb;
+}
+
+/* controls */
+ 
+.card .controls {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.card .controls #prev,
+.card .controls #next {
+    font-size: 1.5rem;
+}
+
+.card .controls .repeatIcon, .card .controls .volumeIcon {
+    font-size: 1rem;
+}
+
+.card .controls .play {
+    width: 2rem;
+    height: 2rem;
+    background: linear-gradient(#be99ce5a 0%, #ad99c662 100% );
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.card .controls .play::before {
+    content: "";
+    position: absolute;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: inherit;
+    background: linear-gradient(#fce2ff27, #5b466789 100% );
+}
+
+.card .controls .play i {
+    background-clip: text;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+}
+
+.card .controls .volume {
+    width: 90.5%;
+    height: 20px;
+    margin-left: 9px;
+    background: #ffffff12;
+    backdrop-filter: blur(2px);
+    position: absolute;
+    bottom: -20%;
+    left: 0;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    z-index: 5;
+    transition: bottom .2s linear;
+    gap: 8px;
+}
+
+.card .controls .volume .material-icons {
+    font-size: 1rem;
+}
+.card .controls .volume span {
+    font-size: .8rem;
+}
+
+.card .controls .volume.show {
+    bottom: 10px;
+}
+
+.card .controls .volume input {
+    width: 100%;
+    height: 4px;
+    cursor: grab;
+}
