@@ -71,6 +71,13 @@ const Projects = () => {
     setUlActiv(!ulActiv)
   }
 
+  const showProyectMacNav = (e) => {
+    setProyectsMac(true)
+    setDesktopI(!desktopI)
+    setUlActiv(false)
+    setOpen(false)
+  }
+
   const handleMusic = () => {
     setMusicReproduction(!musicReproduction)
     setOpen(true)
@@ -117,7 +124,7 @@ const Projects = () => {
                     <li><a href="https://github.com/Yony1990"><p>github</p><span><i className="bi bi-github"></i></span></a></li>
                     <li onClick={handleMusic}><span></span></li>
                     {/* <li><span></span></li> */}
-                    <li><span><i className="bi bi-laptop"></i></span></li>
+                    <li onClick={showProyectMacNav}><span><i className="bi bi-laptop"></i></span></li>
                     <li><span><i className="bi bi-phone"></i></span></li>
                     <li><div className='linea'></div></li>
                     
