@@ -2,10 +2,14 @@
 import { motion } from 'framer-motion'
 
 
-const ProjectsGalery = () => {
+const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}}) => {
    
+  const handleMusic = () => {
+    setMusicReproduction(true)
+    setOpen(true)
+    setMotioDisplay(true)
+  }
   
-
     return (
         <>
             
@@ -51,15 +55,15 @@ const ProjectsGalery = () => {
               <motion.div className="item ">
                 <div className="project-1 junt"></div>
                 <div className="content-img-Proyect">
-                  {/* <figure className='img-Project'></figure> */}
+                  <figure className='img-music'></figure>
                 </div>
                 
                 <div className="proyect-info">
-                    <span>Progress</span>
-                    <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
-                    <a className='apg' href="">
-                      <button>Open</button>
-                    </a>
+                    <span>MUSIC</span>
+                    <article>Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR. </article>
+                    
+                      <button onClick={handleMusic} >Open</button>
+                    
                     
                     <div className="lenguajes-usadas pro-1">
                       <div className="proyect-imgskills-grop-1">

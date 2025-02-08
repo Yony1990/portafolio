@@ -1,7 +1,7 @@
 
 .container {
     box-shadow: 5px 5px 20px rgba(5, 5, 5, 0.558);
-    border-radius: 25px;
+    border-radius: 20px;
     position: absolute;
     margin-top: 20px;
     margin-left: 320px;
@@ -49,7 +49,7 @@
 
 .main-music {
     width: 180px;
-    border-radius: 25px;  
+    border-radius: 20px;  
     overflow: hidden;
     position: relative;
     /* box-shadow: 8px 8px 40px rgba(72, 72, 72, 0.51); */

@@ -1,13 +1,16 @@
 import React from 'react'
 import biwedexImg from './img/projectsImg/BIWEDEX-img.webp';
 import game from './img/projectsImg/miniGame.webp';
+import music from './img/projectsImg/music.webp';
 import yo from './img/cell/yo.webp';
 
 const ProjectsMedidaMobil = () => {
   return (
     <>
+    
         <h3 className='project-mdMobil-h3'>Proyectos</h3>
         <section className='project-container-mdMobil'>
+            
             <div className="project-content-mdMobil">
                 <ul>
                     <li><a href="https://yony1990.github.io/BIWEDEX/">
@@ -28,14 +31,15 @@ const ProjectsMedidaMobil = () => {
                         
                       
                     </a></li>
-                    <li><a href="">
+                    <li><a href="https://yony1990.github.io/music/">
                       
-                        <img src={yo} alt="img-yo" />
+                        <img src={music} alt="img-yo" />
                         <div className="content-descr">
                           
-                          <article>Progress</article>
+                          <article>MUSIC</article>
 
                           <div className="content-language">
+                            <span className="language-html">React JS</span>
                             <span className="language-html">html</span>
                             <span className="language-css">css</span>
                             <span className="language-js">js</span>

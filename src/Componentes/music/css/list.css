@@ -64,20 +64,6 @@
 .listMusic ul::-webkit-scrollbar {
     width: 0px;
 }
-  
-/* .list ul::-webkit-scrollbar-track {
-    cursor: pointer;
-    margin-top: 0px;
-    margin-bottom: 20px;
-    background-color: rgba(93, 87, 103, 0.191);
-    border-radius: 100px;
-}
-  
-.listMusic ul::-webkit-scrollbar-thumb {
-    cursor: pointer;
-    background: rgba(137, 125, 154, 0.374);
-    border-radius: 100px;
-} */
 
 .listMusic ul li {
     border-radius: 15px;
@@ -93,7 +79,7 @@
 }
 
 .listMusic ul li:hover {
-    background: rgba(93, 87, 103, 0.191);
+    background: rgba(116, 117, 101, 0.09);
 }
 
 .listMusic ul li .row {
@@ -112,5 +98,5 @@
 }
 
 .listMusic ul li.playing {
-    background: rgba(137, 125, 154, 0.374);
+    background: rgba(116, 117, 101, 0.57);
 }

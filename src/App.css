@@ -1595,6 +1595,22 @@ p {
   transition: all 1s ease;
 }
 
+.content-img-Proyect .img-music {
+  background-image: url(./Componentes/img/projectsImg/Music.webp);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  transition: all 1s ease;
+}
+
 .item:hover .content-img-Proyect figure {
   scale: 2;
   left: 190px;
@@ -2130,6 +2146,7 @@ p {
   display: none;  /* FLEX */
   justify-content: space-between;
   cursor: pointer;
+  z-index: 11;
 }
 
 .explorador.active {
@@ -2624,7 +2641,7 @@ p {
   cursor: no-drop;
 }
 
-.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor, .explo-mac-content .proyects-web-indi ul li.Game-cursor {
+.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor, .explo-mac-content .proyects-web-indi ul li.Game-cursor, .explo-mac-content .proyects-web-indi ul li.Music-cursor {
   cursor: pointer;
 }
 

@@ -77,6 +77,7 @@ const Projects = () => {
   const handleMusic = () => {
     setMusicReproduction(!musicReproduction)
     setOpen(true)
+    
   }
   
 
@@ -172,7 +173,7 @@ const Projects = () => {
                     </li>
                     <div className={arrowToggleWeb ? "li-items-web" : "li-items-web active"}>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Biwedex</li>
-                        <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
+                        <li onClick={handleMusic} className='li-ITEM'><i className="bi bi-laptop"></i> Music</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
                         <li className='li-ITEM'><i className="bi bi-laptop"></i> Game</li>
@@ -246,12 +247,12 @@ const Projects = () => {
                         </li>
                       </a>
 
-                      <a href="">
-                        <li>
+                      
+                      <li onClick={handleMusic} className='Music-cursor'>
                           <i className="bi bi-file-earmark-break-fill"></i>
-                          <span>Progress</span>
-                        </li>
-                      </a>
+                          <span>Music</span>
+                      </li>
+                      
 
                       <a href="">
                         <li>
@@ -317,7 +318,7 @@ const Projects = () => {
           <motion.div className={motioDisplay ? "container-projects" : "container-projects active"}>
               
               <div onClick={motionOpen} className="backMotion"></div>
-              <ProjectsGalery />
+              <ProjectsGalery props={{setMusicReproduction, setOpen, setMotioDisplay}} />
               
           </motion.div>
 
@@ -326,7 +327,7 @@ const Projects = () => {
 
       {/* proyecto medida mobil */}
 
-      <ProjectsMedidaMobil/>
+      <ProjectsMedidaMobil />
 
       {/* PROYECTO DERECHA */}
 

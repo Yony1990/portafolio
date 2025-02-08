@@ -53,6 +53,7 @@
 }
 
 .card .img img.blur-img {
+
     position: absolute;
     z-index: 1;
     width: 100%;
@@ -136,13 +137,17 @@
 .card .controls .play {
     width: 2rem;
     height: 2rem;
-    background: linear-gradient(#be99ce5a 0%, #ad99c662 100% );
+    background: linear-gradient(#ffffff5a 0%, #ffffff62 100% );
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
-    
+    transition: all 1s ease;
+}
+
+.card .controls .play:hover {
+    background: linear-gradient(#be99ce5a 0%, #ad99c662 100% );
 }
 
 .card .controls .play::before {
@@ -151,7 +156,8 @@
     width: 2.4rem;
     height: 2.4rem;
     border-radius: inherit;
-    background: linear-gradient(#fce2ff27, #5b466789 100% );
+    background: linear-gradient(#ffffff27, #5b466789 100% );
+    transition: all 1s ease;
 }
 
 .card .controls .play i {
