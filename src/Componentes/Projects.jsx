@@ -24,7 +24,6 @@ const Projects = () => {
   const [desktopI, setDesktopI] = useState(true);
   const [ulActiv, setUlActiv] = useState(true);
 
-
   const [proyectsMac, setProyectsMac] = useState(false);
 
   // music
@@ -34,8 +33,6 @@ const Projects = () => {
   // motion
 
   const [motioDisplay, setMotioDisplay] = useState(true)
-
-
 
   const handleOpenWeb = () => {
     setArrowToggleWeb(!arrowToggleWeb)
@@ -80,9 +77,6 @@ const Projects = () => {
     
   }
   
-
-  
-
   return (
     
     <section id='projects' className='projects'>  
@@ -297,7 +291,11 @@ const Projects = () => {
 
                     <span>BIWEDEX: Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web.</span>
 
+                    <span>MUSIC: Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR.</span>
+
                     <span>GAME: Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES.</span>
+
+                    
 
                   </div>
                   

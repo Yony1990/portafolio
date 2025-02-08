@@ -669,7 +669,7 @@ p {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  z-index: 50;
+  z-index: 96;
   position: fixed;
   left: 0;
   top: 0;
@@ -1469,7 +1469,7 @@ p {
   backdrop-filter: blur(20px);
   position: absolute;
   top: 0;
-  z-index: 100;
+  z-index: 95;
   animation: mot .5s linear;
 }
 
@@ -1685,6 +1685,7 @@ p {
 
 .proyect-imgskills-grop-1, .proyect-imgskills-grop-2 {
    display: flex;
+   align-items: center;
    gap: 20px;
 }
 
@@ -1708,19 +1709,19 @@ p {
 }
 
 .lenguajes-usadas.pro-1 figure:nth-child(1) {
-  background-image: url(../img/skills/html-1.webp);
+  background-image: url(../img/skills/js.webp);
   width: 25px;
   height: 25px;
 }
 
 .lenguajes-usadas.pro-1 figure:nth-child(2) {
-  background-image: url(../img/skills/css-1.webp);
+  background-image: url(../img/skills/html-1.webp);
   width: 25px;
   height: 25px;
 }
 
 .lenguajes-usadas.pro-1 figure:nth-child(3) {
-  background-image: url(../img/skills/js.webp);
+  background-image: url(../img/skills/css-1.webp);
   width: 25px;
   height: 25px;
 }
@@ -1736,6 +1737,26 @@ p {
 
 /* igual a Biwedex */
 
+/* music icons skills */
+.musicSkills .lenguajes-usadas.pro-1 figure:nth-child(1) {
+  background-image: url(../img/skills/react.webp);
+  width: 25px;
+  height: 25px;
+}
+
+.musicSkills .lenguajes-usadas.pro-1 figure.grop-2-1 {
+  background-image: url(../img/skills/js.webp);
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(0 0 .5px white);
+}
+
+.musicSkills .lenguajes-usadas.pro-1 figure.grop-2-2 {
+  background-image: url(../img/skills/github.png);
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 0 .5px white);
+}
 /* mac */
 
 .mac {
@@ -2942,7 +2963,7 @@ p {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  z-index: 50;
+  z-index: 96;
   position: fixed;
   left: 0;
   top: 0;

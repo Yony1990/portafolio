@@ -58,13 +58,12 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                   <figure className='img-music'></figure>
                 </div>
                 
-                <div className="proyect-info">
+                <div className="proyect-info musicSkills">
                     <span>MUSIC</span>
                     <article>Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR. </article>
                     
                       <button onClick={handleMusic} >Open</button>
-                    
-                    
+
                     <div className="lenguajes-usadas pro-1">
                       <div className="proyect-imgskills-grop-1">
                         <figure></figure>
@@ -73,7 +72,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                       </div>
                       <div className="proyect-imgskills-grop-2">
                         <figure className='grop-2-1'></figure>
-                        
+                        <figure className='grop-2-2'></figure>
                       </div>
                     </div>
                 </div>
