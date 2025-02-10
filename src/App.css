@@ -2160,7 +2160,7 @@ p {
   background-color: rgba(241, 241, 241, 0.649);
   backdrop-filter: blur(10px);
   position: absolute;
-  padding: 2px;
+  padding: 2.5px 1.5px 2px 2px;
   top: 23px;
   left: 90px;
   border-radius: 7px;
@@ -2227,7 +2227,6 @@ p {
   position: absolute;
   top: -.8px;
   left: -2.8px;
- 
 }
 
 .intection-mac li span i:nth-child(2) {
@@ -2235,7 +2234,7 @@ p {
 }
 
 .intection-mac li:nth-child(1) span  {
-  top: -0.5px;
+  top: -1px;
   font-size: 9px;
 }
 
