@@ -8,7 +8,7 @@ import List from './List';
 const Music = ({ musicShow: {musicReproduction, setMusicReproduction} }) => {
     const [musicNumber, setMusicNumber] = useState(0)
     const [open, setOpen] = useState(false)
-  
+      
     return (
       <div className={musicReproduction ? "container" : "musicOut"}>
   

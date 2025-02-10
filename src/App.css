@@ -2160,14 +2160,14 @@ p {
   background-color: rgba(241, 241, 241, 0.649);
   backdrop-filter: blur(10px);
   position: absolute;
+  padding: 2px;
   top: 23px;
   left: 90px;
   border-radius: 7px;
-  padding: 2px;
   display: none;  /* FLEX */
   justify-content: space-between;
   cursor: pointer;
-  z-index: 11;
+  z-index: 10;
 }
 
 .explorador.active {

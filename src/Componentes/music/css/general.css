@@ -13,7 +13,6 @@
     display: none;
 }
 
-
 .shape {
     width: 250px;
     height: 250px;
@@ -54,6 +53,7 @@
     position: relative;
     /* box-shadow: 8px 8px 40px rgba(72, 72, 72, 0.51); */
     backdrop-filter: blur(3px);
+    cursor: pointer;
 }
 
 .main-music img.blur-img {
@@ -74,7 +74,6 @@ input[type="range"] {
     border-radius: 50px;
     
 }
-
 
 input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
