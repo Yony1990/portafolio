@@ -2,6 +2,7 @@ import React from 'react'
 import biwedexImg from './img/projectsImg/BIWEDEX-img.webp';
 import game from './img/projectsImg/miniGame.webp';
 import music from './img/projectsImg/music.webp';
+import progress from './img/projectsImg/progress.png';
 import yo from './img/cell/yo.webp';
 
 const ProjectsMedidaMobil = () => {
@@ -40,9 +41,10 @@ const ProjectsMedidaMobil = () => {
 
                           <div className="content-language">
                             <span className="language-html">React JS</span>
-                            <span className="language-html">html</span>
+                            
                             <span className="language-css">css</span>
                             <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
                             
                           </div>
                           
@@ -52,15 +54,15 @@ const ProjectsMedidaMobil = () => {
                     </a></li>
                     <li><a href="">
 
-                        <img src={yo} alt="img-yo" />
+                        <img src={progress} alt="img-yo" />
                         <div className="content-descr">
                           
                           <article>Progress</article>
 
                           <div className="content-language">
-                            <span className="language-html">html</span>
+                            {/* <span className="language-html">html</span>
                             <span className="language-css">css</span>
-                            <span className="language-js">js</span>
+                            <span className="language-js">js</span> */}
                             
                           </div>
                           
@@ -68,17 +70,18 @@ const ProjectsMedidaMobil = () => {
                         
                       
                     </a></li>
-                    <li><a href="">
+                    <li><a href="#">
 
                         <img src={yo} alt="img-yo" />
                         <div className="content-descr">
                           
-                          <article>Progress</article>
+                          <article>PORTFOLIO</article>
 
                           <div className="content-language">
-                            <span className="language-html">html</span>
+                            <span className="language-html">react js</span>
                             <span className="language-css">css</span>
                             <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
                             
                           </div>
                           
@@ -91,7 +94,7 @@ const ProjectsMedidaMobil = () => {
                         <img className='mini-game' src={game} alt="img-game" />
                         <div className="content-descr">
                           
-                          <article>Game</article>
+                          <article>GAME</article>
 
                           <div className="content-language">
                             <span className="language-html">html</span>

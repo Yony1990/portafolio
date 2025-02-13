@@ -1344,7 +1344,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 20px 30px;
+  padding: 0px 30px 20px 30px;
   overflow-x: hidden;
 }
 
@@ -1369,7 +1369,7 @@ p {
 
 .project-content-mdMobil ul li {
   list-style: none;
-  height: 70px;
+  height: 80px;
   width: 100%;
   background-color: rgba(85, 85, 85, 0.252);
   border-radius: 15px;
@@ -1385,29 +1385,18 @@ p {
 .project-content-mdMobil img {
   position: absolute;
   left: 20px;
-  bottom: 10px;
+  bottom: 14px;
   background-position: center;
   width: 120px;
   height: 80px;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.454);
   object-fit: cover;
 }
 
-.project-content-mdMobil img.Biwedex-mobile {
-  background-position: center;
-  width: 120px;
-  height: 80px;
-  border-radius: 5px;
-  object-fit: cover;
-}
-
-.project-content-mdMobil img.mini-game {
-  background-position: center;
-  width: 120px;
-  height: 80px;
-  border-radius: 5px;
-  object-fit: cover;
+.project-content-mdMobil ul li:nth-child(3) img {
+  padding: 0 20px;
+  background-color: #3a513c;
 }
 
 .project-content-mdMobil a {
@@ -1436,12 +1425,13 @@ p {
 }
 
 .project-content-mdMobil .content-descr .content-language span {
-  margin: 2px 5px 0px 5px;
+  margin: 0px 5px 2px 5px;
   background-color: #252525;
-  padding: 2px 6px 2px 6px;
+
+  padding: 1px 6px 1px 6px;
   text-transform: uppercase;
   border-radius: 8px;
-  font-size: 10px;
+  font-size: 9px;
   text-align: center;
 }
 
