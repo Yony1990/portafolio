@@ -1,6 +1,4 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
-
 
 * {
   margin: 0;
@@ -3349,7 +3347,14 @@ p {
 }
 
 @media (max-width: 850px) {
-   .mac {
+  .menu .arrow {
+    color: #76e395f6;
+  }
+  .menu .arrow.active {
+    color: rgb(220, 142, 142);
+  }
+  
+  .mac {
     display: none;
   }
   
@@ -3457,6 +3462,14 @@ p {
 }
 
 @media (max-width: 550px) {
+
+  .header {
+    padding: 0 3.6%;
+  }
+
+  .menux.active {
+    right: 5px;
+  }
 
   .home-content .animaIni span {
     font-size: .9rem;
