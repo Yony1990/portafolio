@@ -3347,6 +3347,10 @@ p {
 }
 
 @media (max-width: 850px) {
+  .header {
+    top: 0px;
+    padding: 0 3.6%;
+  }
   .menu .arrow {
     color: #76e395f6;
   }
@@ -3397,10 +3401,7 @@ p {
   .opacar.active {
     height: 200vh;
   }
-  .header {
-    top: 0px;
-    padding: 0 7%;
-  }
+  
   .content-cell {
     width: 405px;
     scale: .9;
@@ -3462,10 +3463,6 @@ p {
 }
 
 @media (max-width: 550px) {
-
-  .header {
-    padding: 0 3.6%;
-  }
 
   .menux.active {
     right: 5px;
