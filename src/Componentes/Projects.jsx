@@ -184,7 +184,7 @@ const Projects = () => {
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Biwedex</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Music</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
-                          <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
+                          <li className='li-ITEM'><i className="bi bi-laptop"></i> Portfolio</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Game</li>
                       </div>
                         
@@ -270,10 +270,10 @@ const Projects = () => {
                           </li>
                         </a>
 
-                        <a href="">
-                          <li>
+                        <a href="https://yony1990.github.io/portafolio/">
+                          <li className='Portfolio-cursor'>
                             <i className="bi bi-file-earmark-break-fill"></i>
-                            <span>Progress</span>
+                            <span>Portfolio</span>
                           </li>
                         </a>
 
@@ -309,6 +309,8 @@ const Projects = () => {
                       <span>MUSIC: Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR.</span>
 
                       <span>GAME: Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES.</span>
+
+                      <span>PORTFOLIO: Este proyecto es mi Portafólio donde muestro mis habilidades. Dentro pueden encontrar también manejos de APIs y Librerias NPM.</span>
 
                       
 

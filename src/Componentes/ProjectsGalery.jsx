@@ -60,7 +60,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                 
                 <div className="proyect-info musicSkills">
                     <span>MUSIC</span>
-                    <article>Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR. </article>
+                    <article>Este proyecto es un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR. </article>
                     
                       <button onClick={handleMusic} >Open</button>
 
@@ -82,7 +82,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
               <motion.div className="item ">
                 <div className="project-1 junt"></div>
                 <div className="content-img-Proyect">
-                 
+                  <figure className='img-progress'></figure>
                 </div>
                 
                 <div className="proyect-info">
@@ -110,25 +110,25 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
               <motion.div className="item ">
                 <div className="project-1 junt"></div>
                 <div className="content-img-Proyect">
-                  
+                  <figure className='img-portfolio'></figure>
                 </div>
                 
-                <div className="proyect-info">
-                    <span>Progress</span>
-                    <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
+                <div className="proyect-info musicSkills">
+                    <span>PORTFOLIO</span>
+                    <article>Este proyecto es mi Portafólio donde muestro mis habilidades. Dentro pueden encontrar también manejos de APIs y Librerias NPM. </article>
                     <a className='apg' href="">
                       <button>Open</button>
                     </a>
                     
                     <div className="lenguajes-usadas pro-1">
-                      <div className="proyect-imgskills-grop-1">
+                    <div className="proyect-imgskills-grop-1">
                         <figure></figure>
                         <figure></figure>
                         <figure></figure>
                       </div>
                       <div className="proyect-imgskills-grop-2">
                         <figure className='grop-2-1'></figure>
-                        
+                        <figure className='grop-2-2'></figure>
                       </div>
                     </div>
                 </div>
@@ -142,7 +142,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                 </div>
                 
                 <div className="proyect-info">
-                    <span>Game</span>
+                    <span>GAME</span>
                     <article>Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES. </article>
                     <a className='apg' href="">
                       <button>Open</button>

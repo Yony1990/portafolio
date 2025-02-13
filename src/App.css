@@ -1566,6 +1566,43 @@ p {
   rotate: -10deg;
   overflow: hidden;
   opacity: .2;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
+.content-img-Proyect .img-progress {
+  background-image: url(./Componentes/img/projectsImg/progress.png);
+  background-color: #00924b;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
+.content-img-Proyect .img-portfolio {
+  background-image: url(./Componentes/img/projectsImg/Portfolio-img.webp);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  border-radius: 5px;
   transition: all 1s ease;
 }
 
@@ -1582,6 +1619,7 @@ p {
   rotate: -10deg;
   overflow: hidden;
   opacity: .2;
+  border-radius: 5px;
   transition: all 1s ease;
 }
 
@@ -1598,6 +1636,7 @@ p {
   rotate: -10deg;
   overflow: hidden;
   opacity: .2;
+  border-radius: 5px;
   transition: all 1s ease;
 }
 
@@ -1747,6 +1786,11 @@ p {
   height: 40px;
   filter: drop-shadow(0 0 .5px white);
 }
+
+/* portfolio incons */
+
+
+
 /* mac */
 
 .mac {
@@ -2558,7 +2602,7 @@ p {
 
 .explo-mac-lateral::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background: #5b5b5b;
+  background: #656565a8;
   border-radius: 100px;
 }
 
@@ -2651,7 +2695,7 @@ p {
   cursor: no-drop;
 }
 
-.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor, .explo-mac-content .proyects-web-indi ul li.Game-cursor, .explo-mac-content .proyects-web-indi ul li.Music-cursor {
+.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor, .explo-mac-content .proyects-web-indi ul li.Game-cursor, .explo-mac-content .proyects-web-indi ul li.Music-cursor, .explo-mac-content .proyects-web-indi ul li.Portfolio-cursor {
   cursor: pointer;
 }
 
