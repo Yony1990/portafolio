@@ -308,11 +308,9 @@ const Projects = () => {
 
                       <span>MUSIC: Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR.</span>
 
-                      <span>GAME: Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES.</span>
-
                       <span>PORTFOLIO: Este proyecto es mi Portafólio donde muestro mis habilidades. Dentro pueden encontrar también manejos de APIs y Librerias NPM.</span>
 
-                      
+                      <span>GAME: Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES.</span>
 
                     </div>
                     
