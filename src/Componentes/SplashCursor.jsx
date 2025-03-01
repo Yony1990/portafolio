@@ -1189,7 +1189,7 @@ function SplashCursor ({
   ]);
 
   return (
-    <div
+    <div className='fluid-cursor'
       style={{
         position: 'fixed',
         top: 0,

@@ -3357,6 +3357,9 @@ p {
   .menu .arrow.active {
     color: rgb(220, 142, 142);
   }
+  .fluid-cursor {
+    display: none;
+  }
   
   .mac {
     display: none;
