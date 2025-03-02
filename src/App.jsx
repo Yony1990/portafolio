@@ -1,5 +1,6 @@
 
 import './App.css'
+import EfectoPC from './Componentes/EfectoPC'
 
 import Fondo from './Componentes/Fondo'
 import Header from './Componentes/Header'
@@ -14,12 +15,11 @@ import ReactIMG from './Componentes/ReactIMG'
 
 
 function App() {
-
   
-
   return (
     <main className='app'>
 
+      <EfectoPC/>
       <Header/>
       <MenuLateral/>
 
