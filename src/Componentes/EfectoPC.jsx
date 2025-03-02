@@ -13,7 +13,7 @@ const EfectoPC = () => {
     handleResize(); // Verificar el tamaño inicial
 
     return () => window.removeEventListener("resize", handleResize);
-  }, [!esMovil]);
+  }, [esMovil]);
 
   return !esMovil && <div><SplashCursor/></div>;
 };
