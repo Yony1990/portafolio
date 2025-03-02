@@ -8,7 +8,7 @@ import OpacaFondo from './Componentes/OpacaFondo'
 import Principal from './Componentes/Principal'
 import Projects from './Componentes/Projects'
 import ReactIMG from './Componentes/ReactIMG'
-import SplashCursor from './Componentes/SplashCursor'
+
 
 
 
@@ -18,7 +18,7 @@ function App() {
 
   return (
     <main className='app'>
-      <SplashCursor/>
+      
       <Header/>
       <MenuLateral/>
 
