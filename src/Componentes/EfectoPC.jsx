@@ -6,16 +6,16 @@ const EfectoPC = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setEsMovil(window.innerWidth < 768);
+      setEsMovil(window.innerWidth > 768);
     };
 
     window.addEventListener("resize", handleResize);
-    handleResize(); // Verificar el tamaño inicial
+    handleResize();
 
     return () => window.removeEventListener("resize", handleResize);
-  }, [esMovil]);
+  }, []);
 
-  return !esMovil && <div><SplashCursor/></div>;
+  return esMovil && <div><SplashCursor/></div>;
 };
 
-export default EfectoPC;
+export default EfectoPC;
