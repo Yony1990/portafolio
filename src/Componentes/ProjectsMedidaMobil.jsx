@@ -2,8 +2,9 @@ import React from 'react'
 import biwedexImg from './img/projectsImg/BIWEDEX-img.webp';
 import game from './img/projectsImg/miniGame.webp';
 import music from './img/projectsImg/music.webp';
-import progress from './img/projectsImg/progress.png';
+import ohana from './img/projectsImg/ohana.webp';
 import yo from './img/cell/yo.webp';
+
 
 const ProjectsMedidaMobil = () => {
   return (
@@ -54,15 +55,17 @@ const ProjectsMedidaMobil = () => {
                     </a></li>
                     <li><a href="">
 
-                        <img src={progress} alt="img-yo" />
+                        <img src={ohana} alt="img-yo" />
                         <div className="content-descr">
                           
-                          <article>Progress</article>
+                          <article>OHANA</article>
 
                           <div className="content-language">
-                            {/* <span className="language-html">html</span>
+                          <span className="language-html">React JS</span>
+                            
                             <span className="language-css">css</span>
-                            <span className="language-js">js</span> */}
+                            <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
                             
                           </div>
                           

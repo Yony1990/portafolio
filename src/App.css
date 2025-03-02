@@ -1392,11 +1392,6 @@ p {
   object-fit: cover;
 }
 
-.project-content-mdMobil ul li:nth-child(3) img {
-  padding: 0 20px;
-  background-color: #3a513c;
-}
-
 .project-content-mdMobil a {
   text-decoration: none;
   width: 100%;
@@ -1569,9 +1564,8 @@ p {
 }
 
 .content-img-Proyect .img-progress {
-  background-image: url(./Componentes/img/projectsImg/progress.png);
-  background-color: #00924b;
-  background-size: contain;
+  background-image: url(./Componentes/img/projectsImg/ohana.webp);
+  background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
   position: relative;
@@ -3386,6 +3380,15 @@ p {
   .project-mdMobil-h3 {
     display: block;
   }
+  .project-content-mdMobil .content-descr .content-language {
+    gap: 10px;
+
+  }
+  .project-content-mdMobil .content-descr .content-language span {
+    font-size: .7rem;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+  }
 }
 
 @media (max-width: 720px) {
@@ -3507,5 +3510,14 @@ p {
   .projects-R-col-1 article {
     font-size: 1rem;
     padding: 0 30px;
+  }
+  .project-content-mdMobil .content-descr .content-language {
+    gap: 0px;
+
+  }
+  .project-content-mdMobil .content-descr .content-language span {
+    font-size: .6rem;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
   }
 }

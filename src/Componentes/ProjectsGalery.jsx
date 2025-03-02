@@ -86,7 +86,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                 </div>
                 
                 <div className="proyect-info">
-                    <span>Progress</span>
+                    <span>OHANA IN Progress</span>
                     <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
                     <a className='apg' href="">
                       <button>Open</button>

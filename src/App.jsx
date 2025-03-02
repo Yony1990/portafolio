@@ -11,8 +11,6 @@ import ReactIMG from './Componentes/ReactIMG'
 import SplashCursor from './Componentes/SplashCursor'
 
 
-<SplashCursor />
-
 
 function App() {
 
