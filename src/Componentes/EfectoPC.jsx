@@ -6,7 +6,7 @@ const EfectoPC = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setEsMovil(window.innerWidth > 768);
+      setEsMovil(window.innerWidth > 840);
     };
 
     window.addEventListener("resize", handleResize);

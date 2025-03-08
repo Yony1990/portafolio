@@ -1782,6 +1782,21 @@ p {
   filter: drop-shadow(0 0 .5px white);
 }
 
+/* ohana */
+
+.ohana-card .lenguajes-usadas.pro-1 figure:nth-child(1) {
+  background-image: url(../img/skills/react.webp);
+  width: 25px;
+  height: 25px;
+}
+
+.ohana-card .lenguajes-usadas.pro-1 figure.grop-2-2 {
+  background-image: url(../img/skills/js.webp);
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(0 0 .5px white);
+}
+
 /* portfolio incons */
 
 

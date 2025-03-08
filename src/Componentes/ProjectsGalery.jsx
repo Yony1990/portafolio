@@ -85,10 +85,10 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                   <figure className='img-progress'></figure>
                 </div>
                 
-                <div className="proyect-info">
-                    <span>OHANA IN Progress</span>
+                <div className="proyect-info ohana-card">
+                    <span>OHANA</span>
                     <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
-                    <a className='apg' href="">
+                    <a className='apg' href="https://yony1990.github.io/OHANA/">
                       <button>Open</button>
                     </a>
                     
@@ -99,8 +99,9 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                         <figure></figure>
                       </div>
                       <div className="proyect-imgskills-grop-2">
-                        <figure className='grop-2-1'></figure>
                         
+                        <figure className='grop-2-2'></figure>
+                        <figure className='grop-2-1'></figure>
                       </div>
                     </div>
                 </div>

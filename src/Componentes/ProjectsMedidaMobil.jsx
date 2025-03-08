@@ -53,7 +53,7 @@ const ProjectsMedidaMobil = () => {
                         
                       
                     </a></li>
-                    <li><a href="">
+                    <li><a href="https://yony1990.github.io/OHANA/">
 
                         <img src={ohana} alt="img-yo" />
                         <div className="content-descr">
