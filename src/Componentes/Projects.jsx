@@ -183,7 +183,7 @@ const Projects = () => {
                       <div className={arrowToggleWeb ? "li-items-web" : "li-items-web active"}>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Biwedex</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Music</li>
-                          <li className='li-ITEM'><i className="bi bi-laptop"></i> Progress</li>
+                          <li className='li-ITEM'><i className="bi bi-laptop"></i> Ohana</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Portfolio</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Game</li>
                       </div>
@@ -263,10 +263,10 @@ const Projects = () => {
                         </li>
                         
 
-                        <a href="">
+                        <a href="https://yony1990.github.io/OHANA/">
                           <li>
                             <i className="bi bi-file-earmark-break-fill"></i>
-                            <span>Progress</span>
+                            <span>Ohana</span>
                           </li>
                         </a>
 
@@ -307,6 +307,8 @@ const Projects = () => {
                       <span>BIWEDEX: Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web.</span>
 
                       <span>MUSIC: Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR.</span>
+
+                      <span>OHANA: El proyectos es una Landing Page creada y diseñada para atraer a los usuarios de este sector de la Peluquería Canina.</span>
 
                       <span>PORTFOLIO: Este proyecto es mi Portafólio donde muestro mis habilidades. Dentro pueden encontrar también manejos de APIs y Librerias NPM.</span>
 

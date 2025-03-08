@@ -2703,10 +2703,6 @@ p {
   align-items: center;
   justify-content: start;
   gap: 5px;
-  cursor: no-drop;
-}
-
-.explo-mac-content .proyects-web-indi ul li.Biwedex-cursor, .explo-mac-content .proyects-web-indi ul li.Game-cursor, .explo-mac-content .proyects-web-indi ul li.Music-cursor, .explo-mac-content .proyects-web-indi ul li.Portfolio-cursor {
   cursor: pointer;
 }
 
