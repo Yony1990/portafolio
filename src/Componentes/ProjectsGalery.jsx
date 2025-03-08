@@ -87,7 +87,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                 
                 <div className="proyect-info ohana-card">
                     <span>OHANA</span>
-                    <article>El proyectos está en progreso que requieren tiempo y dedicación para alcanzar su máximo potencial. </article>
+                    <article>El proyectos es una Landing Page creada y diseñada para atraer a los usuarios de este sector de la Peluquería Canina. </article>
                     <a className='apg' href="https://yony1990.github.io/OHANA/">
                       <button>Open</button>
                     </a>
