@@ -30,6 +30,7 @@ const MenuLateral = () => {
                 className='link' 
                 onClick={handleMenu}
                 to = "principal"  
+                href='principal'
                 spy = { true }  
                 smooth = { true }  
                 offset = { 0 }  
@@ -40,6 +41,7 @@ const MenuLateral = () => {
                 className='link' 
                 onClick={handleMenu}
                 to='projects'
+                href='projects'
                 spy = { true }  
                 smooth = { true }  
                 offset = { 0 }  
