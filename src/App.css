@@ -1,9 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..700&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  display: swap;
   font-family: 'Afacad Flux', sans-serif;
   color: white;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -488,6 +490,7 @@ p {
   background-size: cover;
   filter: drop-shadow(10px 10px 15px black);
   z-index: 10;
+  opacity: 1;
   animation: cell 2s ease;
 }
 
@@ -3484,6 +3487,9 @@ p {
 }
 
 @media (max-width: 550px) {
+  .cell {
+    animation: 0s;
+  }
 
   .menux.active {
     right: 5px;
