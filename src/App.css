@@ -2244,15 +2244,13 @@ p {
   height: min-content;
 }
 
-.intection-mac:hover span {
-  opacity: 1;
-}
+
 
 .intection-mac li {
   cursor: pointer;
   list-style: none;
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -2263,37 +2261,54 @@ p {
   color: black;
   position: relative; 
   opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intection-mac span:hover {
+  opacity: 1;
 }
 
 .intection-mac li:nth-child(3) {
   rotate: 50deg;
+  position: relative;
+  gap: 10px;
 }
 
 .intection-mac li span i {
-  font-size: .18rem;
+  font-size: .30rem;
+  width: 0;
+  height: 0;
   color: black;
-  position: absolute;
-  top: -.8px;
-  left: -2.8px;
+  background-color: red;
+  position: relative;
+  top: -2.9px;
+  left: -2.5px;
+
+  /* top: -.8px;
+  left: -2.8px; */
 }
 
 .intection-mac li span i:nth-child(2) {
-  margin-left: 2.5px;
+  margin-left: 3px;
 }
 
 .intection-mac li:nth-child(1) span  {
   top: -1px;
-  font-size: 9px;
+  font-size: 11px;
+  font-weight: 500;
 }
 
 .intection-mac li:nth-child(2) span  {
-  font-size: 14px;
-  top: -1.5px;
+  font-size: 20px;
+  top: -2px;
+
 }
 
 .intection-mac li:nth-child(3) span {
   display: flex;
-  top: -1px;
+  /* top: -1px; */
 }
 
 .intection-mac  li:nth-child(1) {
