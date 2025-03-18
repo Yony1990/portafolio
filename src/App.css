@@ -3378,13 +3378,14 @@ p {
   }
   
   .project-content-mdMobil .content-descr {
-    width: 250px;
+    width: 350px;
     left: 15.5%;
     flex-direction:row ;
     align-items: center;
     justify-content: space-between;
     gap: 20%;
   }
+
   .project-content-mdMobil .content-descr article {
     font-size: 1.3rem;
   }
@@ -3402,6 +3403,7 @@ p {
     gap: 10px;
 
   }
+
   .project-content-mdMobil .content-descr .content-language span {
     font-size: .7rem;
     padding: 3px 10px 3px 10px;

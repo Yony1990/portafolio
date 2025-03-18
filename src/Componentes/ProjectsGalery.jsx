@@ -145,7 +145,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                 <div className="proyect-info">
                     <span>GAME</span>
                     <article>Este Juego está basado en la búsqueda del número correcto. Consta de 3 niveles y una pista dentro del juego. QUE LO DISFRUTES. </article>
-                    <a className='apg' href="">
+                    <a className='apg' href="https://yony1990.github.io/Game/">
                       <button>Open</button>
                     </a>
                     

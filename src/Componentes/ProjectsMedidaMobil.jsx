@@ -5,6 +5,11 @@ import music from './img/projectsImg/music.webp';
 import ohana from './img/projectsImg/ohana.webp';
 import yo from './img/cell/yo.webp';
 
+import repro from './img/projectsImg/cool/reproductor.webp';
+import porta from './img/projectsImg/cool/portafolio.webp';
+import game1 from './img/projectsImg/cool/game.webp';
+import biwe from './img/projectsImg/cool/biwedex.webp';
+import ohana1 from './img/projectsImg/cool/ohana.webp';
 
 const ProjectsMedidaMobil = () => {
   return (
@@ -17,7 +22,7 @@ const ProjectsMedidaMobil = () => {
                 <ul>
                     <li><a href="https://yony1990.github.io/BIWEDEX/">
 
-                        <img className='Biwedex-mobile' src={biwedexImg} alt="img-biwedex" />
+                        <img className='Biwedex-mobile' src={biwe} alt="img-biwedex" />
                         <div className="content-descr">
                           
                           <article>BIWEDEX</article>
@@ -35,7 +40,7 @@ const ProjectsMedidaMobil = () => {
                     </a></li>
                     <li><a href="https://yony1990.github.io/music/">
                       
-                        <img src={music} alt="img-yo" />
+                        <img src={repro} alt="img-yo" />
                         <div className="content-descr">
                           
                           <article>MUSIC</article>
@@ -55,7 +60,7 @@ const ProjectsMedidaMobil = () => {
                     </a></li>
                     <li><a href="https://yony1990.github.io/OHANA/">
 
-                        <img src={ohana} alt="img-yo" />
+                        <img src={ohana1} alt="img-yo" />
                         <div className="content-descr">
                           
                           <article>OHANA</article>
@@ -75,13 +80,14 @@ const ProjectsMedidaMobil = () => {
                     </a></li>
                     <li><a href="https://yony1990.github.io/portafolio/">
 
-                        <img src={yo} alt="img-yo" />
+                        <img src={porta} alt="img-yo" />
                         <div className="content-descr">
                           
                           <article>PORTFOLIO</article>
 
                           <div className="content-language">
-                            <span className="language-html">react js</span>
+                          
+                            <span className="language-html">React JS</span>    
                             <span className="language-css">css</span>
                             <span className="language-js">js</span>
                             <span className="language-js">npm</span>
@@ -94,7 +100,7 @@ const ProjectsMedidaMobil = () => {
                     </a></li>
                     <li><a href="https://yony1990.github.io/Game/">
 
-                        <img className='mini-game' src={game} alt="img-game" />
+                        <img className='mini-game' src={game1} alt="img-game" />
                         <div className="content-descr">
                           
                           <article>GAME</article>
