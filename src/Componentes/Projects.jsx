@@ -182,6 +182,7 @@ const Projects = () => {
                       </li>
                       <div className={arrowToggleWeb ? "li-items-web" : "li-items-web active"}>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Biwedex</li>
+                          <li className='li-ITEM'><i className="bi bi-laptop"></i> My Blog</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Music</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Ohana</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Portfolio</li>
@@ -217,7 +218,7 @@ const Projects = () => {
 
                   <div className={proyectsMac ? "proyect-number active" : "proyect-number"}>
                     <span>Proyectos Web</span>
-                    <span>5 articulo(s)</span>
+                    <span>6 articulo(s)</span>
                   </div>
                     
                 </section>
@@ -256,12 +257,17 @@ const Projects = () => {
                           </li>
                         </a>
 
+                        <a href="https://yony1990.github.io/BLOG-S-YONY/">
+                          <li className='Biwedex-cursor'>
+                            <i className="bi bi-file-earmark-break-fill"></i>
+                            <span>My Blog</span>
+                          </li>
+                        </a>
                         
                         <li onClick={handleMusicTrue} className='Music-cursor'>
                             <i className="bi bi-file-earmark-break-fill"></i>
                             <span>Music</span>
                         </li>
-                        
 
                         <a href="https://yony1990.github.io/OHANA/">
                           <li>
@@ -305,6 +311,8 @@ const Projects = () => {
                       <i className="bi bi-code-slash"></i>
 
                       <span>BIWEDEX: Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web.</span>
+
+                      <span>MY BLOG: Este proyecto es mi Blog donde se pueden ver las ultimas noticias del mundo y mis deas fomentando la interacción y el aprendizaje.</span>
 
                       <span>MUSIC: Este proyecto en un reproductor de Música Local que aloja una lista de mis canciones Favoritas. espero que puedan DISFRUTAR.</span>
 

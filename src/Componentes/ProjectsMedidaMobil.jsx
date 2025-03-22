@@ -1,10 +1,6 @@
 import React from 'react'
-import biwedexImg from './img/projectsImg/BIWEDEX-img.webp';
-import game from './img/projectsImg/miniGame.webp';
-import music from './img/projectsImg/music.webp';
-import ohana from './img/projectsImg/ohana.webp';
-import yo from './img/cell/yo.webp';
 
+import blog from './img/projectsImg/cool/blog.png';
 import repro from './img/projectsImg/cool/reproductor.webp';
 import porta from './img/projectsImg/cool/portafolio.webp';
 import game1 from './img/projectsImg/cool/game.webp';
@@ -31,6 +27,26 @@ const ProjectsMedidaMobil = () => {
                             <span className="language-html">html</span>
                             <span className="language-css">css</span>
                             <span className="language-js">js</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      
+                    </a></li>
+                    <li><a href="https://yony1990.github.io/BLOG-S-YONY/">
+                      
+                        <img src={blog} alt="img-yo" />
+                        <div className="content-descr">
+                          
+                          <article>MY BLOG</article>
+
+                          <div className="content-language">
+                            <span className="language-html">React JS</span>
+                            
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
                             
                           </div>
                           

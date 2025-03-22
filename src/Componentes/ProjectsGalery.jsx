@@ -55,6 +55,35 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
               <motion.div className="item ">
                 <div className="project-1 junt"></div>
                 <div className="content-img-Proyect">
+                  <figure className='img-blog'></figure>
+                </div>
+                
+                <div className="proyect-info musicSkills">
+                    <span>MY BLOG</span>
+                    <article>Este proyecto es mi Blog donde se pueden ver las ultimas noticias del mundo y mis deas fomentando la interacción y el aprendizaje. </article>
+                    
+                    <a className='apg' href="https://yony1990.github.io/BLOG-S-YONY/">
+                      <button>Open</button>
+                    </a>
+
+                    <div className="lenguajes-usadas pro-1">
+                      <div className="proyect-imgskills-grop-1">
+                        <figure></figure>
+                        <figure></figure>
+                        <figure></figure>
+                      </div>
+                      <div className="proyect-imgskills-grop-2">
+                        <figure className='grop-2-1'></figure>
+                        <figure className='grop-2-2'></figure>
+                      </div>
+                    </div>
+                </div>
+                
+              </motion.div>
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
                   <figure className='img-music'></figure>
                 </div>
                 

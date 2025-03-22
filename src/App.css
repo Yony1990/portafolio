@@ -1621,6 +1621,23 @@ p {
   transition: all 1s ease;
 }
 
+.content-img-Proyect .img-blog {
+  background-image: url(./Componentes/img/projectsImg/Blog.webp);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
 .content-img-Proyect .img-music {
   background-image: url(./Componentes/img/projectsImg/Music.webp);
   background-size: cover;
