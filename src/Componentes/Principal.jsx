@@ -67,9 +67,9 @@ const Principal = () => {
         setCvAmpli(!cvAmpli)
     }
 
-    const handleAnimationComplete = () => {
-        // console.log('Animation completed!');
-    };
+    // const handleAnimationComplete = () => {
+      
+    // };
     
     
   return (
@@ -100,12 +100,12 @@ const Principal = () => {
                     <div className="parrafoPri">
                         
                             <BlurText
-                            text="Me encanta explorar diferentes lenguajes de programación. Cada día, busco nuevas herramientas y tecnologías que me ayuden a aprender y mejorar. Este campo es tan dinámico y creativo que siempre hay algo nuevo por descubrir. Siento que cada oportunidad me acerca más a mis metas. ¡La aventura nunca termina!"
-                            delay={100}
-                            animateBy="words"
-                            direction="top"
-                            onAnimationComplete={handleAnimationComplete}
-                            className="text-2xl mb-8"
+                                text="Me encanta explorar diferentes lenguajes de programación. Cada día, busco nuevas herramientas y tecnologías que me ayuden a aprender y mejorar. Este campo es tan dinámico y creativo que siempre hay algo nuevo por descubrir. Siento que cada oportunidad me acerca más a mis metas. ¡La aventura nunca termina!"
+                                delay={100}
+                                animateBy="words"
+                                direction="top"
+                                // onAnimationComplete={handleAnimationComplete}
+                                className="text-2xl mb-8"
                             />
                         
                     </div>

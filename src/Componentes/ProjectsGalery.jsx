@@ -15,7 +15,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
             
           {/* MOTION */}
 
-          <motion.div className="content-projects" drag='x' dragConstraints={{right: 0, left: -2238.15 }}>
+          <motion.div className="content-projects" drag='x' dragConstraints={{right: 0, left: -2723.97 }}>
 
               <motion.div>
                 
