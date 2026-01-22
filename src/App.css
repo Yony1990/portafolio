@@ -108,7 +108,7 @@ p {
   background-size: cover;
   position: fixed;
   overflow: hidden;
-  z-index: -100;
+  /* z-index: 0; */
   background-color: #e5e5f7;
   opacity: 0.9;
   background-color: hsla(209.7913674747243, 85%, 11%, 1);
