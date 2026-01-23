@@ -4,7 +4,7 @@ import { studen } from '../helps/studen'
 import { valueWidget } from '../helps/valueWidget';
 import DigitalClock from './DigitalClock';
 import Icons from './Icons';
-import cv from './img/cv/cvYony.png'
+import cv from './img/cv/CVYONY.webp'
 import fondo_cell from './img/cell/fondo-cell-1_11zon.webp'
 import abaut from './img/cell/yo.webp'
 import indeed from './img/cell/indeed-2-co.webp'
