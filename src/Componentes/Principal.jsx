@@ -4,7 +4,7 @@ import { studen } from '../helps/studen'
 import { valueWidget } from '../helps/valueWidget';
 import DigitalClock from './DigitalClock';
 import Icons from './Icons';
-import cv from './img/cv/CV2_pequeno.webp'
+import cv from './img/cv/cvYony.png'
 import fondo_cell from './img/cell/fondo-cell-1_11zon.webp'
 import abaut from './img/cell/yo.webp'
 import indeed from './img/cell/indeed-2-co.webp'
@@ -100,7 +100,7 @@ const Principal = () => {
                     <div className="parrafoPri">
                         
                             <BlurText
-                                text="Me encanta explorar diferentes lenguajes de programación. Cada día, busco nuevas herramientas y tecnologías que me ayuden a aprender y mejorar. Este campo es tan dinámico y creativo que siempre hay algo nuevo por descubrir. Siento que cada oportunidad me acerca más a mis metas. ¡La aventura nunca termina!"
+                                text="Integra diseño y lógica de negocio como una arquitectura, convirtiendo ideas en soluciones digitales alineadas con objetivos reales. La actualización constante en herramientas y buenas prácticas sustenta cada proyecto con criterio técnico, solidez y una visión integral, garantizando resultados eficientes, escalables y sostenibles."
                                 delay={100}
                                 animateBy="words"
                                 direction="top"
@@ -248,9 +248,16 @@ const Principal = () => {
 
                             <h2>About me</h2>
 
-                            <article>&nbsp; &nbsp;Soy un desarrollador junior especializado en el frontend, con una sólida orientación hacia ReactJS. Durante los últimos dos años, he adquirido experiencia significativa en este potente marco, lo que me ha permitido construir aplicaciones interactivas y eficientes. Además, tengo más de dos años de experiencia en lenguajes fundamentales como HTML, CSS y JavaScript, lo que me proporciona una base robusta para el desarrollo web.
+                            <article>
+
+                            &nbsp; &nbsp;Desarrollador web especializado en frontend, con un enfoque sólido en ReactJS y en la creación de interfaces modernas, eficientes y orientadas a la experiencia del usuario. Cuenta con experiencia práctica en el desarrollo de aplicaciones interactivas, aplicando buenas prácticas de arquitectura, rendimiento y mantenibilidad.
                             <br /><br />
-                            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Mi conocimiento en frameworks de diseño como Tailwind y Bootstrap me permite optimizar el rendimiento y la estética de las aplicaciones que desarrollo, asegurando una experiencia de usuario coherente y atractiva. Estoy comprometido con las mejores prácticas de desarrollo y constantemente busco actualizarme en nuevas tecnologías y tendencias del sector. Mi objetivo es contribuir al éxito de proyectos innovadores y colaborar eficazmente dentro de un equipo dinámico, donde pueda seguir aprendiendo y creciendo profesionalmente.</article>
+
+                            &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;Posee un dominio consistente de tecnologías fundamentales como HTML, CSS y JavaScript, lo que le permite construir soluciones robustas y bien estructuradas. Su conocimiento en frameworks de diseño como Tailwind CSS y Bootstrap le permite optimizar tanto la estética como el rendimiento de las aplicaciones, garantizando una experiencia de usuario coherente y atractiva.<br /><br />
+
+                            &nbsp;&nbsp; &nbsp; &nbsp;Está comprometido con la mejora continua, el aprendizaje constante de nuevas tecnologías y la adopción de estándares modernos de desarrollo. Su objetivo es aportar valor en proyectos innovadores y colaborar eficazmente dentro de equipos dinámicos, contribuyendo al éxito del producto y al crecimiento profesional colectivo.
+
+                            </article>
 
                         </div>
 
@@ -267,9 +274,17 @@ const Principal = () => {
 
                             <div className="container-carrera">
                             
-                                <span><span className='anio'>2009</span> <br /> &nbsp; &nbsp; &nbsp;Graduado de Músico Profecional en los Instumentos Violín y Viola. Conservatorio de Música Jose White - Cuba.</span><br /><br />
+                 
 
-                                <span><span className='anio'>2023</span> <br /> &nbsp; &nbsp; &nbsp;En 2023, inicié mis estudios en programación, especializándome en desarrollo frontend. &nbsp;A lo largo de mi carrera, he adquirido habilidades fundamentales a través de una búsqueda exigente entre bootcamps y cursos en línea de alta calidad. Esta experiencia me ha permitido desarrollar técnicas y estrategias que son esenciales en el entorno profesional actual.</span>
+                                <span>
+                                <span className='anio'>
+                                2023</span> <br /> <br /> 
+                                &nbsp; &nbsp; &nbsp;En 2023 inició su formación en programación en Educación IT, orientando su carrera al desarrollo frontend. Durante este período adquirió una base sólida en los principios del desarrollo web moderno, combinando teoría y práctica para construir aplicaciones funcionales, escalables y alineadas con los estándares actuales de la industria.<br /><br /> 
+
+                                &nbsp; &nbsp;&nbsp;A lo largo de su proceso formativo, complementó su educación mediante una selección exigente de bootcamps y cursos en línea de alta calidad, lo que le permitió profundizar en tecnologías clave del ecosistema frontend. Esta formación continua le proporcionó herramientas para aplicar buenas prácticas de desarrollo, estructuración de proyectos, control de versiones y optimización del rendimiento, fortaleciendo su criterio técnico y su capacidad de resolución de problemas.<br /><br />  
+
+                                &nbsp; &nbsp; &nbsp;Además, incorporó conocimientos en desarrollo backend y gestión de bases de datos, trabajando con SQL y MongoDB. Esta experiencia le permitió comprender la comunicación entre frontend y backend, el manejo de datos, la lógica del servidor y la integración de APIs, aportándole una visión full stack que potencia la calidad y coherencia de las soluciones que desarrolla.
+                                </span>
                             
                             </div>
                         </div>

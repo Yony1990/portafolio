@@ -1098,8 +1098,9 @@ p {
 
 .container-studen .container-carrera {
   font-size: .75rem;
-  text-align: start;
+  /* text-align: start; */
   margin-top: 20px;
+  text-align: justify;
 }
 
 .container-studen .anio {
