@@ -1105,6 +1105,7 @@ p {
 
 .container-studen .anio {
   color: #fdf27acc;
+
 }
 
 /* animation principal */
@@ -1554,6 +1555,63 @@ p {
   overflow: hidden;
 }
 
+/* img project */
+
+/* new */
+
+.content-img-Proyect .img-CalorIA {
+  background-image: url(./Componentes/img/projectsImg/calor.png);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
+.content-img-Proyect .img-Jet {
+  background-image: url(./Componentes/img/projectsImg/jet.png);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
+.content-img-Proyect .img-Feel {
+  background-image: url(./Componentes/img/projectsImg/fell.png);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
+/* viejos */
+
 .content-img-Proyect .img-Project {
   background-image: url(./Componentes/img/projectsImg/BIWEDEX-img.webp);
   background-size: cover;
@@ -1799,6 +1857,27 @@ p {
 }
 
 .musicSkills .lenguajes-usadas.pro-1 figure.grop-2-2 {
+  background-image: url(../img/skills/github.png);
+  width: 40px;
+  height: 40px;
+  filter: drop-shadow(0 0 .5px white);
+}
+
+/* newp */
+.newP .lenguajes-usadas.pro-1 figure:nth-child(1) {
+  background-image: url(../img/skills/react.webp);
+  width: 25px;
+  height: 25px;
+}
+
+.newP .lenguajes-usadas.pro-1 figure.grop-2-1 {
+  background-image: url(../img/skills/js.webp);
+  width: 25px;
+  height: 25px;
+  filter: drop-shadow(0 0 .5px white);
+}
+
+.newP .lenguajes-usadas.pro-1 figure.grop-2-2 {
   background-image: url(../img/skills/github.png);
   width: 40px;
   height: 40px;

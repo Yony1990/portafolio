@@ -1,5 +1,9 @@
 import React from 'react'
 
+import calor from './img/projectsImg/cool/calor1.jpg';
+import feel from './img/projectsImg/cool/feel1.jpg';
+import jet from './img/projectsImg/cool/jet1.jpg';
+
 import blog from './img/projectsImg/cool/blog.png';
 import repro from './img/projectsImg/cool/reproductor.webp';
 import porta from './img/projectsImg/cool/portafolio.webp';
@@ -16,6 +20,70 @@ const ProjectsMedidaMobil = () => {
             
             <div className="project-content-mdMobil">
                 <ul>
+                    {/* nuevos */}
+                    <li><a href="https://yony1990.github.io/CALORIA/">
+                      
+                        <img src={calor} alt="img-yo" />
+                        <div className="content-descr">
+                          
+                          <article>CALORIA</article>
+
+                          <div className="content-language">
+                            <span className="language-html">React JS</span>
+                            
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      
+                    </a></li>
+
+                    <li><a href="https://mobilejetskiservice.site/">
+                      
+                        <img src={jet} alt="img-yo" />
+                        <div className="content-descr">
+                          
+                          <article>JETSKI</article>
+
+                          <div className="content-language">
+                            <span className="language-html">React JS</span>
+                            
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      
+                    </a></li>
+
+                    <li><a href="https://yony1990.github.io/JUSTFEELRELAXED/">
+                      
+                        <img src={feel} alt="img-yo" />
+                        <div className="content-descr">
+                          
+                          <article>JUSTFEEL</article>
+
+                          <div className="content-language">
+                            <span className="language-html">React JS</span>
+                            
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      
+                    </a></li>
+                    {/* viejos */}
                     <li><a href="https://yony1990.github.io/BIWEDEX/">
 
                         <img className='Biwedex-mobile' src={biwe} alt="img-biwedex" />

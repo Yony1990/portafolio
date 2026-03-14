@@ -110,7 +110,7 @@ const Principal = () => {
                         
                     </div>
                     <div className="btns">
-                        <a href="https://wa.me/59891771888">
+                        <a href="https://wa.me/59896900142">
                             <button className="Btn btn-Li">
                     
                                 <div className="sign"><i className="bi bi-person-raised-hand"></i></div>
@@ -228,7 +228,7 @@ const Principal = () => {
                                 <img  className="indeed" src={indeed} alt="logo" />
                                 </a>
                                 
-                                <a href="https://wa.me/59891771888"><span>whatsapp</span><i className="bi bi-whatsapp"></i></a>
+                                <a href="https://wa.me/59896900142"><span>whatsapp</span><i className="bi bi-whatsapp"></i></a>
                                 
                             </div>
                         </div>

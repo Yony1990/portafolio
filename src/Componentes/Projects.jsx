@@ -128,11 +128,12 @@ const Projects = () => {
                     
                     <li onClick={handleOpenExplore}><span></span></li>
                     <li><a href="https://www.linkedin.com/in/yonimiler-c%C3%A1rdenas-mach%C3%ADn-836a11261/"><p>linkedin</p><span><i className="bi bi-linkedin"></i></span></a></li>
-                    <li><a href="https://wa.me/59891771888"><p>whatsapp</p><span><i className="bi bi-whatsapp"></i></span></a></li>
+                    <li><a href="https://wa.me/59896900142"><p>whatsapp</p><span><i className="bi bi-whatsapp"></i></span></a></li>
                     <li><a href="https://github.com/Yony1990"><p>github</p><span><i className="bi bi-github"></i></span></a></li>
                     <li onClick={handleMusic}><span></span></li>
-                    {/* <li><span></span></li> */}
+                    
                     <li onClick={showProyectMacNav}><span><i className="bi bi-laptop"></i></span></li>
+                    
                     <li><span><i className="bi bi-phone"></i></span></li>
                     <li><div className='linea'></div></li>
                     
@@ -181,6 +182,11 @@ const Projects = () => {
                         Web App 
                       </li>
                       <div className={arrowToggleWeb ? "li-items-web" : "li-items-web active"}>
+                          {/* nuevos */}
+                          <li className='li-ITEM'><i className="bi bi-laptop"></i> CalorIA</li>
+                          <li className='li-ITEM'><i className="bi bi-laptop"></i> Jet Ski</li>
+                          <li className='li-ITEM'><i className="bi bi-laptop"></i> Relaxed</li>
+                          {/* viejos */}
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Biwedex</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> My Blog</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Music</li>
@@ -250,6 +256,27 @@ const Projects = () => {
 
                     <div className={proyectsMac ? "proyects-web-indi active" : "proyects-web-indi"}>
                       <ul>
+                        {/* nuevos */}
+                        <a href="https://yony1990.github.io/CALORIA/">
+                          <li className='Biwedex-cursor'>
+                            <i className="bi bi-file-earmark-break-fill"></i>
+                            <span>CalorIA</span>
+                          </li>
+                        </a>
+                        <a href="https://mobilejetskiservice.site/">
+                          <li className='Biwedex-cursor'>
+                            <i className="bi bi-file-earmark-break-fill"></i>
+                            <span>Jet Ski</span>
+                          </li>
+                        </a>
+                        
+                        <a href="https://yony1990.github.io/JUSTFEELRELAXED/">
+                          <li className='Biwedex-cursor'>
+                            <i className="bi bi-file-earmark-break-fill"></i>
+                            <span>Feel Relaxed</span>
+                          </li>
+                        </a>
+                        {/* viejos */}
                         <a href="https://yony1990.github.io/BIWEDEX/">
                           <li className='Biwedex-cursor'>
                             <i className="bi bi-file-earmark-break-fill"></i>

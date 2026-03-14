@@ -15,7 +15,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
             
           {/* MOTION */}
 
-          <motion.div className="content-projects" drag='x' dragConstraints={{right: 0, left: -2723.97 }}>
+          <motion.div className="content-projects" drag='x' dragConstraints={{right: 0, left: -4171.78 }}>
 
               <motion.div>
                 
@@ -24,6 +24,102 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                 </div>
                 
               </motion.div>
+              {/* nuevos */}
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  <figure className='img-CalorIA'></figure>
+                </div>
+                
+                <div className="proyect-info newP">
+                    
+                    
+                    <span>CalorIA</span>
+                    <article>Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web. </article>
+                    <a className='apg' href="https://yony1990.github.io/CALORIA/">
+                      <button>Open</button>
+                    </a>
+                    
+                    <div className="lenguajes-usadas pro-1">
+                      <div className="proyect-imgskills-grop-1">
+                        <figure></figure>
+                        <figure></figure>
+                        <figure></figure>
+                      </div>
+                      <div className="proyect-imgskills-grop-2">
+                        <figure className='grop-2-1'></figure>
+                        <figure className='grop-2-2'></figure>
+                      </div>
+                    </div>
+                </div>
+                
+              </motion.div>
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  <figure className='img-Jet'></figure>
+                </div>
+                
+                <div className="proyect-info newP">
+                    
+                    
+                    <span>Jet Ski</span>
+                    <article>Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web. </article>
+                    <a className='apg' href="https://mobilejetskiservice.site/">
+                      <button>Open</button>
+                    </a>
+                    
+                    <div className="lenguajes-usadas pro-1">
+                      <div className="proyect-imgskills-grop-1">
+                        <figure></figure>
+                        <figure></figure>
+                        <figure></figure>
+                      </div>
+                      <div className="proyect-imgskills-grop-2">
+                        <figure className='grop-2-1'></figure>
+                        <figure className='grop-2-2'></figure>
+                      </div>
+                    </div>
+                </div>
+                
+              </motion.div>
+
+              <motion.div className="item ">
+                <div className="project-1 junt"></div>
+                <div className="content-img-Proyect">
+                  <figure className='img-Feel'></figure>
+                </div>
+                
+                <div className="proyect-info newP">
+                    
+                    
+                    <span>Feel Relaxed</span>
+                    <article>Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web. </article>
+                    <a className='apg' href="https://yony1990.github.io/JUSTFEELRELAXED/">
+                      <button>Open</button>
+                    </a>
+                    
+                    <div className="lenguajes-usadas pro-1">
+                      <div className="proyect-imgskills-grop-1">
+                        <figure></figure>
+                        <figure></figure>
+                        <figure></figure>
+                      </div>
+                      <div className="proyect-imgskills-grop-2">
+                        <figure className='grop-2-1'></figure>
+                        <figure className='grop-2-2'></figure>
+                      </div>
+                    </div>
+                </div>
+                
+              </motion.div>
+
+
+
+              {/* viejos */}
+
               <motion.div className="item ">
                 <div className="project-1 junt"></div>
                 <div className="content-img-Proyect">
@@ -31,6 +127,8 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                 </div>
                 
                 <div className="proyect-info">
+                    
+                    
                     <span>BIWEDEX</span>
                     <article>Este proyecto está diseñado y desarrollado para presentar las ofertas de servicios, incluyendo la creación de páginas web. </article>
                     <a className='apg' href="https://yony1990.github.io/BIWEDEX/">
@@ -151,7 +249,7 @@ const ProjectsGalery = ({props: {setMusicReproduction, setOpen, setMotioDisplay}
                     </a>
                     
                     <div className="lenguajes-usadas pro-1">
-                    <div className="proyect-imgskills-grop-1">
+                      <div className="proyect-imgskills-grop-1">
                         <figure></figure>
                         <figure></figure>
                         <figure></figure>
