@@ -195,19 +195,16 @@ const Projects = () => {
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Portfolio</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Game</li>
                       </div>
-                        
-                      
 
-                      <li onClick={handleOpenMobil}><span className={arrowToggleMobil ? 'fill-15' : 'fill-15 active'}><i className='bi bi-caret-down-fill'></i></span> <i className="bi bi-phone"></i> Mobil App</li>
+                      {/* <li onClick={handleOpenMobil}><span className={arrowToggleMobil ? 'fill-15' : 'fill-15 active'}><i className='bi bi-caret-down-fill'></i></span> <i className="bi bi-phone"></i> Mobil App</li>
                       <div className={arrowToggleMobil ? "li-items-mobil" : "li-items-mobil active"}>
                           <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
                           <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
                           <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
                           <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
                           <li className='li-ITEM'><i className="bi bi-phone"></i> Progress</li>
-                      </div>
-                        
-                      
+                      </div> */}
+
                     </ul>
                   </section>
                   
@@ -225,7 +222,7 @@ const Projects = () => {
 
                   <div className={proyectsMac ? "proyect-number active" : "proyect-number"}>
                     <span>Proyectos Web</span>
-                    <span>6 articulo(s)</span>
+                    <span>10 articulo(s)</span>
                   </div>
                     
                 </section>

@@ -2342,6 +2342,7 @@ p {
 .mostrador-mac {
   width: 29%;
   height: 100%;
+  overflow: hidden;
 }
 
 .mostrador-mac-superior {
@@ -2479,6 +2480,7 @@ p {
 .project-mac  {
   padding: 0;
 }
+
 
 .project-mac span {
   font-size: .5rem;
