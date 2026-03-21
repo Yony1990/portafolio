@@ -183,6 +183,7 @@ const Projects = () => {
                       </li>
                       <div className={arrowToggleWeb ? "li-items-web" : "li-items-web active"}>
                           {/* nuevos */}
+                          <li className='li-ITEM'><i className="bi bi-laptop"></i> Mercadito</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> CalorIA</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Jet Ski</li>
                           <li className='li-ITEM'><i className="bi bi-laptop"></i> Relaxed</li>
@@ -257,6 +258,12 @@ const Projects = () => {
                     <div className={proyectsMac ? "proyects-web-indi active" : "proyects-web-indi"}>
                       <ul>
                         {/* nuevos */}
+                        <a href="https://mercadito-bice.vercel.app/">
+                          <li className='Biwedex-cursor'>
+                            <i className="bi bi-file-earmark-break-fill"></i>
+                            <span>Mercadito</span>
+                          </li>
+                        </a>
                         <a href="https://yony1990.github.io/CALORIA/">
                           <li className='Biwedex-cursor'>
                             <i className="bi bi-file-earmark-break-fill"></i>

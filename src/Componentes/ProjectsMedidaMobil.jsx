@@ -1,5 +1,6 @@
 import React from 'react'
 
+import merca from './img/projectsImg/cool/Mercadito.png';
 import calor from './img/projectsImg/cool/calor1.jpg';
 import feel from './img/projectsImg/cool/feel1.jpg';
 import jet from './img/projectsImg/cool/jet1.jpg';
@@ -21,6 +22,26 @@ const ProjectsMedidaMobil = () => {
             <div className="project-content-mdMobil">
                 <ul>
                     {/* nuevos */}
+                    <li><a href="https://mercadito-bice.vercel.app/">
+                      
+                        <img src={merca} alt="img-yo" />
+                        <div className="content-descr">
+                          
+                          <article>MERCADITO</article>
+
+                          <div className="content-language">
+                            <span className="language-html">React JS</span>
+                            
+                            <span className="language-css">css</span>
+                            <span className="language-js">js</span>
+                            <span className="language-js">npm</span>
+                            
+                          </div>
+                          
+                        </div>
+                        
+                      
+                    </a></li>
                     <li><a href="https://yony1990.github.io/CALORIA/">
                       
                         <img src={calor} alt="img-yo" />

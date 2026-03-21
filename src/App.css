@@ -1559,6 +1559,23 @@ p {
 
 /* new */
 
+.content-img-Proyect .img-Mercadito {
+  background-image: url(./Componentes/img/projectsImg/Mercadito.png);
+  background-size: cover;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+  position: relative;
+  left: 290px;
+  top: 20%;
+  scale: 1.1;
+  width: 230px;
+  height: 150px;
+  rotate: -10deg;
+  overflow: hidden;
+  opacity: .2;
+  border-radius: 5px;
+  transition: all 1s ease;
+}
+
 .content-img-Proyect .img-CalorIA {
   background-image: url(./Componentes/img/projectsImg/calor.png);
   background-size: cover;
@@ -2642,7 +2659,7 @@ p {
   background-color: rgba(199, 205, 222, 0.499);
   border-radius: 0 0 0 5px;
   overflow: hidden;
-  padding: 10px;
+  padding: 0 0 0 10px;
 }
 .explo-mac-content .explo-mac-proyects {
   width: 100%;
@@ -2791,8 +2808,24 @@ p {
   width: 100%;
   height: 100%;
   display: none;
+  overflow-y: scroll;
   /* flex */
   align-items: start;
+}
+
+.explo-mac-content .proyects-web-indi::-webkit-scrollbar {
+  width: 4px;
+}
+
+.explo-mac-content .proyects-web-indi::-webkit-scrollbar-track {
+  cursor: pointer;
+  
+}
+
+.explo-mac-content .proyects-web-indi::-webkit-scrollbar-thumb {
+  cursor: pointer;
+  background: #5b5b5b;
+  border-radius: 100px;
 }
 
 .explo-mac-content .proyects-web-indi.active {
